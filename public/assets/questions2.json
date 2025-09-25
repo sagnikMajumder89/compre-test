@@ -1,0 +1,371 @@
+[
+  {
+    "question": "Which one of these scenarios are ethical issues? (i) A company is thinking of employing a robot that will make most of the workforce redundant (ii) Someone creates an AI (iii) A judge decides to give someone a prison sentence (iv) Someone hacks a computer",
+    "options": [
+      "(i) and (ii)",
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "(iii) and (iv)"
+    ],
+    "answer": 0,
+    "explanation": "Mass redundancy and AI creation raise ethical questions; judging or isolated hacking are legal/technical issues."
+  },
+  {
+    "question": "Which one of the following would be classified as sensitive personal data?",
+    "options": ["Address", "Religion", "CCTV Video", "Name"],
+    "answer": 1,
+    "explanation": "Religion is a special-category datum under most privacy laws."
+  },
+  {
+    "question": "Which one of the following regular expressions over {0,1} denotes the set of all strings NOT containing 100 as a substring?",
+    "options": ["0*(10+1)*", "0*(11*0)*", "0*1010*", "0*1*01"],
+    "answer": 0,
+    "explanation": "0*(10+1)* never allows 1 followed by two 0s."
+  },
+  {
+    "question": "Which one of the following languages over the alphabet {a,b} is described by the regular expression (a+b)*a(a+b)*a(a+b)*?",
+    "options": [
+      "The set of all strings containing the substring aa",
+      "The set of all strings containing at most two a's",
+      "The set of all strings containing at least two a's",
+      "The set of all strings that begin and end with either a or b"
+    ],
+    "answer": 2,
+    "explanation": "Two fixed a’s are required; anything can surround them."
+  },
+  {
+    "question": "Which one of the following is NOT a ‘hygiene factor’ of Herzberg's Two-Factor theory?",
+    "options": [
+      "Interpersonal relations",
+      "Working conditions",
+      "Responsibility",
+      "Job security"
+    ],
+    "answer": 2,
+    "explanation": "Responsibility is a motivator, not a hygiene factor."
+  },
+  {
+    "question": "Which one of the following is not a transmission medium?",
+    "options": [
+      "Coaxial cable",
+      "Telephone Lines",
+      "Modems",
+      "Microwave systems"
+    ],
+    "answer": 2,
+    "explanation": "A modem is a device, not the physical medium itself."
+  },
+  {
+    "question": "Which one of the following is not a responsibility of the government?",
+    "options": [
+      "Enacting the pollution laws",
+      "Establishment of norms for industrial undertakings",
+      "Providing after-sales service",
+      "None of the other answers is correct"
+    ],
+    "answer": 2,
+    "explanation": "After-sales service is a business function, not governmental."
+  },
+  {
+    "question": "Which one of the following is correct?",
+    "options": [
+      "A relationship can have one or more attributes directly linked to it",
+      "All relationship attributes may be attached to one of the participating entities",
+      "All relationships may be converted to 1:1 relationships",
+      "All relationships may be converted to binary relationships"
+    ],
+    "answer": 0,
+    "explanation": "Relationships can possess their own descriptive attributes."
+  },
+  {
+    "question": "Which one of the following is an element of motivation according to Vroom’s Valence-Expectancy theory?",
+    "options": ["Involvement", "Equity", "Instrumentality", "Existence"],
+    "answer": 2,
+    "explanation": "Vroom’s trio: Expectancy, Instrumentality, Valence."
+  },
+  {
+    "question": "Which one of the following is an application of Stack Data Structure?",
+    "options": [
+      "Managing function calls",
+      "The stock span problem",
+      "Arithmetic expression evaluation",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "Stacks are used for all listed applications."
+  },
+  {
+    "question": "Which one of the following is a synchronization tool?",
+    "options": ["Thread", "Pipe", "Semaphore", "Socket"],
+    "answer": 2,
+    "explanation": "Semaphores coordinate concurrent processes/threads."
+  },
+  {
+    "question": "Which one of the following describes the leadership style in which the leader generally gives the group complete freedom to make decisions and complete the work in whatever way it sees fit?",
+    "options": [
+      "facilitative style",
+      "delegative style",
+      "democratic style",
+      "laissez-faire style"
+    ],
+    "answer": 3,
+    "explanation": "Laissez-faire = hands-off, high autonomy."
+  },
+  {
+    "question": "Which one of the following describes the leadership style in which a leader tends to centralize authority, dictate work methods, make unilateral decisions, and limit employee participation?",
+    "options": [
+      "authoritarian style",
+      "autocratic style",
+      "democratic style",
+      "laissez-faire style"
+    ],
+    "answer": 1,
+    "explanation": "Autocratic leaders retain decision-making power."
+  },
+  {
+    "question": "Which one of the following communication lines is best suitable for interactive process applications?",
+    "options": ["Narrow band channel", "Half-duplex", "Full-duplex", "Simplex"],
+    "answer": 2,
+    "explanation": "Full-duplex allows simultaneous two-way interaction."
+  },
+  {
+    "question": "Which one of the below is not a file infecting virus?",
+    "options": [
+      "Cavity Virus",
+      "Prepending Virus",
+      "Appending Virus",
+      "Stealth Virus"
+    ],
+    "answer": 3,
+    "explanation": "Stealth is a technique, not a specific infection method."
+  },
+  {
+    "question": "Which of these statements concerning Weber’s concept of Bureaucracy is not correct?",
+    "options": [
+      "It is based on rules and procedures rather than personal preference and judgment",
+      "It is still a relevant concept in today’s organization",
+      "It has acquired a negative reputation for inefficiency and rigidity",
+      "It rejects rational approaches to managing organizations"
+    ],
+    "answer": 3,
+    "explanation": "Weber advocates rational-legal authority, not rejection of rationality."
+  },
+  {
+    "question": "Which of these is an application of linked lists?",
+    "options": [
+      "To implement file systems",
+      "For separate chaining in hash-tables",
+      "To implement non-binary trees",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "Linked lists serve all the listed purposes."
+  },
+  {
+    "question": "Which of these expresses the specific number of entity occurrences associated with one occurrence of the related entity?",
+    "options": [
+      "Degree of relationship",
+      "Connectivity of relationship",
+      "Cardinality of relationship",
+      "None of these"
+    ],
+    "answer": 2,
+    "explanation": "Cardinality = count of occurrences (1:1, 1:M, M:N)."
+  },
+  {
+    "question": "Which of the two features match each other?",
+    "options": [
+      "Inheritance and Encapsulation",
+      "Encapsulation and Polymorphism",
+      "Encapsulation and Abstraction",
+      "Abstraction and Polymorphism"
+    ],
+    "answer": 2,
+    "explanation": "Encapsulation supports abstraction by hiding internal details."
+  },
+  {
+    "question": "Which of the three pillars of digital privacy does not apply?",
+    "options": [
+      "Information privacy",
+      "Individual privacy",
+      "Communication privacy",
+      "Family privacy"
+    ],
+    "answer": 3,
+    "explanation": "Standard model covers information, individual & communication privacy."
+  },
+  {
+    "question": "Which of the statement is true regarding the dequeue operation?",
+    "options": [
+      "Elements are deleted at both ends",
+      "Any element beside the last one",
+      "Designing of the operation is simple",
+      "All of these"
+    ],
+    "answer": 0,
+    "explanation": "Dequeue (double-ended queue) allows deletion at both ends."
+  },
+  {
+    "question": "Which of the statement is false as part of asymptotic notation?",
+    "options": [
+      "Discuss about rate of growth of the function",
+      "Asymptotically weakly bound based on the function",
+      "Functions that are dependent are non-negative",
+      "Big-oh notation speaks on defined constant"
+    ],
+    "answer": 1,
+    "explanation": "Phrase ‘asymptotically weakly bound’ is vague and technically incorrect."
+  },
+  {
+    "question": "Which of the following ways should organizations use to protect personal information?",
+    "options": [
+      "Security clearances and access restrictions on a 'need-to-know' basis are examples of organizational measures",
+      "Technological measures, for example, the use of passwords and encryption",
+      "Physical measures, for example, shredding documents and locking desk drawers",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "Defense-in-depth combines organisational, technical & physical measures."
+  },
+  {
+    "question": "Which of the following is true about FILE *fp?",
+    "options": [
+      "FILE is a keyword in C for representing files and fp is a variable of FILE type",
+      "FILE is a stream",
+      "FILE is a buffered stream",
+      "FILE is a structure and fp is a pointer to the structure of FILE type"
+    ],
+    "answer": 3,
+    "explanation": "FILE is a typedef’ed struct; fp is a pointer to it."
+  },
+  {
+    "question": "Which of the following technique is used for fragment?",
+    "options": [
+      "A technique used in best-effort delivery systems to avoid endlessly looping packets",
+      "A technique used by protocols in which a lower level protocol accepts a message from a higher level protocol and places it in the data portion of the low level frame",
+      "One of the pieces that results when an IP gateway divides an IP datagram into smaller pieces for transmission across a network that cannot handle the original datagram size",
+      "Compaction technique"
+    ],
+    "answer": 2,
+    "explanation": "Fragmentation splits oversized packets; the listed option defines it."
+  },
+  {
+    "question": "Which of the following TCP/IP protocol is used for transferring electronic mail messages from one machine to another?",
+    "options": ["FTP", "SNMP", "SMTP", "RPC"],
+    "answer": 2,
+    "explanation": "Simple Mail Transfer Protocol (SMTP) moves e-mail between hosts."
+  },
+  {
+    "question": "Which of the following statements are true? I. Shortest remaining time first scheduling may cause starvation II. Preemptive scheduling may cause starvation III. Round robin is better than FCFS in terms of response time",
+    "options": ["I only", "I and III only", "II and III only", "I, II and III"],
+    "answer": 3,
+    "explanation": "All three assertions are correct OS facts."
+  },
+  {
+    "question": "Which of the following statements about the Privacy Data Breach Incident is correct?",
+    "options": [
+      "A privacy incident is a theft of an asset",
+      "A privacy event occurs when personal information is lost in any way. Both suspected and confirmed occurrences involving PII that provide a reasonable risk of harm are covered by this term",
+      "A Privacy Incident is one that may not cause serious injury or harm to the individual and/or involves a few numbers of affected individuals",
+      "A Privacy incident is an attack on an asset"
+    ],
+    "answer": 1,
+    "explanation": "Official definition: any loss of PII that poses a risk of harm."
+  },
+  {
+    "question": "Which of the following statements about leadership is false?",
+    "options": [
+      "Leadership does not necessarily take place within a hierarchical structure of an organisation",
+      "Not every leader is a manager",
+      "When people operate as leaders their role is always clearly established and defined",
+      "All the other answers are correct"
+    ],
+    "answer": 2,
+    "explanation": "Leadership roles can be informal and emergent, hence not always clearly defined."
+  },
+  {
+    "question": "Which of the following statements is/are correct? S1: When Bjarne Stroustrup designed C++, there is no such concept of exception handling. S2: Exception handling is a new feature added to ANSI C++; not available in earlier compilers.",
+    "options": ["Only S1", "Only S2", "Neither S1 nor S2", "Both S1 and S2"],
+    "answer": 3,
+    "explanation": "Exceptions were added later; both statements correctly describe history."
+  },
+  {
+    "question": "Which of the following statement is true? 1. DFA is more powerful than NFA 2. NFA and DFA have equal power 3. NFA is more powerful than DFA 4. All options are true",
+    "options": [
+      "DFA is more powerful than NFA",
+      "NFA and DFA have equal power",
+      "NFA is more powerful than DFA",
+      "All options are true"
+    ],
+    "answer": 1,
+    "explanation": "NFAs and DFAs recognise the same class of languages (regular)."
+  },
+  {
+    "question": "Which of the following standard algorithms is not a Greedy algorithm?",
+    "options": [
+      "Dijkstra's shortest path algorithm",
+      "Prim's algorithm",
+      "Kruskal algorithm",
+      "Bellman-Ford Shortest path algorithm"
+    ],
+    "answer": 3,
+    "explanation": "Bellman-Ford uses dynamic-programming relaxation, not greedy choice."
+  },
+  {
+    "question": "Which of the following risk is the failure of a purchased component to perform as expected?",
+    "options": ["Product risk", "Project risk", "Process risk", "Program risk"],
+    "answer": 0,
+    "explanation": "Component failure impacts the final product’s fitness for purpose."
+  },
+  {
+    "question": "Which of the following represents the rights inherent in a managerial position to give orders and expect them to be obeyed?",
+    "options": ["Power", "Authority", "Influence", "Responsibility"],
+    "answer": 1,
+    "explanation": "Authority is the formal right to command."
+  },
+  {
+    "question": "Which of the following regular expression identity is true?",
+    "options": [
+      "r(*) = r*",
+      "(r*s*)* = (r+s)*",
+      "(r+s)* = r* + s*",
+      "r*s* = r* + s*"
+    ],
+    "answer": 1,
+    "explanation": "(r*s*)* generates the same language as (r+s)* (Kleene-star closure)."
+  },
+  {
+    "question": "Which of the following regular expression denotes a language comprising of all possible strings over {a,b} of length n where n is a multiple of 3?",
+    "options": [
+      "((a+b)(a+b)(a+b))*",
+      "(aaa+ab+a)+(bbb+bb+a)",
+      "(aaa+bbb)*",
+      "(a+b+aa+bb+aba+bba)*"
+    ],
+    "answer": 0,
+    "explanation": "Triple-letter blocks repeated ensure length divisible by 3."
+  },
+  {
+    "question": "Which of the following properties is associated with a queue?",
+    "options": [
+      "First In Last Out",
+      "First In First Out",
+      "Last In First Out",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Queues obey FIFO order."
+  },
+  {
+    "question": "Which of the following properties are necessary for an Algorithm?",
+    "options": ["Definiteness", "Correctness", "Effectiveness", "A and C"],
+    "answer": 3,
+    "explanation": "Algorithms must be definite and effective (steps must be doable)."
+  },
+  {
+    "question": "Which of the following pair is correctly matched? A. F.W.Taylor - Human Relations Approach B. Henry Fayol - Universality of Management C. Elton Mayo - Psychological Approach D. M.Parker Follet - Scientific Management",
+    "options": ["A", "B", "C", "D"],
+    "answer": 1,
+    "explanation": "Fayol indeed preached universal management principles; others are mismatched."
+  }
+]

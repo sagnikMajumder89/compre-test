@@ -1,0 +1,371 @@
+[
+  {
+    "question": "“Workers should receive orders from only one manager”, this principle is termed as",
+    "options": [
+      "Unity of command",
+      "Unity of direction",
+      "Unity of group",
+      "Unity of management"
+    ],
+    "answer": 0,
+    "explanation": "Fayol’s unity-of-command rule: one employee → one boss."
+  },
+  {
+    "question": "“The Hawthorne Experiments” are related to",
+    "options": [
+      "Scientific Management",
+      "Administrative Management",
+      "Human Relations School",
+      "Bureaucratic Organization"
+    ],
+    "answer": 2,
+    "explanation": "Mayo’s Hawthorne studies founded the Human-Relations movement."
+  },
+  {
+    "question": "“Managers have long realised that there is no one best way to do things”. This statement is suitable for which management approach?",
+    "options": [
+      "Systems Theory",
+      "Contingency Theory",
+      "Organizational Humanism",
+      "Management Science"
+    ],
+    "answer": 1,
+    "explanation": "Contingency theory: the best method depends on the situation."
+  },
+  {
+    "question": "“g(n) is an upper bound for f(n) that is not asymptotically tight”, statement holds true for",
+    "options": ["Big oh", "Big theta", "Big omega", "Amortized"],
+    "answer": 0,
+    "explanation": "Big-O allows loose upper bounds."
+  },
+  {
+    "question": "“Functional foremanship” is related to",
+    "options": [
+      "Scientific Management",
+      "Administrative Management",
+      "Human Relations School",
+      "Bureaucratic Organization"
+    ],
+    "answer": 0,
+    "explanation": "Taylor’s Scientific Management proposed eight functional bosses."
+  },
+  {
+    "question": "“Fayol's principles” are related to",
+    "options": [
+      "Scientific Management",
+      "Administrative Management",
+      "Human Relations School",
+      "Bureaucratic Organization"
+    ],
+    "answer": 1,
+    "explanation": "Fayol created the Administrative-Management school."
+  },
+  {
+    "question": "X.25 standards covers how many layers?",
+    "options": ["Two", "Three", "Seven", "Six"],
+    "answer": 1,
+    "explanation": "X.25 maps to the bottom three OSI layers."
+  },
+  {
+    "question": "Working set model for page replacement is based on the assumption of _____",
+    "options": [
+      "Modularity of references",
+      "Working Set Size",
+      "Locality of references",
+      "Random access"
+    ],
+    "answer": 2,
+    "explanation": "Locality of reference keeps the working set small."
+  },
+  {
+    "question": "Within an organisation, leadership influence will be dependent upon the type of ______ that the leader can exercise over the followers.",
+    "options": ["knowledge", "power", "delegation", "friendship"],
+    "answer": 1,
+    "explanation": "Influence stems from the power base the leader possesses."
+  },
+  {
+    "question": "Why, according to stakeholder theory, is it in companies' best interests to pay attention to their stakeholders?",
+    "options": [
+      "If firms only act in their own self-interest, employees may feel exploited.",
+      "If firms only act in their own self-interest, the government might put more regulation on them.",
+      "If firms only act in their own self-interest, customers might not like the image that the company portrays.",
+      "If firms only act in their own self-interest and inflict harm on stakeholders, then society might withdraw its support"
+    ],
+    "answer": 3,
+    "explanation": "Loss of societal support ultimately threatens survival."
+  },
+  {
+    "question": "Why is it necessary for all employees to sign the Confidentiality and Security Agreement each year?",
+    "options": [
+      "To check if you still work there.",
+      "No reason, they just like paperwork.",
+      "To remind everyone of what their responsibilities are.",
+      "Will be used for moving to a higher position."
+    ],
+    "answer": 2,
+    "explanation": "Annual re-signing reinforces awareness & compliance."
+  },
+  {
+    "question": "Why is autocratic leadership considered negative?",
+    "options": [
+      "people are uninformed insecure and afraid of the leader",
+      "leader is extra friendly",
+      "too much confusion arises",
+      "it is very participative"
+    ],
+    "answer": 0,
+    "explanation": "Top-down control breeds fear and low morale."
+  },
+  {
+    "question": "Who suggested a system of cards?",
+    "options": [
+      "Henry Metcalfe",
+      "Henry Robinson Towne",
+      "Peter Drucker",
+      "Robert Owen"
+    ],
+    "answer": 0,
+    "explanation": "Metcalfe introduced cost-control cards in U.S. arsenals."
+  },
+  {
+    "question": "Who published the famous book \"The Cost of Manufacture and Administration of Workshop: Public and private\"?",
+    "options": [
+      "Henry Metcalfe",
+      "Henry Robinson Towne",
+      "Peter Drucker",
+      "Robert Owen"
+    ],
+    "answer": 0,
+    "explanation": "1885 book by Metcalfe on factory cost accounting."
+  },
+  {
+    "question": "Who presented the paper \"Engineer as an Economist\"?",
+    "options": [
+      "F W Taylor",
+      "Henry Robinson Towne",
+      "Peter Drucker",
+      "Robert Owen"
+    ],
+    "answer": 1,
+    "explanation": "Towne’s 1886 ASME paper urged engineers to study economics."
+  },
+  {
+    "question": "Who plays an important role in the success of products and services and in increasing the marketing share of the firm in business?",
+    "options": [
+      "Functional level Managers",
+      "Corporate level Managers",
+      "Business level Managers",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Every level contributes to product success and market share."
+  },
+  {
+    "question": "Who is the father of scientific management?",
+    "options": ["F W Taylor", "Henry Fayol", "Peter Drucker", "None of these"],
+    "answer": 0,
+    "explanation": "Taylor pioneered time-and-motion studies and efficiency."
+  },
+  {
+    "question": "Who is the father of Personnel Management?",
+    "options": ["F W Taylor", "Henry Fayol", "Peter Drucker", "Robert Owen"],
+    "answer": 3,
+    "explanation": "Owen introduced worker welfare programs circa 1800."
+  },
+  {
+    "question": "Who is the father of modern management?",
+    "options": ["F W Taylor", "Henry Fayol", "Peter Drucker", "None of these"],
+    "answer": 2,
+    "explanation": "Drucker coined “management by objectives” and knowledge-work concepts."
+  },
+  {
+    "question": "Who developed the force-field analysis theory?",
+    "options": ["Carl Rogers", "B.F.Skinner", "Kurt Lewin", "James Johnson"],
+    "answer": 2,
+    "explanation": "Lewin’s model views change as driving vs. restraining forces."
+  },
+  {
+    "question": "Who believed that workers performance was influenced by the total environment?",
+    "options": ["F W Taylor", "Henry Fayol", "Peter Drucker", "Robert Owen"],
+    "answer": 3,
+    "explanation": "Owen stressed housing, education, and morale alongside factory conditions."
+  },
+  {
+    "question": "Who are the organisational stakeholders?",
+    "options": [
+      "Government",
+      "Employees",
+      "Customers",
+      "All the other answers are correct."
+    ],
+    "answer": 3,
+    "explanation": "Stakeholders include any group affected by the organisation."
+  },
+  {
+    "question": "White Box techniques are also classified as_____?",
+    "options": [
+      "Design based testing",
+      "Structural testing",
+      "Error guessing technique",
+      "None of the mentioned"
+    ],
+    "answer": 1,
+    "explanation": "White-box tests look at internal code structure."
+  },
+  {
+    "question": "While selecting a string w such that w belongs to L, where L is a regular language, and w=mno. Which of the following parts cannot be an empty string?",
+    "options": ["m", "n", "o", "All can be empty"],
+    "answer": 0,
+    "explanation": "Pumping-lemma partition requires non-empty m for the loop."
+  },
+  {
+    "question": "While applying Pumping lemma over a regular language, we consider a string w that belong to L and separate it into _____ components.",
+    "options": ["3", "4", "2", "5"],
+    "answer": 0,
+    "explanation": "Standard split is xyz (three parts)."
+  },
+  {
+    "question": "Which type of software can be used to merge data of two files in one file?",
+    "options": [
+      "System software",
+      "Networking software",
+      "Documenting software",
+      "Utility Software"
+    ],
+    "answer": 3,
+    "explanation": "File-merge is a typical utility program."
+  },
+  {
+    "question": "Which type of attack requires multiple handler on various system?",
+    "options": ["Man in the Middle Attack", "DoS", "DDoS", "Backdoor Attack"],
+    "answer": 2,
+    "explanation": "Distributed DoS uses many zombie handlers."
+  },
+  {
+    "question": "Which transmission media has the highest transmission speed in the network.",
+    "options": [
+      "Coaxial cable",
+      "Twisted pair cable",
+      "Optical fibre cable",
+      "Electrical cable"
+    ],
+    "answer": 2,
+    "explanation": "Light in glass gives fibre the greatest bandwidth."
+  },
+  {
+    "question": "Which term refers to a systematic assessment of a company's activities in terms of social impact?",
+    "options": [
+      "managerial appraisal",
+      "social audit",
+      "social responsibility metric",
+      "ethics audit"
+    ],
+    "answer": 1,
+    "explanation": "A social audit measures social & environmental effects."
+  },
+  {
+    "question": "Which technique was introduced because a single job could not keep both the CPU and the I/O devices busy?",
+    "options": [
+      "Time-sharing",
+      "SPOOLing",
+      "Preemptive scheduling",
+      "Multiprogramming"
+    ],
+    "answer": 3,
+    "explanation": "Multiprogramming overlaps jobs to raise CPU & device utilisation."
+  },
+  {
+    "question": "Which sublayer of the data link layer performs data link functions that depend upon the type of medium?",
+    "options": [
+      "logical link control sublayer",
+      "media access control sublayer",
+      "network interface control sublayer",
+      "none of the mentioned"
+    ],
+    "answer": 1,
+    "explanation": "MAC layer handles medium-specific access (Ethernet, Wi-Fi, etc.)."
+  },
+  {
+    "question": "Which style of leadership focuses on goals, standards, and organization?",
+    "options": [
+      "task leadership",
+      "social leadership",
+      "semantic leadership",
+      "transformational leadership"
+    ],
+    "answer": 0,
+    "explanation": "Task leadership emphasises structure, deadlines, and performance."
+  },
+  {
+    "question": "Which statement is CORRECT",
+    "options": [
+      "The internal data model represents the data's physical storage details",
+      "To communicate with the business user, mainly, the logical data model is used",
+      "The logical data model is implementation-independent",
+      "A database state contains the description of the database data and is stored in the catalogue"
+    ],
+    "answer": 2,
+    "explanation": "Logical model abstracts away from any DBMS-specific features."
+  },
+  {
+    "question": "Which server translates the alphanumeric name into numeric addresses?",
+    "options": ["Network server", "Protocols", "DNS", "System server"],
+    "answer": 2,
+    "explanation": "Domain Name System (DNS) resolves names to IP addresses."
+  },
+  {
+    "question": "Which process model deals with understanding of the problem domain and architecture framework and developing the project plan with identification of risks?",
+    "options": [
+      "Agile Process Model",
+      "Iterative Process Model",
+      "Incremental Process Model",
+      "Spiral Model"
+    ],
+    "answer": 3,
+    "explanation": "Spiral cycles start with risk analysis and domain understanding."
+  },
+  {
+    "question": "Which process model deals with review of project and a decision is made whether to continue with a further loop or not in the planning phase?",
+    "options": [
+      "Agile Process Model",
+      "Material Process Model",
+      "Incremental Process Model",
+      "Spiral Model"
+    ],
+    "answer": 3,
+    "explanation": "Each spiral loop ends with a go/no-go decision."
+  },
+  {
+    "question": "Which principle of general management advocates that \"Employee turnover should be minimized to maintain organizational efficiency.\"?",
+    "options": [
+      "Stability of personnel",
+      "Remuneration of employees",
+      "Equity",
+      "Esprit de Corps"
+    ],
+    "answer": 0,
+    "explanation": "Fayol’s stability-of-tenure principle keeps experienced staff."
+  },
+  {
+    "question": "Which organisation structure is generally followed by big steel plants?",
+    "options": [
+      "Line organisation",
+      "Line and staff organisation",
+      "Functional organisation",
+      "All the other answers are correct"
+    ],
+    "answer": 1,
+    "explanation": "Steel plants combine line authority with technical staff departments."
+  },
+  {
+    "question": "Which option is incorrect. Monitors can contain",
+    "options": [
+      "multiple (user) procedures.",
+      "only a single user procedure.",
+      "only one procedure will be active in the monitor at any one time.",
+      "multiple procedures can share variables."
+    ],
+    "answer": 1,
+    "explanation": "Monitors allow multiple procedures; mutual exclusion keeps only one active."
+  }
+]
