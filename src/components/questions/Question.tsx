@@ -95,7 +95,7 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
 
   const finishQuiz = (finalAnswers = selectedAnswers) => {
     let finalScore = 0;
-    questions.forEach((question, index) => {
+    shuffledQuestions.forEach((question, index) => {
       if (finalAnswers[index] === question.answer) {
         ++finalScore;
       }

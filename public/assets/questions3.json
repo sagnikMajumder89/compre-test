@@ -1,0 +1,366 @@
+[
+  {
+    "question": "The usage of 'virtual' keyword before the member function is to achieve …",
+    "options": [
+      "Inheritance",
+      "Compile-time Polymorphism",
+      "Runtime Polymorphism",
+      "Static binding"
+    ],
+    "answer": 2,
+    "explanation": "Virtual functions enable run-time (dynamic) polymorphism via v-table dispatch."
+  },
+  {
+    "question": "Which of the following operation take worst-case linear time in the array implementation of the stack?",
+    "options": ["Push", "Pop", "IsEmpty", "None"],
+    "answer": 3,
+    "explanation": "All standard stack ops are O(1) for an array implementation; hence ‘None’."
+  },
+  {
+    "question": "Which of the following one can relate to the statement: If x items are put into y containers, with x > y, then at least one container must contain more than one item?",
+    "options": [
+      "Pumping Lemma",
+      "Pigeon Hole Principle",
+      "Counting principle",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Classic statement of the Pigeon-Hole Principle."
+  },
+  {
+    "question": "Which of the following must you do if a laptop holding client account information is stolen?",
+    "options": [
+      "Log the breach immediately with the DPO",
+      "Notify the individuals concerned if their rights or freedoms are at risk",
+      "Notify your manager",
+      "Notify the regulators"
+    ],
+    "answer": 1,
+    "explanation": "Privacy laws mandate user notification when their data is at risk."
+  },
+  {
+    "question": "Which of the following keys in a table can uniquely identify a row in a table?",
+    "options": [
+      "Candidate key",
+      "Alternate key",
+      "Primary key",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "Any candidate/alternate key can uniquely identify; primary key is just the chosen one."
+  },
+  {
+    "question": "Which of the following is/are White-box technique?",
+    "options": [
+      "Statement Testing",
+      "Decision Testing",
+      "Condition Coverage",
+      "All of the mentioned"
+    ],
+    "answer": 3,
+    "explanation": "All listed coverage metrics are white-box (structural) testing techniques."
+  },
+  {
+    "question": "Which of the following is/are NOT shared by the threads of the same process? (a) Program counter (b) Logical Address space (c) Stack (d) Registers (e) Virtual Address space (f) File descriptor table (g) Message queue (h) Code",
+    "options": [
+      "(a), (b) and (e)",
+      "(a), (c) and (f)",
+      "(a), (c) and (h)",
+      "(a), (c) and (d)"
+    ],
+    "answer": 3,
+    "explanation": "Each thread owns its PC, stack and registers; other items are shared."
+  },
+  {
+    "question": "Which of the following is TRUE?",
+    "options": [
+      "Every finite subset of a non-regular set is regular",
+      "Every subset of a regular set is regular",
+      "Infinite union of finite sets is regular",
+      "The union of two non-regular sets is not regular"
+    ],
+    "answer": 0,
+    "explanation": "Any finite set is regular, regardless of the regularity of its supersets."
+  },
+  {
+    "question": "Which of the following is true?",
+    "options": [
+      "P is a subset of NP",
+      "NP is a subset of P",
+      "P and NP are equal",
+      "NP is a subset of NP-hard"
+    ],
+    "answer": 0,
+    "explanation": "All problems solvable in deterministic poly-time are also verifiable in poly-time."
+  },
+  {
+    "question": "Which of the following is true of a divisional structure?",
+    "options": [
+      "It is also known as chain of command",
+      "It is also called a U-form (unitary) structure",
+      "It is a centralized structural form",
+      "It is used to promote flexibility and change"
+    ],
+    "answer": 3,
+    "explanation": "Divisional (M-form) structures grant autonomy to business units, aiding adaptability."
+  },
+  {
+    "question": "Which of the following is true of effective information sharing in an organization?",
+    "options": [
+      "Information should be shared vertically, but not horizontally",
+      "Vertical linkages are designed primarily for coordination and collaboration",
+      "The structure should fit the information requirements of the organization",
+      "It is not possible to give people a lot of information"
+    ],
+    "answer": 2,
+    "explanation": "Organisation design must match information needs for effective sharing."
+  },
+  {
+    "question": "Which of the following is the most accurate description of an access control method that allows the data owner to develop and manage access control?",
+    "options": ["MACs", "RBACs", "LBACs", "DACs"],
+    "answer": 3,
+    "explanation": "Discretionary Access Control (DAC) lets owners decide who gets in."
+  },
+  {
+    "question": "Which of the following is referred to as part of restricted data structure?",
+    "options": ["Stack", "Queue", "Linked list", "All of these"],
+    "answer": 0,
+    "explanation": "A stack is restricted to LIFO access at one end only."
+  },
+  {
+    "question": "Which of the following is odd one out?",
+    "options": [
+      "Evaluating a postfix expression",
+      "Matching Balancing Parentheses",
+      "Luggage checking in airports",
+      "Depth first search of graphs"
+    ],
+    "answer": 3,
+    "explanation": "DFS uses a stack but is a graph-traversal algorithm; the rest are classic stack examples."
+  },
+  {
+    "question": "Which of the following is NOT a valid access control mechanism?",
+    "options": ["DAC list", "SAC list", "MAC list", "RBAC list"],
+    "answer": 1,
+    "explanation": "SAC (Subjective Access Control) is not a standard recognised mechanism."
+  },
+  {
+    "question": "Which of the following is NOT a key concept associated with scientific management?",
+    "options": [
+      "One best way",
+      "Formalization",
+      "Time-and-motion studies",
+      "Systematic selection"
+    ],
+    "answer": 1,
+    "explanation": "Formalization belongs to bureaucratic management, not core scientific-management tenets."
+  },
+  {
+    "question": "Which of the following is not a good way to protect one's privacy?",
+    "options": [
+      "Use privacy-focused search engine",
+      "Use private Browser-window",
+      "Disable cookies",
+      "Uninstall Antivirus"
+    ],
+    "answer": 3,
+    "explanation": "Removing antivirus exposes data to malware, harming privacy."
+  },
+  {
+    "question": "Which of the following is element of the database?",
+    "options": [
+      "Constraints and schema",
+      "Relationships",
+      "Data",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "A database contains data, relationships, constraints and schema definitions."
+  },
+  {
+    "question": "Which of the following is an example of the implementation of an access control policy for a bank teller?",
+    "options": [
+      "Rule-based policy",
+      "Identity-based policy",
+      "User-based policy",
+      "Role-based policy"
+    ],
+    "answer": 3,
+    "explanation": "Tellers are granted permissions based on the role ‘teller’ (RBAC)."
+  },
+  {
+    "question": "Which of the following is an ethical behaviour?",
+    "options": [
+      "Giving less remuneration to the employees",
+      "Selling inferior goods",
+      "Honest behaviour with the customer",
+      "Polluting the environment"
+    ],
+    "answer": 2,
+    "explanation": "Honesty with customers is a basic ethical duty."
+  },
+  {
+    "question": "Which of the following is a vulnerability in a network environment with discretionary access controls?",
+    "options": [
+      "SYN flood",
+      "Impersonation",
+      "Denial of service",
+      "Birthday attack"
+    ],
+    "answer": 1,
+    "explanation": "DAC systems are prone to identity spoofing / impersonation attacks."
+  },
+  {
+    "question": "Which of the following is a project scheduling method that can be applied to software development?",
+    "options": ["EPM", "CPM", "CMM", "None of the above"],
+    "answer": 1,
+    "explanation": "Critical Path Method (CPM) is widely used for scheduling software tasks."
+  },
+  {
+    "question": "Which of the following is a MAC (Mandatory Access Control) feature?",
+    "options": [
+      "Uses levels of security to classify users and data",
+      "Allows owners of documents to determine who has access",
+      "Uses access control lists that specify authorized users",
+      "Uses access control lists that specify unauthorized users"
+    ],
+    "answer": 0,
+    "explanation": "MAC relies on security labels/classifications, not owner discretion."
+  },
+  {
+    "question": "Which of the following is a leadership trait?",
+    "options": [
+      "Dominance",
+      "Energy",
+      "Cognitive ability",
+      "All the other answers are correct"
+    ],
+    "answer": 3,
+    "explanation": "All listed factors are classic trait-theory leadership qualities."
+  },
+  {
+    "question": "Which of the following does not require additional temporary space?",
+    "options": ["Stack", "Queue", "Linked list", "All of these"],
+    "answer": 3,
+    "explanation": "The structures themselves already hold links; no *extra* temp space is needed for basic ops."
+  },
+  {
+    "question": "Which of the following condition is used to transmit two packets over a medium at the same time?",
+    "options": ["Contention", "Collision", "Synchronous", "Asynchronous"],
+    "answer": 1,
+    "explanation": "Simultaneous transmission creates a collision."
+  },
+  {
+    "question": "Which of the following claims about DAC (Discretionary Access Control) is correct?",
+    "options": [
+      "Files that don't have an owner CANNOT be modified",
+      "The administrator of the system is the owner of each object",
+      "The operating system is the owner of each object",
+      "Each object has an owner, which has full control over the object"
+    ],
+    "answer": 3,
+    "explanation": "DAC assigns explicit ownership and lets owners grant rights."
+  },
+  {
+    "question": "Which of the following are objectives of an information systems security program?",
+    "options": [
+      "Threats, vulnerabilities, and risks",
+      "Security, information value, and threats",
+      "Integrity, confidentiality, and availability",
+      "Authenticity, vulnerabilities, and costs"
+    ],
+    "answer": 2,
+    "explanation": "The CIA triad is the core goal of any security programme."
+  },
+  {
+    "question": "Which of the following are components of a database except?",
+    "options": ["User data", "Metadata", "Reports", "Indexes"],
+    "answer": 2,
+    "explanation": "Reports are *output* from a database, not an internal component."
+  },
+  {
+    "question": "Which of the following application generally use a stack?",
+    "options": [
+      "Parenthesis balancing program",
+      "Syntax analyzer in compiler",
+      "Keeping track of local variables at runtime",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "All listed applications rely on LIFO stack behavior."
+  },
+  {
+    "question": "Which of the below statement(s) is/are true? (i) By using pure virtual function, it is possible to achieve a pointer to base class points to refer derived class objects. (ii) By using pure virtual function, it is possible to achieve a pointer to derived class points to refer base class objects.",
+    "options": [
+      "Both (i) and (ii)",
+      "Neither (i) nor (ii)",
+      "Only (i)",
+      "Only (ii)"
+    ],
+    "answer": 2,
+    "explanation": "Pure virtual functions enable base-pointer-to-derived-object (runtime polymorphism), not the reverse."
+  },
+  {
+    "question": "Which of the below is used for designing real time networking capabilities?",
+    "options": ["Packet Tracer", "WireShark", "Network Simulator 2", "TinyOS"],
+    "answer": 3,
+    "explanation": "TinyOS is an embedded OS designed specifically for wireless sensor networks (real-time)."
+  },
+  {
+    "question": "Which of the below is not a business continuity disaster?",
+    "options": ["Flooding", "Covid19", "Earth Quake", "Tsunami"],
+    "answer": 1,
+    "explanation": "COVID-19 is a health crisis, not a sudden natural disaster used in BC drill lists."
+  },
+  {
+    "question": "Which of the below is an inline device?",
+    "options": ["Switch", "Router", "VPN", "Host"],
+    "answer": 0,
+    "explanation": "A switch sits ‘inline’ in the packet path; VPN is software/service, host is endpoint."
+  },
+  {
+    "question": "Which of the below is a network sniffer tool?",
+    "options": ["Packet Tracer", "WireShark", "Network Simulator 2", "TinyOS"],
+    "answer": 1,
+    "explanation": "Wireshark captures and analyses packets live."
+  },
+  {
+    "question": "Which of the following would LEAST likely be a source of ethical guidance?",
+    "options": ["Holy books", "Laws", "Tests", "Friends"],
+    "answer": 2,
+    "explanation": "Tests assess knowledge; they don’t *provide* ethical guidance."
+  },
+  {
+    "question": "Which of the following term is the practice of hiding data in graphic, audio, or other text file?",
+    "options": [
+      "Masking",
+      "Steganography",
+      "Cryptography",
+      "None of the choices"
+    ],
+    "answer": 1,
+    "explanation": "Steganography = concealed writing inside innocuous-looking files."
+  },
+  {
+    "question": "Which of the following statement(s) is/are NOT true? (i) Virtual function help to achieve a pointer to base class points to refer base class objects only. (ii) Virtual function help to achieve a pointer to base class points to refer derived class objects. (iii) Virtual function has no role in supporting a pointer to achieve polymorphism. (iv) Virtual functions are not member functions of a class.",
+    "options": [
+      "(i) and (iv) only",
+      "(i), (ii) and (iv) only",
+      "(i), (iii) and (iv) only",
+      "(ii) only"
+    ],
+    "answer": 2,
+    "explanation": "Statements i, iii and iv are false; virtual functions are core to runtime polymorphism."
+  },
+  {
+    "question": "Which of the following relations is correct, when comparing the best-case complexity?",
+    "options": [
+      "insertion < merge < selection",
+      "merge < insertion < selection",
+      "insertion < selection < merge",
+      "none of the above"
+    ],
+    "answer": 0,
+    "explanation": "Insertion-sort best case O(n) beats merge (O(n log n)) and selection (O(n²))."
+  }
+]

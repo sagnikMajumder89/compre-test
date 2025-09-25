@@ -7,6 +7,7 @@ import type { Question } from "./Question";
 const quizSets = [
   { label: "Set 1", file: "/assets/questions1.json" },
   { label: "Set 2", file: "/assets/questions2.json" },
+  { label: "Set 3", file: "/assets/questions3.json" },
 ];
 
 export const QuizEntry: React.FC = () => {
