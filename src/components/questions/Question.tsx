@@ -127,7 +127,7 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
   };
 
   return (
-    <div className="flex flex-col items-center w-2/3 justify-center p-4 md:p-8">
+    <div className="flex flex-col items-center w-2/3 justify-center px-1 py-2 md:p-8">
       <AnimatePresence mode="wait">
         {quizFinished ? (
           <motion.div
