@@ -127,7 +127,7 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
   };
 
   return (
-    <div className="flex flex-col items-center w-2/3 justify-center px-1 py-2 md:p-8">
+    <div className="flex flex-col items-center md:w-2/3 justify-center px-1 py-2 md:p-8">
       <AnimatePresence mode="wait">
         {quizFinished ? (
           <motion.div
@@ -156,7 +156,7 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
                         <AccordionTrigger>
                           <div className="flex items-center gap-2">
                             {isCorrect ? (
-                              <CheckCircle2 className="text-green-500" />
+                              <CheckCircle2 className="text-green-500 w-5 " />
                             ) : (
                               <XCircle className="text-red-500" />
                             )}

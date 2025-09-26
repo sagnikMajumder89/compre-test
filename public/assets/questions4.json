@@ -1,0 +1,357 @@
+[
+  {
+    "question": "Which of the following principles of management was NOT given by Fayol?",
+    "options": [
+      "Unity of direction",
+      "Subordination of individual interest to common interest",
+      "Stability of tenure",
+      "Standardisation"
+    ],
+    "answer": 3,
+    "explanation": "Standardisation is a later concept; Fayol’s 14 principles do not list it."
+  },
+  {
+    "question": "Which of the following is true of a functional structure?",
+    "options": [
+      "It reacts quickly to environmental changes",
+      "It has a strong horizontal coordination",
+      "It often results in hierarchy",
+      "It cannot work in small organizations"
+    ],
+    "answer": 2,
+    "explanation": "Functional structures create tall hierarchies with slow cross-department coordination."
+  },
+  {
+    "question": "Which of the following is the encryption/decryption key known only to the party or parties that exchange secret messages?",
+    "options": [
+      "E-Signature",
+      "Digital Signature",
+      "Private key",
+      "Security token"
+    ],
+    "answer": 2,
+    "explanation": "In symmetric & asymmetric schemes, the private key is kept secret by the owner."
+  },
+  {
+    "question": "Which of the following is NOT one of the triple bottom line factors of corporate social responsibility?",
+    "options": ["Society", "Environment", "Economy", "Culture"],
+    "answer": 3,
+    "explanation": "Standard TBL = People, Planet, Profit (culture is not a core pillar)."
+  },
+  {
+    "question": "Which of the following is NOT a topic included in the social responsibility audit focus?",
+    "options": [
+      "Open communication",
+      "Treatment of employees",
+      "Leadership",
+      "Management structure"
+    ],
+    "answer": 0,
+    "explanation": "Open communication is a means, not an audit topic; the rest are standard SR audit areas."
+  },
+  {
+    "question": "Which of the following is an advantage of a peer-to-peer network?",
+    "options": [
+      "Files and folders cannot be centrally backed up",
+      "Does not need an expensive server as individual workstations are used to access files",
+      "The server is expensive to purchase",
+      "Network security can be carried out centrally"
+    ],
+    "answer": 1,
+    "explanation": "P2P eliminates the cost of a dedicated server."
+  },
+  {
+    "question": "Which of the following is an advantage of a client-server network?",
+    "options": [
+      "If one computer fails it will not disrupt the network",
+      "There is little or no security",
+      "Users can access shared data which is centrally controlled",
+      "If any part of the network fails, a lot of disruption can occur"
+    ],
+    "answer": 2,
+    "explanation": "Centralised data control is a key benefit of client-server architecture."
+  },
+  {
+    "question": "Which of the following firms has NOT been exposed for ethical abuses and corrupt conduct?",
+    "options": [
+      "Satyam Computers",
+      "Lehman Brothers",
+      "Enron",
+      "General Electric (GE)"
+    ],
+    "answer": 3,
+    "explanation": "GE has faced criticism but not the major fraud scandals that hit the other three."
+  },
+  {
+    "question": "Which of the following linked list has the feature of elimination of the need for a pointer to a node's predecessor to delete the node?",
+    "options": ["Singly", "Doubly", "Circular", "All of these"],
+    "answer": 1,
+    "explanation": "A doubly linked list carries both next and prev pointers, so deletion needs no predecessor scan."
+  },
+  {
+    "question": "Which of the given option is correct? #include<stdio.h> int main(){ int a[4]={1,2,3,4}; int *b[4]; int *(c[4]); }",
+    "options": [
+      "a is an integer array, b is an array of pointers, c is an array of pointers",
+      "a is an integer array, b is an array of pointers, c is a pointer to an array",
+      "a is an array of pointers, b is a pointer to an array, c is an array of pointers",
+      "a is an array of pointers, b is a pointer to an array, c is a pointer to an array"
+    ],
+    "answer": 0,
+    "explanation": "`int *b[4]` and `int *(c[4])` both declare arrays of 4 int-pointers; a is plain int array."
+  },
+  {
+    "question": "Which network protocol is often used for gaming?",
+    "options": ["TCP", "FTP", "UDP", "HTTP"],
+    "answer": 2,
+    "explanation": "UDP’s low latency and tolerance for occasional packet loss suit real-time games."
+  },
+  {
+    "question": "Which network topology is the most common way of setting up a network?",
+    "options": ["Ring", "Bus", "Star", "Mesh"],
+    "answer": 2,
+    "explanation": "Star (switch/hub-centred) dominates modern LANs."
+  },
+  {
+    "question": "Which model can be selected if a user is involved in all the phases of SDLC?",
+    "options": [
+      "Waterfall Model",
+      "Prototyping Model",
+      "RAD Model",
+      "Build & Fix Model"
+    ],
+    "answer": 2,
+    "explanation": "RAD emphasises active user participation across iterative cycles."
+  },
+  {
+    "question": "Which method is meant for coordinating access to resources with respect to the available IP addresses?",
+    "options": ["MAC", "ACL", "DAC", "None of the choices"],
+    "answer": 3,
+    "explanation": "IP address coordination is handled by DHCP, NAT, etc.—none of the listed access-control acronyms."
+  },
+  {
+    "question": "WHICH LAYER IS RESPONSIBLE FOR PROCESS-TO-PROCESS DELIVERY?",
+    "options": [
+      "NETWORK LAYER",
+      "TRANSPORT LAYER",
+      "SESSION LAYER",
+      "DATALINK LAYER"
+    ],
+    "answer": 1,
+    "explanation": "Transport (TCP/UDP) provides end-to-end process delivery."
+  },
+  {
+    "question": "Which key skill was NOT mentioned by Kanter as needed by managers of innovative organisations?",
+    "options": ["Coping", "Political", "Communicating", "Leading a team"],
+    "answer": 3,
+    "explanation": "Kanter highlights coping, political & communicating skills; generic ‘leading a team’ is not her specific list."
+  },
+  {
+    "question": "Which is/are the application(s) of stack?",
+    "options": [
+      "Function calls",
+      "Large number Arithmetic",
+      "Evaluation of arithmetic expressions",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "Stacks are used for all listed tasks."
+  },
+  {
+    "question": "Which is used for predicting virus?",
+    "options": ["Firewall", "CWE", "IPS", "Exposures"],
+    "answer": 2,
+    "explanation": "Intrusion Prevention Systems (IPS) use signatures/heuristics to predict/block malware."
+  },
+  {
+    "question": "Which is the most optimal scheduling algorithm?",
+    "options": [
+      "FCFS",
+      "Shortest Job First",
+      "Round Robin",
+      "None of the Mentioned"
+    ],
+    "answer": 3,
+    "explanation": "Optimality depends on context; no single algorithm is universally optimal."
+  },
+  {
+    "question": "Which is the most efficient phone directory search?",
+    "options": ["Binary search tree", "Balanced BST", "Trie", "Linked List"],
+    "answer": 2,
+    "explanation": "A trie gives O(L) lookup where L = length of name, beating BSTs."
+  },
+  {
+    "question": "Which is the fastest storage unit in a usual memory hierarchy?",
+    "options": ["cache", "main memory", "hard disk memory", "register"],
+    "answer": 3,
+    "explanation": "CPU registers sit at the very top of the hierarchy."
+  },
+  {
+    "question": "Which is NOT the application of queue?",
+    "options": [
+      "Printing jobs",
+      "Process waiting",
+      "Function nesting",
+      "Network packet forwarding"
+    ],
+    "answer": 2,
+    "explanation": "Function nesting uses a stack (call-stack), not a queue."
+  },
+  {
+    "question": "Which is not one of Fayol's principles?",
+    "options": [
+      "Authority and responsibility",
+      "Globalization",
+      "Unity of direction",
+      "Unity of command"
+    ],
+    "answer": 1,
+    "explanation": "Globalization is a modern macro term; it is absent from Fayol’s 14 principles."
+  },
+  {
+    "question": "Which is first loaded into the BUS by the data transfer initiator?",
+    "options": [
+      "Data",
+      "Address",
+      "Control Information",
+      "Address, Control Information"
+    ],
+    "answer": 3,
+    "explanation": "Address and control signals precede actual data on the system bus."
+  },
+  {
+    "question": "Which is a true statement?",
+    "options": [
+      "Breadth-first search is the shortest path algorithm that works on un-weighted graphs",
+      "Depth first search is the shortest path algorithm that works on un-weighted graphs",
+      "Both of the above are true",
+      "None of the above are true"
+    ],
+    "answer": 0,
+    "explanation": "BFS finds the fewest-edge (shortest) path in un-weighted graphs."
+  },
+  {
+    "question": "Which HR practice would most likely be improved through a firm's efforts at corporate social responsibility?",
+    "options": [
+      "Benefits",
+      "Recruitment",
+      "Compensation",
+      "Succession planning"
+    ],
+    "answer": 1,
+    "explanation": "A strong CSR image attracts talent, boosting recruitment."
+  },
+  {
+    "question": "Which directory implementation is used in most Operating System?",
+    "options": [
+      "Single level directory structure",
+      "Two level directory structure",
+      "Tree directory structure",
+      "Acyclic directory structure"
+    ],
+    "answer": 2,
+    "explanation": "Hierarchical (tree) directories are the norm in modern OSes."
+  },
+  {
+    "question": "Which database level is closest to the users?",
+    "options": ["Internal", "Physical", "Conceptual", "External"],
+    "answer": 3,
+    "explanation": "External (view) level is what end-users see and query."
+  },
+  {
+    "question": "Which data structure is used for implementing recursion?",
+    "options": ["Queue", "Stack", "Arrays", "List"],
+    "answer": 1,
+    "explanation": "Call-stack is a LIFO stack that stores activation records."
+  },
+  {
+    "question": "Which data structure is needed to convert infix notation to postfix notation?",
+    "options": ["Branch", "Queue", "Tree", "Stack"],
+    "answer": 3,
+    "explanation": "Operator stack is used to reorder operators during conversion."
+  },
+  {
+    "question": "Which data model is independent of both hardware and DBMS?",
+    "options": ["External", "Internal", "Conceptual", "All of these"],
+    "answer": 2,
+    "explanation": "Conceptual (ER) model abstracts away from any specific technology."
+  },
+  {
+    "question": "Which approach recognises that there is no optimal organisational design?",
+    "options": ["Flexible", "Virtual", "Contingency", "Boundaryless"],
+    "answer": 2,
+    "explanation": "Contingency theory states that the best design depends on situational factors."
+  },
+  {
+    "question": "Which among the following is equivalent to the given regular expression ab* + b?",
+    "options": ["(ab)* + b", "a((b)* + b)", "(a(b)*) + b", "(a*b)b*)*"],
+    "answer": 2,
+    "explanation": "(a(b)*) + b matches the same set of strings as ab* + b."
+  },
+  {
+    "question": "Which access control type has a central authority that determines what objects people have access to depending on their role or organizational security policy?",
+    "options": [
+      "Mandatory Access Control",
+      "Discretionary Access Control",
+      "Non-Discretionary Access Control",
+      "Rule-based Access control"
+    ],
+    "answer": 0,
+    "explanation": "MAC uses a central authority (security labels) to decide access."
+  },
+  {
+    "question": "Which term refers to the discipline that deals with what is good and bad or right and wrong?",
+    "options": [
+      "Morals and traditions",
+      "Social responsibility",
+      "Ethics",
+      "Cultural norms"
+    ],
+    "answer": 2,
+    "explanation": "Ethics is the formal study of moral choices."
+  },
+  {
+    "question": "Which of the following statements regarding inline functions is correct?",
+    "options": [
+      "It speeds up execution",
+      "It slows down execution",
+      "It increases the code size",
+      "It increases the code size and length"
+    ],
+    "answer": 0,
+    "explanation": "Inlining eliminates call overhead, trading size for speed."
+  },
+  {
+    "question": "Which of the following is the correct representation of pure virtual function?",
+    "options": [
+      "class base { public: virtual void display=0;);",
+      "class base { public: virtual void display!=0;);",
+      "class base { public: virtual void display () = 0; };",
+      "class base { public: virtual void display () > 0 ;);"
+    ],
+    "answer": 2,
+    "explanation": "Correct syntax: `virtual void func() = 0;` inside the class body."
+  },
+  {
+    "question": "Which of the following is suitable to be considered as an object?",
+    "options": ["Name", "Email", "Transaction", "Quantity"],
+    "answer": 2,
+    "explanation": "A transaction encapsulates both state and behavior, fitting the OO concept of an object."
+  },
+  {
+    "question": "Which of the following concept of OOP allows compiler to insert arguments in a function call if it is not specified?",
+    "options": [
+      "Call by value",
+      "Default arguments",
+      "Call by reference",
+      "Call by pointer"
+    ],
+    "answer": 1,
+    "explanation": "Default arguments supply missing parameter values automatically."
+  },
+  {
+    "question": "Which access control model can be suited for bank teller application?",
+    "options": ["Discretionary", "Mandatory", "Role-based", "Rule-based"],
+    "answer": 2,
+    "explanation": "Tellers are granted permissions based on the role ‘teller’ (RBAC)."
+  }
+]
