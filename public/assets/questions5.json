@@ -1,0 +1,221 @@
+[
+  {
+    "question": "When class B is inherited from class A, what is the order in which the destructors are called?",
+    "options": [
+      "Class A first, Class B next",
+      "Class B first, Class A next",
+      "Class B's only, as it is the child class",
+      "Class A's only, as it is the parent class"
+    ],
+    "answer": 1,
+    "explanation": "Destructors execute in reverse-construction order: derived first, then base."
+  },
+  {
+    "question": "When we concatenate two languages L1 and L2 recognised by machines M1 and M2, we obtain a machine with final state same as that of ______",
+    "options": ["M2", "M1", "M1 and M2", "M1 or M2"],
+    "answer": 0,
+    "explanation": "Standard construction links M1’s old finals to M2’s start; only M2’s final states remain final."
+  },
+  {
+    "question": "When there is more than one final state in the reduced FA, then its regular expression will contain ______ operator surely",
+    "options": ["dot", "star", "binary +", "unary +"],
+    "answer": 2,
+    "explanation": "Multiple finals are combined with the union (binary +) operator."
+  },
+  {
+    "question": "When there is complete DFA with five states out of which two are final states. If F is modified so that it recognises the complement of the original language, then there will be at least ______ final states.",
+    "options": ["2", "3", "7", "5"],
+    "answer": 1,
+    "explanation": "Complement swaps final/non-final → 5 − 2 = 3 new final states."
+  },
+  {
+    "question": "When there are infinitely many pairwise-distinguishable strings, then there cannot be a ______",
+    "options": [
+      "automata",
+      "finite automaton",
+      "regular expression",
+      "both finite automaton and regular expression"
+    ],
+    "answer": 3,
+    "explanation": "Infinite distinguishability ⇒ language non-regular ⇒ no FA or RE exists for it."
+  },
+  {
+    "question": "When the project deals with developing a well-understood application, then the model is called",
+    "options": [
+      "Waterfall Model",
+      "Spiral Model",
+      "COCOMO Model",
+      "Agile Model"
+    ],
+    "answer": 0,
+    "explanation": "Waterfall suits stable, well-defined requirements."
+  },
+  {
+    "question": "When the entries in the segment tables of two different processes point to the same physical address, then ______",
+    "options": [
+      "the segments are invalid",
+      "the processes get blocked",
+      "the address space is invalid",
+      "the segments are shared"
+    ],
+    "answer": 3,
+    "explanation": "Shared memory / shared libraries use exactly this mapping."
+  },
+  {
+    "question": "When the computer processor does not get a data item it requires in the cache, then the problem is known as",
+    "options": ["Cache miss", "Cache hit", "File caches", "Name cache"],
+    "answer": 0,
+    "explanation": "A cache miss triggers the next level of the memory hierarchy."
+  },
+  {
+    "question": "When FA M recognises language L and we build a machine for reverse(L) using M, there can be ______ final states",
+    "options": ["Two", "Three", "Only one", "Any number"],
+    "answer": 3,
+    "explanation": "Reversing an FA may leave any subset of states as final; no fixed count."
+  },
+  {
+    "question": "When employee satisfaction is measured, employees seem to be more satisfied under a(n) ______ leadership style than under a(n) ______ one.",
+    "options": [
+      "laissez-faire; participative",
+      "supportive; laissez-faire",
+      "democratic; directive",
+      "democratic; autocratic"
+    ],
+    "answer": 3,
+    "explanation": "Studies show higher satisfaction under democratic vs autocratic styles."
+  },
+  {
+    "question": "When determining the most appropriate form of leadership, which of the following should be considered?",
+    "options": [
+      "The manager",
+      "The work environment",
+      "The group",
+      "All the other options are correct"
+    ],
+    "answer": 3,
+    "explanation": "Contingency theories weigh manager, task and team characteristics."
+  },
+  {
+    "question": "When designing apps, a software company considers data protection issues from the start. What should we call this strategy?",
+    "options": [
+      "Data protection by default",
+      "Legitimate data protection",
+      "Data protection by design",
+      "Organisational data protection"
+    ],
+    "answer": 2,
+    "explanation": "GDPR art. 25 labels early privacy engineering ‘Data Protection by Design’."
+  },
+  {
+    "question": "When a state in a FA has a self-loop, its regular expression will have ______",
+    "options": ["dot", "star", "binary +", "unary +"],
+    "answer": 1,
+    "explanation": "Self-loops generate repetition, written with the Kleene star."
+  },
+  {
+    "question": "When a program tries to access a page that is mapped in address space but not loaded in physical memory, then",
+    "options": [
+      "segmentation fault occurs",
+      "fatal error occurs",
+      "page fault occurs",
+      "no error occurs"
+    ],
+    "answer": 2,
+    "explanation": "The OS is invoked via a page-fault to bring the page into RAM."
+  },
+  {
+    "question": "What would be the asymptotic time complexity to insert an element at the second position in a linked list?",
+    "options": ["O(1)", "O(n)", "O(n²)", "None"],
+    "answer": 0,
+    "explanation": "Once you have a pointer to the first node, insertion after it is constant time."
+  },
+  {
+    "question": "What will be the value of top if the size of stack STACK_SIZE is 5?",
+    "options": ["5", "6", "4", "none"],
+    "answer": 2,
+    "explanation": "With indices 0-4, the last valid top position is 4."
+  },
+  {
+    "question": "What will be the output? #include<stdio.h> #include<string.h> int main(){ char arr1[5]={'a','p','p','l','e'}; char arr2[5]; arr2=arr1; printf(\"%s\",arr2); }",
+    "options": ["apple", "Error", "a", "0"],
+    "answer": 1,
+    "explanation": "Arrays cannot be assigned with = in C; compile-time error."
+  },
+  {
+    "question": "What will be the output? #include<stdio.h> int main(){ char arr[]=\"ab.cd.ef\"; printf(\"%s\",strrchr(arr,'.')); }",
+    "options": ["ab", ".cd", ".cd.ef", ".ef"],
+    "answer": 3,
+    "explanation": "strrchr returns pointer to the LAST occurrence of ‘.’, hence “.ef”."
+  },
+  {
+    "question": "What will be the output? #include<stdio.h> int value=100; void myFunction(int parameter){ printf(\"%d\",parameter); } int main(){ int value=200; myFunction(value); }",
+    "options": ["200", "100", "100 200", "200 100"],
+    "answer": 0,
+    "explanation": "Local variable shadows global; 200 is passed and printed."
+  },
+  {
+    "question": "What will be the output? #include<stdio.h> void myFunction(){ return 1; } int main(){ printf(\"%d\", myFunction()); }",
+    "options": ["1", "0", "Error", "None of these"],
+    "answer": 2,
+    "explanation": "Function declared void cannot return a value → compile error."
+  },
+  {
+    "question": "What will be the output? #include<stdio.h> int main(){ int arr[4]={0,1,2,3}; int one,two,three; one=++arr[1]; two=arr[one]+1; three=arr[one+1]; printf(\"%d %d %d\",one,two,three); }",
+    "options": ["1 2 3", "2 3 3", "2 2 3", "0 1 2"],
+    "answer": 1,
+    "explanation": "one=2, two=arr[2]+1=3, three=arr[3]=3 → “2 3 3”."
+  },
+  {
+    "question": "What will be the output? #include<stdio.h> int main(){ float a[]={1.23,2.34,3.45,4.56,5.67}; printf(\"%d\",sizeof(a)/sizeof(a[-1])); }",
+    "options": ["5", "1", "Error", "0"],
+    "answer": 0,
+    "explanation": "sizeof entire array / one element = 5 (array has 5 floats)."
+  },
+  {
+    "question": "What will be the output? #include<stdio.h> int myFunction1(int parameter){ return parameter; } int myFunction2(int *parameter){ return *parameter++; } int main(){ int value=100; printf(\"%d %d\", myFunction1(value), myFunction2(&value)); }",
+    "options": ["100 101", "101 101", "100 100", "101 100"],
+    "answer": 2,
+    "explanation": "Post-increment inside myFunction2 uses value then increments; both prints show 100."
+  },
+  {
+    "question": "What will be the output? #include <stdio.h> char* cut(char *parameter) { parameter+=5; return parameter; } int main() { printf(\"%s\",cut(\"AllisWell!\")); }",
+    "options": ["Allis", "Well!", "AllisWell!", "Error"],
+    "answer": 1,
+    "explanation": "Pointer advanced by 5 → starts at “Well!”."
+  },
+  {
+    "question": "What will be the output of the given program? #include<stdio.h> int myFunction(int parameter) { return parameter++; } int main(){ int value1=100; int value2=myFunction(value1); printf(\"%d\",--value2); }",
+    "options": ["100", "101", "99", "Error"],
+    "answer": 0,
+    "explanation": "Post-increment returns 100; --value2 becomes 100 again."
+  },
+  {
+    "question": "What will be the output of the given code? #include<stdio.h> void myFunction(int parameter) { printf(\"%d \",parameter); } int main(){ int value1=1; myFunction(value1); static int value2; if (value2<value1) { value2++; main(); } }",
+    "options": ["Error", "1", "2", "1 1"],
+    "answer": 3,
+    "explanation": "Recursion prints 1 twice before value2 stops being < 1."
+  },
+  {
+    "question": "What will be the output of the below code? #include<stdio.h> int myFunction(int *parameter) { return ++*parameter; } int main(){ int value=100; printf(\"%d \",value); myFunction(&value); printf(\"%d\",value); }",
+    "options": ["100 100", "101 101", "101 100", "100 101"],
+    "answer": 3,
+    "explanation": "Pre-increment inside function changes value to 101; second print shows 101."
+  },
+  {
+    "question": "What will be printed? #include<stdio.h> int myFunction() { return 1; return 2; } int main(){ printf(\"%d\", myFunction()); }",
+    "options": ["1", "2", "1 2", "2 1"],
+    "answer": 0,
+    "explanation": "First return executes; second is unreachable → prints 1."
+  },
+  {
+    "question": "What will be printed? #include<stdio.h> int main(){ int myFunction() { return 1; } printf(\"%d\", myFunction()); }",
+    "options": [
+      "Invalid function definition",
+      "myFunction() should be defined outside main method",
+      "1",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "Nested function definitions are illegal in standard C → compile error."
+  }
+]

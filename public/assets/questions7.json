@@ -1,0 +1,326 @@
+[
+  {
+    "question": "Transfer time is ...",
+    "options": [
+      "the time taken to locate the disk arm to a specified track",
+      "the time taken by the desired sector to rotate into position",
+      "the time to transfer the data",
+      "the time taken to complete the execution"
+    ],
+    "answer": 2,
+    "explanation": "Transfer time = actual seconds to read/write the data once head & sector are aligned."
+  },
+  {
+    "question": "Traits or skills on which leaders differ from non-leaders include:",
+    "options": [
+      "Honesty and integrity",
+      "Self-confidence",
+      "Drive and desire to lead",
+      "All the other options are correct"
+    ],
+    "answer": 3,
+    "explanation": "Trait theory lists honesty, confidence, drive, etc.—all are distinguishing leadership traits."
+  },
+  {
+    "question": "Trait theory ignores ________.",
+    "options": [
+      "the physical traits of leaders",
+      "the aspects of honesty and integrity",
+      "the interactions of leaders and their group members as well as situational factors",
+      "the fact that leaders should be able to create visions and solve problems"
+    ],
+    "answer": 2,
+    "explanation": "Early trait theory paid no attention to situational variables or leader-follower dynamics."
+  },
+  {
+    "question": "Total number of levels in DFD",
+    "options": ["1", "2", "3", "4"],
+    "answer": 2,
+    "explanation": "Context (0), Level-1 (process decomposition), Level-2+ (sub-processes) → 3 canonical levels."
+  },
+  {
+    "question": "Total Development in programmer months of Utility programs",
+    "options": [
+      "TDEV = 2.5 × PM^0.38",
+      "TDEV = 2.5 × PM^0.35",
+      "TDEV = 2.5 × PM^0.32",
+      "None of the above"
+    ],
+    "answer": 0,
+    "explanation": "COCOMO-II utility exponent = 0.38 (early design model)."
+  },
+  {
+    "question": "Total Development in programmer months of Systems programs",
+    "options": [
+      "TDEV = 2.5 × PM^0.38",
+      "TDEV = 2.5 × PM^0.35",
+      "TDEV = 2.5 × PM^0.32",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "Embedded / systems mode uses the lowest exponent 0.32 in COCOMO-II."
+  },
+  {
+    "question": "Total bits for a direct-mapped cache with data of 16 KB and blocks of 4-word, assuming a 32-bit address are",
+    "options": ["143K", "144K", "145K", "147K"],
+    "answer": 1,
+    "explanation": "Tag-store calculation yields ≈ 144 Kbits (including valid & tag bits)."
+  },
+  {
+    "question": "To read and write from a file we are using the standard C++ library called",
+    "options": ["Fstream", "stream", "filestream", "None"],
+    "answer": 0,
+    "explanation": "<fstream> header provides ifstream/ofstream/fstream classes."
+  },
+  {
+    "question": "To make a process a Zombie, which process needs to delay (sleep()) its execution?",
+    "options": [
+      "parent to sleep for a while, child normal execution",
+      "child to sleep for a while, parent normal execution",
+      "parent and child both normal execution",
+      "parent and child both to sleep for a while"
+    ],
+    "answer": 0,
+    "explanation": "Parent must exit later than child; sleeping parent lets child finish first → zombie state observed."
+  },
+  {
+    "question": "To help the operating system estimate LRU, many processors provide a",
+    "options": ["Use bit", "Reference bit", "Fault bit", "Both a and b"],
+    "answer": 3,
+    "explanation": "Use (a.k.a. reference) bit is set on each access to assist LRU approximation."
+  },
+  {
+    "question": "To create a dynamic record which is better?",
+    "options": ["Stack", "Queue", "Linked list", "All of these"],
+    "answer": 2,
+    "explanation": "Linked list grows/shrinks in O(1) without relocation—ideal for dynamic records."
+  },
+  {
+    "question": "To avoid the race condition, the number of processes that may be simultaneously inside their critical section is",
+    "options": ["8", "1", "16", "0"],
+    "answer": 1,
+    "explanation": "Mutual exclusion allows at most one process in the critical section at any time."
+  },
+  {
+    "question": "Time Oriented Diagram",
+    "options": [
+      "class Diagram",
+      "UseCase Diagram",
+      "Object Diagram",
+      "Sequence Diagram"
+    ],
+    "answer": 3,
+    "explanation": "Sequence diagrams show messages ordered in time (time-oriented)."
+  },
+  {
+    "question": "Through this principle of management, Henri Fayol guides managers to exhibit exemplary behaviour and not misuse power for personal benefit. Which principle is being described?",
+    "options": [
+      "Remuneration of employees",
+      "Centralization and decentralization",
+      "Subordination of individual interest to general interest",
+      "Equity"
+    ],
+    "answer": 2,
+    "explanation": "Fayol’s principle says personal interests must yield to organisational good."
+  },
+  {
+    "question": "Threat to confidentiality is .....",
+    "options": ["DDoS", "Malware", "Virus", "DoS"],
+    "answer": 1,
+    "explanation": "Malware (trojans, spyware) directly targets data confidentiality."
+  },
+  {
+    "question": "Thomas Tharakan expects his employees to 'check their brains at the door.' He makes all decisions and issues commands. Thomas uses the ________ style of leadership.",
+    "options": ["autocratic", "authoritarian", "democratic", "laissez-faire"],
+    "answer": 0,
+    "explanation": "Autocratic leaders centralise decision-making and allow little input."
+  },
+  {
+    "question": "This technique of scientific management helps develop the assembly-line concept widely used in automobile companies.",
+    "options": [
+      "Motion study",
+      "Standardization and simplification of work",
+      "Method study",
+      "Time study"
+    ],
+    "answer": 0,
+    "explanation": "Motion study broke tasks into elemental motions, enabling line balancing."
+  },
+  {
+    "question": "This code would work but is bad practice because",
+    "options": [
+      "The object attribute is changed by a method",
+      "The object attribute is being changed directly through mainline code (outside of the class/object itself)",
+      "There is no object being created",
+      "The principle of encapsulation has been ignored"
+    ],
+    "answer": 3,
+    "explanation": "Direct external modification violates encapsulation; use setters instead."
+  },
+  {
+    "question": "There exists a language L. We define a string w such that w ∈ L and w = pqr and |w| ≥ n. What can be the maximum length of the substring pq, i.e. |pq| ≤ ?",
+    "options": ["n", "|p|", "|q|", "|w|n"],
+    "answer": 0,
+    "explanation": "In Pumping Lemma, |pq| ≤ n for the constant pumping length n."
+  },
+  {
+    "question": "There are ____ types of specializations: full specialization and partial specialization.",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "C++ templates recognise two forms: full and partial specialization."
+  },
+  {
+    "question": "Theodore Newcomb’s balance theory is related to",
+    "options": ["Leadership", "Group formation", "Selection", "Retirement"],
+    "answer": 1,
+    "explanation": "Newcomb’s symmetry model explains how similarity fosters group formation."
+  },
+  {
+    "question": "The word ______ refers to the portion of a _______ that carries a transmission.",
+    "options": [
+      "line; channel",
+      "channel; link",
+      "link; channel",
+      "line; link"
+    ],
+    "answer": 2,
+    "explanation": "A link is the physical medium; the channel is the logical portion of that link."
+  },
+  {
+    "question": "The way work activities and departments are organised is called",
+    "options": [
+      "chain of command",
+      "span of control",
+      "unity of direction",
+      "esprit de corps"
+    ],
+    "answer": 0,
+    "explanation": "Chain of command describes the vertical line of authority and departmental grouping."
+  },
+  {
+    "question": "The view that sees profit maximisation as the main objective is known as:",
+    "options": [
+      "Shareholder theory",
+      "Principal-agent problem",
+      "Stakeholder theory",
+      "Corporation theory"
+    ],
+    "answer": 0,
+    "explanation": "Shareholder theory asserts that the firm’s primary duty is to maximise owner wealth."
+  },
+  {
+    "question": "The VFS (virtual file system) activates file-system-specific operations to handle local requests according to their _____",
+    "options": ["size", "commands", "timings", "file system types"],
+    "answer": 3,
+    "explanation": "VFS dispatches calls to the correct driver based on underlying FS type (ext4, NTFS, etc.)."
+  },
+  {
+    "question": "The Unix system call to get the size of a page is _________.",
+    "options": ["pagesize()", "getpagesize()", "pagesizeof()", "sizeof()"],
+    "answer": 1,
+    "explanation": "POSIX provides getpagesize() (now superseded by sysconf(_SC_PAGESIZE))."
+  },
+  {
+    "question": "The University of Michigan studies used the two dimensions of ________ and ________ to study behavioural characteristics of leaders.",
+    "options": [
+      "employee oriented; production oriented",
+      "consideration; initiating structure",
+      "task; people",
+      "decision-making; employee development"
+    ],
+    "answer": 0,
+    "explanation": "Michigan identified employee-oriented vs production-oriented leadership styles."
+  },
+  {
+    "question": "The universal Turing machine U consists of",
+    "options": ["1 input tape", "2 input tape", "3 input tape", "4 input tape"],
+    "answer": 0,
+    "explanation": "A UTM simulates any TM using a single input tape that holds the description of M plus its input."
+  },
+  {
+    "question": "The underlying technology on which the system is built is superseded by new technology is the __________ type of risk",
+    "options": ["Project", "Product", "Business", "None in the list"],
+    "answer": 2,
+    "explanation": "Technology obsolescence is a business (strategic) risk."
+  },
+  {
+    "question": "The two major benefits are improvement in performance and minimisation of cost to process the system",
+    "options": ["True", "False"],
+    "answer": 0,
+    "explanation": "Optimisation aims at higher throughput and lower cost—statement is true."
+  },
+  {
+    "question": "The transformational leadership style",
+    "options": [
+      "encourages group members to transform themselves into better people",
+      "strives to change the group members' opinions by showing them a better way to think",
+      "changes opinions and attitudes without changing behaviours",
+      "encourages and inspires group members to go above and beyond selfish interests and do what is best for the common good of the group"
+    ],
+    "answer": 3,
+    "explanation": "Transformational leaders inspire followers to transcend self-interest for collective goals."
+  },
+  {
+    "question": "The total number of states required to automate the regular expression (aa)*(bb)* is",
+    "options": ["4", "3", "5", "7"],
+    "answer": 1,
+    "explanation": "Minimum DFA needs 3 states: start, aa-loop, bb-loop (accepting)."
+  },
+  {
+    "question": "The three major methods of allocating disk space in wide use are _____________",
+    "options": ["contiguous", "linked", "indexed", "all of the mentioned"],
+    "answer": 3,
+    "explanation": "Contiguous, linked, and indexed allocation are the classic trio."
+  },
+  {
+    "question": "The technology used to analyse and monitor network and information-flow traffic is ________",
+    "options": [
+      "Cloud access security brokers (CASBs)",
+      "Managed detection and response (MDR)",
+      "Network Security Firewall",
+      "Network traffic analysis (NTA)"
+    ],
+    "answer": 3,
+    "explanation": "NTA tools inspect flow patterns to detect anomalies and threats."
+  },
+  {
+    "question": "The technique of storing previously calculated values is called?",
+    "options": [
+      "Saving value property",
+      "Storing value property",
+      "Memoization",
+      "Mapping"
+    ],
+    "answer": 2,
+    "explanation": "Memoization caches results to avoid redundant computations."
+  },
+  {
+    "question": "The syntax for catching all exceptions in a C++ program is ………….",
+    "options": [
+      "catch-all(…) { }",
+      "catchall(…){ }",
+      "catch(…) { }",
+      "catch(.){ }"
+    ],
+    "answer": 2,
+    "explanation": "catch(…) is the standard ellipsis handler for any exception."
+  },
+  {
+    "question": "The sum of the degrees of all vertices in an undirected graph is",
+    "options": ["2V", "E+1", "V+1", "2E"],
+    "answer": 3,
+    "explanation": "Hand-shaking lemma: total degree = 2 × number of edges (2E)."
+  },
+  {
+    "question": "The subtraction of hit rate (1 − hit rate) is known as",
+    "options": ["Hit time", "Miss penalty", "Miss rate", "Cache"],
+    "answer": 2,
+    "explanation": "Miss rate = 1 − hit rate."
+  },
+  {
+    "question": "The structure or format of data is called _________",
+    "options": ["Syntax", "Semantics", "Struct", "Formatting"],
+    "answer": 0,
+    "explanation": "Syntax defines how data elements are arranged; semantics defines meaning."
+  }
+]

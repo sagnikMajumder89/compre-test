@@ -1,0 +1,315 @@
+[
+  {
+    "question": "The stress which is negative in nature and causes mental and physical problems is known as",
+    "options": ["Eustress", "Distress", "Negative stress", "Permanent stress"],
+    "answer": 1,
+    "explanation": "**Distress** is the harmful, negative form of stress."
+  },
+  {
+    "question": "The stress that exists for weeks, months, or even years is called",
+    "options": [
+      "Chronic stress",
+      "Acute stress",
+      "Negative stress",
+      "Permanent stress"
+    ],
+    "answer": 0,
+    "explanation": "**Chronic stress** persists over long periods."
+  },
+  {
+    "question": "The software cost estimation is done in stages as",
+    "options": [
+      "Basic COCOMO",
+      "Intermediate COCOMO",
+      "A and B",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "COCOMO offers **Basic**, **Intermediate**, and **Detailed** stages."
+  },
+  {
+    "question": "The single and multi-variable estimation models at different stages of estimation is performed by",
+    "options": ["Halstead", "FP", "COCOMO", "None of the above"],
+    "answer": 2,
+    "explanation": "**COCOMO** provides both single-variable (Basic) and multi-variable (Intermediate/Detailed) models."
+  },
+  {
+    "question": "The set of all strings over the alphabet {p,q} (including ε) is denoted by",
+    "options": ["(q+p)*", "(q+p)^+", "p^+q^+", "p*q*"],
+    "answer": 0,
+    "explanation": "**(q+p)*** (or (p+q)*) is the Kleene-star covering all strings including ε."
+  },
+  {
+    "question": "The set of all strings over the alphabet {a,b} (including ε) is denoted by",
+    "options": ["(a+b)^+", "a^+b^+", "a*b*", "(a+b)*"],
+    "answer": 3,
+    "explanation": "**(a+b)*** covers every possible string over {a,b} plus the empty string."
+  },
+  {
+    "question": "The semi-detached software is",
+    "options": [
+      "Development of the GUI",
+      "Database module",
+      "Networking Module",
+      "None of the above"
+    ],
+    "answer": 3,
+    "explanation": "Semi-detached is a **COCOMO mode** (mixed experience team), not a module type."
+  },
+  {
+    "question": "The Scalar principle of organisation implies",
+    "options": [
+      "All authority must be vested to one person",
+      "Managers should directly supervise only a limited number of subordinates",
+      "Line of authority must be clearly defined",
+      "A subordinate should have only one supervisor"
+    ],
+    "answer": 2,
+    "explanation": "Scalar = **clear, unbroken chain of command** from top to bottom."
+  },
+  {
+    "question": "The result of evaluating the prefix expression */b+-dacd, where a=3, b=6, c=1, d=5 is",
+    "options": ["0", "5", "10", "15"],
+    "answer": 2,
+    "explanation": "Step-by-step stack evaluation yields **10**."
+  },
+  {
+    "question": "The recognizing capabilities of NDFSM and DFSM",
+    "options": [
+      "must be same",
+      "may be different",
+      "must be different",
+      "none of the answers given"
+    ],
+    "answer": 0,
+    "explanation": "NFAs and DFAs recognise **exactly the same class** of languages (regular)."
+  },
+  {
+    "question": "The purpose of cache memory in a computer is to",
+    "options": [
+      "ensure fast booting",
+      "reduce load on CPU registers",
+      "replace static memory",
+      "speed up memory cycle time"
+    ],
+    "answer": 3,
+    "explanation": "Cache **shortens average memory-access time** (cycle time)."
+  },
+  {
+    "question": "The project plan sets out",
+    "options": [
+      "the resources available to the project",
+      "the work breakdown",
+      "a schedule for the work",
+      "all the above"
+    ],
+    "answer": 3,
+    "explanation": "A complete plan covers **resources, WBS, schedule, risks, budget**, etc."
+  },
+  {
+    "question": "The process-related to process control, file management, device management, information about system and communication that is requested by any higher-level language can be performed by __________",
+    "options": ["Editors", "Compilers", "System Call", "Caching"],
+    "answer": 2,
+    "explanation": "**System calls** are the OS services exposed to user programs."
+  },
+  {
+    "question": "The process of planning starts with clearly laying down _______________________.",
+    "options": [
+      "Policies",
+      "Procedures",
+      "Goals and Objectives",
+      "All of the Above"
+    ],
+    "answer": 2,
+    "explanation": "Planning begins by **defining goals & objectives**; policies/procedures follow."
+  },
+  {
+    "question": "The process of perceiving the causes of behavior and outcomes is termed as",
+    "options": ["Perception", "Stereotype", "Attribution", "Personality"],
+    "answer": 2,
+    "explanation": "**Attribution theory** explains how we assign causes to events or behaviours."
+  },
+  {
+    "question": "The process of accessing data stored in a serial access memory is similar to manipulating data on a ________",
+    "options": ["Heap", "Binary Tree", "Array", "Stack"],
+    "answer": 3,
+    "explanation": "Tape-like serial access mimics **stack** LIFO behaviour."
+  },
+  {
+    "question": "The process model that represents a way of thinking that allows businesses and team members to quickly innovate and respond to dynamic demands is",
+    "options": [
+      "Waterfall Model",
+      "Incremental Model",
+      "RAD Model",
+      "Agile Model"
+    ],
+    "answer": 3,
+    "explanation": "**Agile** embraces change and rapid iterative delivery."
+  },
+  {
+    "question": "The process by which an individual gives meaning to the environment is called",
+    "options": ["Perception", "Stereotype", "Attribution", "Personality"],
+    "answer": 0,
+    "explanation": "**Perception** is the cognitive process of interpreting sensory input."
+  },
+  {
+    "question": "The primary or first component of DFD is known as",
+    "options": ["Process", "Data", "Square", "Entity"],
+    "answer": 0,
+    "explanation": "**Process** (circle/bubble) is the core component that transforms data."
+  },
+  {
+    "question": "The postfix form of A*B+C/D is?",
+    "options": ["*AB/CD+", "AB*CD/+", "A*BC+/D", "ABCD+/*"],
+    "answer": 1,
+    "explanation": "Operator-after-operand order → **AB*CD/+**."
+  },
+  {
+    "question": "The policy for memory hierarchies: L1 data are never found in an L2 cache, refers to",
+    "options": [
+      "Write buffer",
+      "Multilevel exclusion",
+      "Write-through",
+      "Multilevel inclusion"
+    ],
+    "answer": 1,
+    "explanation": "**Exclusion** prevents duplicate lines between adjacent levels."
+  },
+  {
+    "question": "The pager is concerned with the",
+    "options": [
+      "individual page of a process",
+      "entire process",
+      "entire thread",
+      "first page of a process"
+    ],
+    "answer": 0,
+    "explanation": "The pager **swaps individual pages** in/out of physical memory."
+  },
+  {
+    "question": "The page table contains",
+    "options": [
+      "base address of each page in physical memory",
+      "page offset",
+      "page size",
+      "displacement"
+    ],
+    "answer": 0,
+    "explanation": "Each entry stores the **physical frame number (base address)** of that page."
+  },
+  {
+    "question": "The page-replacement algorithm that suffers highly from Belady’s anomaly is",
+    "options": [
+      "Least Recently Used",
+      "Most Frequently Used",
+      "First In First Out",
+      "Least Frequently Used"
+    ],
+    "answer": 2,
+    "explanation": "**FIFO** can exhibit more page faults with increased frame allocation (Belady)."
+  },
+  {
+    "question": "The output of requirement analysis and requirement specification is used as the input for writing ____________",
+    "options": [
+      "User Acceptance Test Cases",
+      "User Rejection Test Cases",
+      "Product Rejection Test Cases",
+      "Product Acceptance Test Cases"
+    ],
+    "answer": 0,
+    "explanation": "Requirements feed **UAT cases** that validate whether the product meets user needs."
+  },
+  {
+    "question": "The operation for adding an entry to a stack is traditionally called:",
+    "options": ["add", "append", "insert", "push"],
+    "answer": 3,
+    "explanation": "**Push** is the standard stack verb."
+  },
+  {
+    "question": "The objective of this technique of scientific management is to reduce a given line or product to fixed type sizes and characteristics. Name the technique.",
+    "options": [
+      "Method study",
+      "Differential piece wage system",
+      "Standardization and simplification of work",
+      "Functional foremanship"
+    ],
+    "answer": 2,
+    "explanation": "**Standardisation & simplification** produces uniform components and fewer variants."
+  },
+  {
+    "question": "The number of states in DFA is ______ than the number of states in NFA for the same language.",
+    "options": ["greater equal", "less", "greater", "equal"],
+    "answer": 2,
+    "explanation": "In the worst case a DFA can require **exponentially more** states than an NFA."
+  },
+  {
+    "question": "The number of states in a machine M recognising L₁ ∪ L₂ will be __________________ where n is the number of states in M₁ and m is the number of states in M₂.",
+    "options": ["m+n", "m-n", "m+n+1", "n-m"],
+    "answer": 0,
+    "explanation": "Product construction for union needs **m × n** states (upper bound m+n shown in options; closest is m+n)."
+  },
+  {
+    "question": "The number of comparisons required in the Linear search algorithm, if the search element is not present in the array, is",
+    "options": ["n+1", "n", "(n+1)/2", "n-1"],
+    "answer": 0,
+    "explanation": "**n+1** comparisons are needed to confirm absence (n elements + final sentinel check)."
+  },
+  {
+    "question": "The number of auxiliary memory required for a Push Down Machine (PDM) to behave like a Finite State Machine (FSM) is",
+    "options": ["1", "4", "0", "2"],
+    "answer": 2,
+    "explanation": "Zero stack cells → PDM reduces to pure FSM behaviour."
+  },
+  {
+    "question": "The necessity of cost-benefit analysis in PM is to have a systemic approach to identify the pluses and minuses of various paths through a project",
+    "options": ["True", "False"],
+    "answer": 0,
+    "explanation": "CBA systematically weighs benefits against costs to select optimal project paths."
+  },
+  {
+    "question": "The model in which environmental, social, and economic responsibilities are satisfied concurrently is known as ________.",
+    "options": [
+      "corporate social responsibility",
+      "global activism",
+      "giving back to the planet",
+      "restoration and revivification"
+    ],
+    "answer": 0,
+    "explanation": "**CSR** integrates the triple bottom line: people, planet, profit."
+  },
+  {
+    "question": "The MMU is a",
+    "options": ["Hardware", "Software", "Malware", "None of the given choices"],
+    "answer": 0,
+    "explanation": "Memory-Management Unit is **physical hardware** that translates virtual → physical addresses."
+  },
+  {
+    "question": "The minimum number of transitions to pass to reach the final state as per the regular expression {0,1}*{1000} is",
+    "options": ["4", "3", "5", "7"],
+    "answer": 0,
+    "explanation": "String must end with ‘1000’ → **4 transitions** minimum."
+  },
+  {
+    "question": "The minimum number of colors needed to color a graph having n (>3) vertices and 2 edges is",
+    "options": ["1", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "Two edges → at most two vertices need different colors → **2 colors** suffice."
+  },
+  {
+    "question": "The minimum length for strings in the regular expression (ba* + aab*)* is ________",
+    "options": ["2", "0", "1", "infinite"],
+    "answer": 1,
+    "explanation": "Empty string is accepted → **length 0** is allowed."
+  },
+  {
+    "question": "The minimum standards of ethical behaviour in a firm are based on ________, while higher standards are established by ________.",
+    "options": [
+      "corporate policies; human resources",
+      "co-workers; mission statements",
+      "organizational culture; laws",
+      "laws; corporate leadership"
+    ],
+    "answer": 3,
+    "explanation": "**Laws** set the floor; **leadership** sets aspirational ethics."
+  }
+]
