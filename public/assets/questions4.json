@@ -125,7 +125,7 @@
   {
     "question": "Which method is meant for coordinating access to resources with respect to the available IP addresses?",
     "options": ["MAC", "ACL", "DAC", "None of the choices"],
-    "answer": 3,
+    "answer": 1,
     "explanation": "IP address coordination is handled by DHCP, NAT, etc.—none of the listed access-control acronyms."
   },
   {

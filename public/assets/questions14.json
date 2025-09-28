@@ -1,0 +1,319 @@
+[
+  {
+    "question": "In the graph traversing, Stack is useful for which searching algorithm?",
+    "options": [
+      "Depth first search",
+      "Breadth first search",
+      "In-order search",
+      "Pre-order search"
+    ],
+    "answer": 0,
+    "explanation": "**DFS** uses a **stack** (explicit or implicit via recursion) to backtrack."
+  },
+  {
+    "question": "In the below function 'factorial', all automatic variables are stored in",
+    "options": ["Array", "Register", "Stack", "Queue"],
+    "answer": 2,
+    "explanation": "Automatic (local) variables live on the **call-stack**."
+  },
+  {
+    "question": "In synchronous TDM, for n signal sources of the same data rate, each frame contains _______ slots.",
+    "options": ["n + 1", "n - 1", "0 to n", "n"],
+    "answer": 3,
+    "explanation": "Synchronous TDM assigns **one slot per source** → **n slots** per frame."
+  },
+  {
+    "question": "In segmentation technique, each address is specified by ____________",
+    "options": [
+      "an offset and value",
+      "a value and segment number",
+      "a key and value",
+      "a segment number and offset"
+    ],
+    "answer": 3,
+    "explanation": "Logical address = **<segment-number, offset>** pair."
+  },
+  {
+    "question": "In regular language pumping lemma, w = mn^i o belongs to L then i ranges from?",
+    "options": ["i=0", "i<=0", "i>=1", "i<0"],
+    "answer": 2,
+    "explanation": "Pumping lemma allows **i ≥ 1** (at least one copy of the middle part)."
+  },
+  {
+    "question": "In Mintzberg's management roles, the role that evaluates the performance of managers in different functions is called",
+    "options": ["Liaison", "Figurehead", "Monitor", "Disseminator"],
+    "answer": 2,
+    "explanation": "**Monitor** scans internal/external performance data."
+  },
+  {
+    "question": "In Mintzberg's management roles, the role that describes ethical guidelines and the principles of behaviour employees are to follow in their dealings with customers and suppliers is",
+    "options": ["Liaison", "Figurehead", "Monitor", "Disseminator"],
+    "answer": 3,
+    "explanation": "**Disseminator** communicates policies and values downward."
+  },
+  {
+    "question": "In Mintzberg's management roles, the role that coordinates between different departments and establishes alliances between different organizations is termed as",
+    "options": ["Liaison", "Figurehead", "Monitor", "Disseminator"],
+    "answer": 0,
+    "explanation": "**Liaison** maintains horizontal and external contacts."
+  },
+  {
+    "question": "In memory management, a technique called as paging, physical memory is broken into fixed-sized blocks called ___________.",
+    "options": ["Pages", "Frames", "Blocks", "Segments"],
+    "answer": 1,
+    "explanation": "Physical memory blocks are **frames**; logical blocks are **pages**."
+  },
+  {
+    "question": "In interactive environments such as time-sharing systems, the primary requirement is to provide reasonably good response time and in general, to share system resources equitably. In such situations, the scheduling algorithm that is most popularly applied is ________.",
+    "options": [
+      "Shortest Remaining Time Next (SRTN) Scheduling",
+      "Priority Based Preemptive Scheduling",
+      "Round Robin Scheduling",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "**Round Robin** gives every process a fair, short quantum → good **response time**."
+  },
+  {
+    "question": "In India, whose law governs data privacy and information technology?",
+    "options": [
+      "Banking Regulation Act 1949",
+      "IT Act 2000",
+      "Indian Penal Code",
+      "IT (amendment) Act 2008"
+    ],
+    "answer": 1,
+    "explanation": "**IT Act 2000** (with 2008 amendment) is the **primary IT & data-privacy law**."
+  },
+  {
+    "question": "In hospitals, the following type of departmentalisation is common -",
+    "options": [
+      "By function",
+      "By committee",
+      "By geographical region",
+      "All of the above"
+    ],
+    "answer": 0,
+    "explanation": "Hospitals organise by **medical functions** (cardiology, radiology, etc.)."
+  },
+  {
+    "question": "In his speech the previous day, the new CEO had discussed his experience in the industry and his education. Haripriya thought that the new CEO would do a great job given these characteristics, coupled with his good oratory skills and the fact that he just looked like a CEO. Haripriya realized that she had been judging the new CEO in a manner consistent with the ________ theories of leadership.",
+    "options": ["trait", "behavioural", "contingency", "situational"],
+    "answer": 0,
+    "explanation": "Judging by **personal traits** (experience, looks, speech) aligns with **trait theory**."
+  },
+  {
+    "question": "In FIFO page replacement algorithm, when a page must be replaced",
+    "options": [
+      "oldest page is chosen",
+      "newest page is chosen",
+      "random page is chosen",
+      "first page is chosen"
+    ],
+    "answer": 0,
+    "explanation": "**FIFO** evicts the **oldest-loaded page**."
+  },
+  {
+    "question": "In expectancy theory, the belief that effort will lead to performance is termed as",
+    "options": ["Expectancy", "Instrumentality", "Valence", "Values"],
+    "answer": 0,
+    "explanation": "**Expectancy** = **effort → performance** probability."
+  },
+  {
+    "question": "In contiguous allocation _____________",
+    "options": [
+      "each file must occupy a set of contiguous blocks on the disk",
+      "each file is a linked list of disk blocks",
+      "all the pointers to scattered blocks are placed together in one location",
+      "none of the mentioned"
+    ],
+    "answer": 0,
+    "explanation": "Contiguous = **single block run** for each file."
+  },
+  {
+    "question": "In CIA Triad, CIA refers to ....",
+    "options": [
+      "Confidentiality, Integrity and Authentication",
+      "Confidentiality, Integrity and Availability",
+      "Confidentiality, Integrity and Accessibility",
+      "Confidentiality, Integrity and Authorization"
+    ],
+    "answer": 1,
+    "explanation": "Classic **CIA Triad**: **Confidentiality, Integrity, Availability**."
+  },
+  {
+    "question": "In Big Five Personality dimensions, a person's range of interest in new things. Open people are creative, curious, and artistically sensitive, as opposed to being closed-minded is called as",
+    "options": [
+      "Conscientiousness",
+      "Extraversion-Introversion",
+      "Agreeableness",
+      "Openness to Experience"
+    ],
+    "answer": 3,
+    "explanation": "**Openness to Experience** captures creativity and curiosity."
+  },
+  {
+    "question": "In Big Five Personality dimensions, the hardworking, diligent, organized, dependable, and persistent behaviour of a person is termed as",
+    "options": [
+      "Conscientiousness",
+      "Extraversion - Introversion",
+      "Agreeableness",
+      "Emotional Stability"
+    ],
+    "answer": 0,
+    "explanation": "**Conscientiousness** = **discipline and reliability**."
+  },
+  {
+    "question": "In an optical fiber, the inner core is _______ the cladding.",
+    "options": [
+      "less dense than",
+      "denser than",
+      "the same density as",
+      "another name for"
+    ],
+    "answer": 1,
+    "explanation": "Core must be **denser** to achieve **total internal reflection**."
+  },
+  {
+    "question": "In an inverted page table scheme",
+    "options": [
+      "One page table is used in a system",
+      "One page table for each process is used in a system",
+      "One page table for each file is used in a system",
+      "One page table for each program is used in a system"
+    ],
+    "answer": 0,
+    "explanation": "**Inverted PT** keeps **one system-wide table** indexed by **<process-id, page-number>**."
+  },
+  {
+    "question": "In ABC University, there are several ‘Departments’ including Computer Science, Information Technology, Mechanical, Civil, Finance and Maintenance. Some departments have students and some do not. If department and student are entity sets in this university database and they are linked through a relationship named DS, which among the following is a partial participation?",
+    "options": [
+      "Participation of department in student",
+      "Participation of department in DS",
+      "Participation of student in department",
+      "Participation of student in DS"
+    ],
+    "answer": 1,
+    "explanation": "Not every department has students → **department’s participation in DS is partial**."
+  },
+  {
+    "question": "In a time-sharing scheduling algorithm which of the data structure is used?",
+    "options": ["Stack", "Queue", "Linked list", "Circular queue"],
+    "answer": 3,
+    "explanation": "**Circular queue** implements **round-robin** ready list efficiently."
+  },
+  {
+    "question": "In a stack, the command to access an nth element from the top of the stack s will be",
+    "options": [
+      "S[Top – n]",
+      "S[Top + n]",
+      "S[top – n – 1]",
+      "None of the option"
+    ],
+    "answer": 0,
+    "explanation": "Top index minus offset → **S[Top – n]** gives nth element from top."
+  },
+  {
+    "question": "In a Segmentation scheme, given the logical address (4, 50) and the corresponding base address in the segment table as 5000, what is the physical address mapped to the given logical address?",
+    "options": ["0050", "4050", "5050", "4000"],
+    "answer": 2,
+    "explanation": "Physical = base + offset = **5000 + 50 = 5050**."
+  },
+  {
+    "question": "In a reactive approach, the bulk of the test design work begins __________",
+    "options": [
+      "Before any software is made",
+      "After some modules are completed",
+      "After every module, testing is done",
+      "After the software has been produced"
+    ],
+    "answer": 3,
+    "explanation": "**Reactive testing** starts **after the build exists** (e.g. exploratory, attack-based)."
+  },
+  {
+    "question": "In a Paging scheme with page sizes of 1K, given the logical address (2,35) and the corresponding frame number in the page table as 4, what is the physical address mapped to the given logical address?",
+    "options": ["2035", "4135", "2083", "4131"],
+    "answer": 1,
+    "explanation": "Physical = frame × page_size + offset = **4×1024 + 35 = 4131**."
+  },
+  {
+    "question": "In a Page replacement algorithm, which of the following type of page is the best page to replace?",
+    "options": [
+      "not recently used but modified",
+      "used but modified",
+      "recently used but clean",
+      "neither recently used nor modified"
+    ],
+    "answer": 3,
+    "explanation": "**NRU & clean** = cheapest to evict (no write-back needed)."
+  },
+  {
+    "question": "In a circular queue, the value of r will be",
+    "options": [
+      "r = r + 1",
+      "r = (r + 1) % (queue_size - 1)",
+      "r = (r + 1) % queue_size",
+      "r = (r - 1) % queue_size"
+    ],
+    "answer": 2,
+    "explanation": "**Wrap-around** uses **mod queue_size** → **(r + 1) % queue_size**."
+  },
+  {
+    "question": "In ______ each component at lower hierarchy is tested individually and then the components that rely upon these components are tested.",
+    "options": [
+      "Top down testing",
+      "Unit testing",
+      "Bottom up testing",
+      "Load testing"
+    ],
+    "answer": 2,
+    "explanation": "**Bottom-up** tests **leaf modules first**, then higher callers."
+  },
+  {
+    "question": "In transmission, the channel capacity is shared by both communicating devices at all times.",
+    "options": ["simplex", "half-duplex", "full-duplex", "half-simplex"],
+    "answer": 2,
+    "explanation": "**Full-duplex** allows **simultaneous bidirectional** use of capacity."
+  },
+  {
+    "question": "In MAC Tuples, Process can read object when: Object MAC range (lr, hr); process MAC label pl",
+    "options": ["pl ≥ (lr, hr)", "pl ∪ (lr, hr)", "pl ∈ (lr, hr)", "pl dom hr"],
+    "answer": 2,
+    "explanation": "Read allowed iff **pl is element of object’s range** → **pl ∈ (lr, hr)**."
+  },
+  {
+    "question": "Imposing a total ordering of all resource types, and ensuring process requests resources in an increasing order of enumeration violates the ________ condition for deadlock.",
+    "options": [
+      "Mutual exclusion",
+      "Hold and Wait",
+      "Circular Wait",
+      "No Preemption"
+    ],
+    "answer": 2,
+    "explanation": "Ordering breaks **circular-wait** cycle → **Circular Wait** condition."
+  },
+  {
+    "question": "If there is a unique LMD, the grammar is",
+    "options": ["ambiguous", "unambiguous", "LLG", "RLG"],
+    "answer": 1,
+    "explanation": "**Unique left-most derivation** ⇒ grammar is **unambiguous**."
+  },
+  {
+    "question": "If there is a complete DFA M1 recognizing a language L1 and has m states out of which two are final states, then the machine M recognizing L1 complement will have ______ final states.",
+    "options": ["m", "m+2", "2", "m-2"],
+    "answer": 3,
+    "explanation": "Complement swaps final/non-final → **m-2** final states remain."
+  },
+  {
+    "question": "If there are complete strict regulations on the operational procedures, the project is considered as Semi-detached",
+    "options": ["True", "False"],
+    "answer": 1,
+    "explanation": "Semi-detached = **mixed experience team**, not regulatory strictness → **False**."
+  },
+  {
+    "question": "If the data transfers are done asynchronously, which of the data structure is possible?",
+    "options": ["Stack", "Queue", "Linked list", "All of these"],
+    "answer": 3,
+    "explanation": "Any structure can be used; async is a **timing issue**, not structure limit."
+  }
+]

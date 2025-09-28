@@ -1,0 +1,288 @@
+[
+  {
+    "question": "Let w be a string and separated by three variables m, n, and o as per pumping lemma for regular language. What do these variables represent?",
+    "options": ["string", "string count", "string and string count", "none"],
+    "answer": 0,
+    "explanation": "In pumping lemma, **m, n, o** are **substrings** of w (i.e., **string** parts)."
+  },
+  {
+    "question": "Let the initial value of count be 5. What will be the final value of count if the instructions are executed in the following order: S1;T1;S2;T2;S3;T3?",
+    "options": ["50", "25", "10", "0"],
+    "answer": 1,
+    "explanation": "Interleaved execution yields **count = 25** (race-condition scenario)."
+  },
+  {
+    "question": "Let the initial value of count be 10. What will be the final value of count if the instructions are executed in the following order: S1;T1;S2;T2;S3;T3?",
+    "options": ["50", "20", "10", "1"],
+    "answer": 1,
+    "explanation": "Same race pattern → final **count = 20**."
+  },
+  {
+    "question": "Let int arr[4]={0,1,2,3}. Which of the following are valid operations? I. arr++ II. ++arr III. arr+4 IV. arr*4",
+    "options": ["I and II", "III", "IV", "All"],
+    "answer": 1,
+    "explanation": "Only **arr+4** (pointer arithmetic) is valid; **arr++ / ++arr / arr*4** illegal on array name."
+  },
+  {
+    "question": "Legitimate power is based on the subordinate's perception that the leader has a right to exercise influence because of the leader’s",
+    "options": [
+      "role or position within the organisation",
+      "expertise and knowledge",
+      "personal characteristics and personality",
+      "ability to punish or reward"
+    ],
+    "answer": 0,
+    "explanation": "**Legitimate power** stems from **formal position/authority**."
+  },
+  {
+    "question": "Left linear grammars are ______ of CFG",
+    "options": ["Power set", "Sub set", "Super set", "Nullable"],
+    "answer": 1,
+    "explanation": "Left-linear grammars are a **subset** of context-free grammars."
+  },
+  {
+    "question": "Lean philosophy regards everything not adding value to the customer as ________",
+    "options": ["Unnecessary", "Waste", "Useful", "Necessary"],
+    "answer": 1,
+    "explanation": "**Waste (muda)** must be eliminated in lean thinking."
+  },
+  {
+    "question": "Lean Development follows the principle of ______________",
+    "options": [
+      "Decide as late as possible",
+      "Deliver as late as possible",
+      "Decide as early as possible",
+      "Not building integrity"
+    ],
+    "answer": 0,
+    "explanation": "**Decide as late as possible** keeps options open and reduces waste."
+  },
+  {
+    "question": "Leadership is the process whose important ingredient is the _____________ exercised by the leaders on the group members.",
+    "options": ["friendship", "loyalty", "trust", "influence"],
+    "answer": 3,
+    "explanation": "**Influence** is the core mechanism of leadership."
+  },
+  {
+    "question": "Leadership has a lot of characteristics, and a leader must not maintain this trait in his behaviour:",
+    "options": [
+      "co-existence",
+      "taking responsibility",
+      "avoiding responsibility",
+      "All the other answers are correct"
+    ],
+    "answer": 2,
+    "explanation": "**Avoiding responsibility** is **incompatible** with effective leadership."
+  },
+  {
+    "question": "Leaders that focus on the individuality and personality needs of their employees and emphasize building good interpersonal relationships are:",
+    "options": [
+      "job-centred",
+      "laissez-faire",
+      "employee-oriented",
+      "task-oriented"
+    ],
+    "answer": 2,
+    "explanation": "**Employee-oriented** leaders prioritise people and relationships."
+  },
+  {
+    "question": "Leaders that focus on production and the job’s technical aspects are:",
+    "options": ["job-centred", "laissez-faire", "general", "autocratic"],
+    "answer": 0,
+    "explanation": "**Job-centred** (or task-oriented) leaders emphasise technical performance."
+  },
+  {
+    "question": "Lakshan sends an encrypted message to Ruhan but it is intercepted by Tanish. Tanish cannot read it but forwards it on to Ruhan from an anonymous address she controls. Which precept of the CIA Triad would have been violated?",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authentication"
+    ],
+    "answer": 1,
+    "explanation": "**Message was altered (redirected)** → **Integrity** breach."
+  },
+  {
+    "question": "Keerthana solicits input from her subordinates before making decisions that will affect them. She often praises them for good work and gently offers suggestions to improve their performance. Keerthana uses the ________ style of leadership.",
+    "options": ["autocratic", "participative", "democratic", "supportive"],
+    "answer": 3,
+    "explanation": "**Supportive** (Path-Goal) = encouragement, recognition, coaching."
+  },
+  {
+    "question": "Kalam Enterprises recently fired two employees who were caught stealing tools from the firm's warehouse. As a result, the CEO wants to strengthen the firm's ethical culture. Which of the following questions is the LEAST relevant when developing Kalam's new ethics program?",
+    "options": [
+      "What behaviour is expected of Kalam employees?",
+      "What is the opinion of stakeholders regarding Kalam's ethics?",
+      "How are ethical situations communicated and resolved at Kalam?",
+      "What is the process for Kalam establishing a corporate giving program?"
+    ],
+    "answer": 3,
+    "explanation": "**Corporate giving** is **CSR**, not core **ethics-program** content."
+  },
+  {
+    "question": "Josephus problem is a best example of",
+    "options": [
+      "Singly linked list",
+      "Doubly linked list",
+      "Circular linked list",
+      "All of these"
+    ],
+    "answer": 2,
+    "explanation": "Josephus elimination uses **circular** counting."
+  },
+  {
+    "question": "It is through ______________ that group members can be inspired, motivated, and guided to be successful and productive.",
+    "options": ["fellowship", "sportsmanship", "coercion", "leadership"],
+    "answer": 3,
+    "explanation": "**Leadership** inspires and guides group success."
+  },
+  {
+    "question": "It is possible to use more than one generic data type in a class template, and each generic data type is separated by the ___.",
+    "options": [". (Dot)", ", (Comma)", ";", "\"\""],
+    "answer": 1,
+    "explanation": "Multiple template parameters are **comma-separated**: `template<class T, class U>`"
+  },
+  {
+    "question": "It is often difficult to estimate size at an early stage in a project when only a specification is available",
+    "options": ["True", "False"],
+    "answer": 0,
+    "explanation": "**True** — early estimates are inherently uncertain."
+  },
+  {
+    "question": "It is necessary for a programming language that it must support encapsulation, inheritance, and polymorphism completely to become a pure Object-Oriented Language.",
+    "options": [
+      "all these features",
+      "encapsulation and polymorphism",
+      "Inheritance and polymorphism",
+      "Encapsulation and inheritance"
+    ],
+    "answer": 0,
+    "explanation": "**All three** are **mandatory** for pure OO languages."
+  },
+  {
+    "question": "Ttype is a placeholder name which will be determined when the class is instantiated.",
+    "options": ["Ttype", "type", "Type", "None"],
+    "answer": 1,
+    "explanation": "Conventional placeholder is **typename T** or **class T**."
+  },
+  {
+    "question": "Internal premises in planning doesn’t include",
+    "options": ["Money", "Materials", "Machines", "Competitors strategy"],
+    "answer": 3,
+    "explanation": "**Competitor strategy** is an **external** premise."
+  },
+  {
+    "question": "Interaction Diagram",
+    "options": [
+      "class + Object",
+      "state + Activity",
+      "component + Deployment",
+      "Sequence + collaboration"
+    ],
+    "answer": 3,
+    "explanation": "UML **interaction diagrams** = **Sequence & Collaboration**."
+  },
+  {
+    "question": "int main(){fork();fork();fork();fork();exit(0);printf(\"hello\");} How many “hello” messages will be printed if the following program is executed?",
+    "options": ["16", "8", "4", "0"],
+    "answer": 3,
+    "explanation": "**exit(0)** terminates before printf → **0 hellos**."
+  },
+  {
+    "question": "Institute of Electrical and Electronics Engineers (IEEE) is the largest international professional group. What are the standards developed by this organization?",
+    "options": [
+      "Computing, communication, electrical engineering, and electronics",
+      "Communication, electrical engineering, and electronics",
+      "Electrical engineering and electronics",
+      "Electrical engineering and computing"
+    ],
+    "answer": 0,
+    "explanation": "IEEE standards span **all listed domains**."
+  },
+  {
+    "question": "Information security is the protection of data. Information will be protected mainly based on",
+    "options": [
+      "Its sensitivity to the company",
+      "Its confidentiality",
+      "Its value",
+      "All the above"
+    ],
+    "answer": 3,
+    "explanation": "Protection decisions weigh **sensitivity, confidentiality, and value**."
+  },
+  {
+    "question": "Independent testers are _____________ and identify different defects at the same time.",
+    "options": ["Isolated", "Biased", "Unbiased", "Modular"],
+    "answer": 2,
+    "explanation": "**Independence** reduces bias and **improves defect detection**."
+  },
+  {
+    "question": "In working with his employees, Rahman involves them in decision making and encourages them to participate in deciding their work methods and goals. Rahman’s leadership style can best be described as ________.",
+    "options": ["autocratic", "laissez-faire", "democratic", "participative"],
+    "answer": 3,
+    "explanation": "**Participative** = involving employees in decisions."
+  },
+  {
+    "question": "In which cache organization, index field is not required during block identification?",
+    "options": [
+      "Direct mapping",
+      "set associative",
+      "2-way associative",
+      "fully associative"
+    ],
+    "answer": 3,
+    "explanation": "**Fully associative** cache uses **tag comparison only**; no index."
+  },
+  {
+    "question": "In which attack, text messages (other than email) are used for hacking personal information?",
+    "options": ["Phishing", "Moshing", "Vishing", "Smishing"],
+    "answer": 3,
+    "explanation": "**Smishing** = **SMS-based phishing**."
+  },
+  {
+    "question": "In which attack, phone calls are used for hacking personal information?",
+    "options": ["Phishing", "Moshing", "Vishing", "Smishing"],
+    "answer": 2,
+    "explanation": "**Vishing** = **voice-call phishing**."
+  },
+  {
+    "question": "In which attack, email is used for hacking personal information?",
+    "options": ["Phishing", "Moshing", "Vishing", "Smishing"],
+    "answer": 0,
+    "explanation": "**Phishing** = **email-based** social engineering."
+  },
+  {
+    "question": "In this type of culture the behaviour of individuals are shaped by tradition, loyalty, personal commitment, extensive socialization and self-management",
+    "options": ["Clan", "Market", "Entrepreneurial", "Bureaucratic"],
+    "answer": 0,
+    "explanation": "**Clan culture** emphasises **family-like** bonds and traditions."
+  },
+  {
+    "question": "In this type of topology data travels only in one direction",
+    "options": ["Bus", "Ring", "Star", "Mesh"],
+    "answer": 1,
+    "explanation": "**Ring topology** uses **unidirectional** data flow (or dual rings)."
+  },
+  {
+    "question": "In the segment table the segment base contains the ____________",
+    "options": [
+      "starting logical address of the process",
+      "starting physical address of the segment in the memory",
+      "segment offset",
+      "segment length"
+    ],
+    "answer": 1,
+    "explanation": "**Segment base** = **physical start address** of that segment."
+  },
+  {
+    "question": "In the linked list, each node contains a minimum of two fields. One field is the data field to store the data; the second field is?",
+    "options": [
+      "Pointer to character",
+      "Pointer to integer",
+      "Pointer to node",
+      "Node"
+    ],
+    "answer": 2,
+    "explanation": "Second field is **next-pointer** → **pointer to node**."
+  }
+]
