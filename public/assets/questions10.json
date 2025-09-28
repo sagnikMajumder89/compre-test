@@ -1,0 +1,352 @@
+[
+  {
+    "question": "The data structure required to check whether an expression contains balanced parentheses is",
+    "options": ["Stack", "Queue", "Tree", "Array"],
+    "answer": 0,
+    "explanation": "**Stack** LIFO behaviour matches opening/closing pairs perfectly."
+  },
+  {
+    "question": "The Cost-benefit analysis evaluates the following benefits",
+    "options": [
+      "Direct costs",
+      "Intangible costs",
+      "Opportunity costs",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "CBA explicitly quantifies **opportunity costs** of foregone alternatives."
+  },
+  {
+    "question": "The control that takes place after the action is called",
+    "options": [
+      "Feed Forward Control",
+      "Concurrent Control",
+      "Feedback Control",
+      "Control measure"
+    ],
+    "answer": 2,
+    "explanation": "**Feedback control** measures output **after** the activity is completed."
+  },
+  {
+    "question": "The Contingency theory focuses on",
+    "options": [
+      "Situational variables",
+      "Interrelationships",
+      "Groups and human behavior",
+      "Economic needs of workers"
+    ],
+    "answer": 0,
+    "explanation": "Contingency theory states that **situational variables** determine the best management approach."
+  },
+  {
+    "question": "The connected graph with n vertices and n edges consists of at least m different spanning trees; what is the largest integer m?",
+    "options": ["1", "2", "3", "6"],
+    "answer": 2,
+    "explanation": "A single cycle on n ≥ 3 vertices yields **exactly n spanning trees**; largest listed is **3**."
+  },
+  {
+    "question": "The concept of ______ has evolved from the traditional view of corporate social responsibility.",
+    "options": [
+      "social scaffolding",
+      "planetary progressivism",
+      "work-life balance",
+      "corporate sustainability"
+    ],
+    "answer": 3,
+    "explanation": "**Corporate sustainability** extends CSR to long-term environmental & social stewardship."
+  },
+  {
+    "question": "The COCOMO model depends on time factors",
+    "options": ["True", "False"],
+    "answer": 0,
+    "explanation": "COCOMO equations explicitly include **effort-duration (time) exponents**."
+  },
+  {
+    "question": "The cache term is now applied when buffering is employed for reusing commonly occurring items, for example",
+    "options": ["File caches", "Name cache", "Flash memory", "Both a and b"],
+    "answer": 3,
+    "explanation": "OS keeps **file & name caches** to speed repeated accesses."
+  },
+  {
+    "question": "The basic limitation of FSM is that",
+    "options": [
+      "all of the comments are true",
+      "it cannot remember arbitrary large amounts of information",
+      "it sometimes fails to recognize grammars that are regular",
+      "it sometimes recognized grammars that are not regular"
+    ],
+    "answer": 1,
+    "explanation": "FSM has **finite memory** (states) → cannot count arbitrarily."
+  },
+  {
+    "question": "The attribute composed of multiple components, each with an independent existence, is called",
+    "options": [
+      "Composite attribute",
+      "Simple attribute",
+      "Single valued attribute",
+      "Derived attribute"
+    ],
+    "answer": 0,
+    "explanation": "**Composite** = multi-component (e.g. Address = Street + City + Zip)."
+  },
+  {
+    "question": "The attribute age can be a",
+    "options": ["Single Valued", "Multi Valued", "Derived", "Composite"],
+    "answer": 2,
+    "explanation": "Age = **Derived** from birth-date and current-date."
+  },
+  {
+    "question": "The assumptions about the future in which the planning is implemented are termed as",
+    "options": ["Boundaries", "Premises", "Limits", "Hypothesis"],
+    "answer": 1,
+    "explanation": "Planning **premises** are the environmental assumptions on which plans rest."
+  },
+  {
+    "question": "The assignment of individual duties and responsibilities is most appropriately described in which of the following documents?",
+    "options": [
+      "Security policy",
+      "Enforcement guidelines",
+      "Acceptable use policy",
+      "Program manual"
+    ],
+    "answer": 0,
+    "explanation": "**Security policy** spells out roles, duties, and responsibilities for protection tasks."
+  },
+  {
+    "question": "The algorithm which chooses the page that has not been used for the longest period of time is _________.",
+    "options": [
+      "First in first out algorithm",
+      "Least recently used algorithm",
+      "Additional reference bit algorithm",
+      "Counting based page replacement algorithm"
+    ],
+    "answer": 1,
+    "explanation": "**LRU** replaces the page with the oldest access time."
+  },
+  {
+    "question": "The aim of this process is to develop low-quality software solutions that exceed or meet user expectations within time frame is development life cycle.",
+    "options": ["True", "False"],
+    "answer": 1,
+    "explanation": "Aim is **high-quality** solutions; statement is **false**."
+  },
+  {
+    "question": "The advantage of pure virtual function over normal virtual function is _________.",
+    "options": [
+      "It reduces the program code size in terms of number of lines",
+      "It reduces the memory space",
+      "the compiler easily finds syntax error in a program",
+      "the time complexity is linear"
+    ],
+    "answer": 1,
+    "explanation": "Pure virtual functions **eliminate v-table entry** for abstract classes → **minor memory save**."
+  },
+  {
+    "question": "The address of a page table in memory is stored in",
+    "options": [
+      "stack pointer",
+      "page table base register",
+      "page register",
+      "program counter"
+    ],
+    "answer": 1,
+    "explanation": "**PTBR** holds the starting physical address of the current page table."
+  },
+  {
+    "question": "The address generated by the CPU is referred to as",
+    "options": [
+      "Physical address",
+      "Logical address",
+      "Neither physical nor logical",
+      "Network Address"
+    ],
+    "answer": 1,
+    "explanation": "CPU produces **logical (virtual) addresses**; MMU translates to physical."
+  },
+  {
+    "question": "The actual count of elements associated with the connectivity is called ______ of the relationship connectivity.",
+    "options": ["Cardinality", "Entity type", "Entity set", "None of these"],
+    "answer": 0,
+    "explanation": "**Cardinality** = number of instances participating in the relationship."
+  },
+  {
+    "question": "The access mode of Magnetic Disk is",
+    "options": [
+      "Sequential access",
+      "Random access",
+      "Associative access",
+      "Semi-Random access"
+    ],
+    "answer": 1,
+    "explanation": "Disks support **direct/random access** to any block."
+  },
+  {
+    "question": "The ability to temporarily halt the CPU and use this time to send information on buses is called",
+    "options": [
+      "Direct memory access",
+      "Vectoring the interrupt",
+      "System Interrupt",
+      "Cycle stealing"
+    ],
+    "answer": 3,
+    "explanation": "**Cycle stealing** = DMA controller borrows bus cycles without stopping CPU."
+  },
+  {
+    "question": "The ______ must design and program the overlay structure.",
+    "options": [
+      "programmer",
+      "system architect",
+      "system designer",
+      "system analyst"
+    ],
+    "answer": 0,
+    "explanation": "**Programmer** writes overlay segments and loading logic."
+  },
+  {
+    "question": "The model defines the stored data structures in terms of the database model used.",
+    "options": [
+      "Physical level",
+      "Conceptual level",
+      "External level",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "**Physical level** describes how data are actually stored (indices, partitions, etc.)."
+  },
+  {
+    "question": "The style of leadership that tends to involve employees in decision making, delegate authority, encourage participation, and use feedback as coaching is",
+    "options": ["participative", "autocratic", "democratic", "laissez-faire"],
+    "answer": 2,
+    "explanation": "**Democratic** leaders share decision power and encourage participation."
+  },
+  {
+    "question": "The theory stating that a manager's choice of organisational structures and control systems depends on the characteristics of the external environment is",
+    "options": ["Mechanistic", "Management science", "Organic", "Contingency"],
+    "answer": 3,
+    "explanation": "**Contingency theory** asserts “it depends” on environmental factors."
+  },
+  {
+    "question": "The ______ technique expands the bandwidth of a signal by replacing each data bit with n bits.",
+    "options": ["DSSS", "FHSS", "FDM", "TDM"],
+    "answer": 0,
+    "explanation": "**Direct-Sequence Spread Spectrum (DSSS)** replaces each bit with a chip sequence."
+  },
+  {
+    "question": "The 'means' of leadership involve",
+    "options": [
+      "getting results through others",
+      "the ability to build cohesive, goal-oriented teams",
+      "the process of influencing an organised group toward accomplishing its goals",
+      "the process of forcibly making others comply"
+    ],
+    "answer": 2,
+    "explanation": "Leadership **means** = **influencing** a group towards goal attainment."
+  },
+  {
+    "question": "The Simple Security Condition requires that a subject S can read an object O only if _____ and any DAC permits.",
+    "options": ["Is > Io", "LO ≤ LS", "L0 ≤ LS", "Is ≤ Io"],
+    "answer": 3,
+    "explanation": "Bell-LaPadula: **no read up** → subject’s level **≥** object’s level (Is ≤ Io)."
+  },
+  {
+    "question": "The number of subordinates a superior can effectively handle is called",
+    "options": [
+      "Organising people",
+      "Span of control",
+      "Direction",
+      "Coordination"
+    ],
+    "answer": 1,
+    "explanation": "**Span of control** = number of direct reports."
+  },
+  {
+    "question": "The easiest form of offline password hash attack which can be used for capturing insecure passwords is?",
+    "options": ["Hybrid", "Dictionary", "Brute-force", "Man-in-the-middle"],
+    "answer": 1,
+    "explanation": "**Dictionary attack** is fastest against weak/common passwords."
+  },
+  {
+    "question": "The access-control model in which users are not given much freedom to decide who can access their files and is recognised for its structure and use of security labels is",
+    "options": [
+      "Discretionary",
+      "Mandatory",
+      "Role-based",
+      "Non-discretionary"
+    ],
+    "answer": 1,
+    "explanation": "**MAC** uses security labels; owners cannot change access rights."
+  },
+  {
+    "question": "That an enterprise must behave as a good citizen is an example of its responsibility towards:",
+    "options": ["owners", "workers", "consumers", "community"],
+    "answer": 3,
+    "explanation": "Good-citizen behaviour = **community** responsibility (CSR)."
+  },
+  {
+    "question": "Thackeray Manufacturing recently developed a code of ethics. Which of the following topics is most likely covered in the document?",
+    "options": [
+      "business conduct",
+      "fair competition",
+      "HR issues",
+      "All the other answers are correct"
+    ],
+    "answer": 3,
+    "explanation": "A corporate **code of ethics** covers **all listed areas**."
+  },
+  {
+    "question": "Testing the end-to-end functionality of the system as a whole is defined as",
+    "options": [
+      "Unit Testing",
+      "Functional Testing",
+      "Stress Testing",
+      "Load Testing"
+    ],
+    "answer": 1,
+    "explanation": "**Functional testing** validates **whole-system behaviour** against requirements."
+  },
+  {
+    "question": "Templates eliminate some common errors found in code that makes heavy use of function-like macros",
+    "options": ["Reject", "Allow", "Discard", "None"],
+    "answer": 1,
+    "explanation": "C++ **templates** **allow** type-safe inline code, avoiding macro pitfalls."
+  },
+  {
+    "question": "Template uses _____ keyword?",
+    "options": ["class", "typename", "both class & typename", "function"],
+    "answer": 2,
+    "explanation": "Both **class** and **typename** are legal template parameter keywords."
+  },
+  {
+    "question": "Template creates versions of a function at",
+    "options": ["Similar", "Different", "None", "Both similar and different"],
+    "answer": 1,
+    "explanation": "Compiler generates **different** instantiated versions for each type used."
+  },
+  {
+    "question": "Template classes and functions ____ the code duplication of different data types and thus make development easier and faster.",
+    "options": ["Allow", "Eliminate", "Permit", "None"],
+    "answer": 1,
+    "explanation": "Templates **eliminate** manual duplication by generating type-specific code automatically."
+  },
+  {
+    "question": "TCP/IP MODEL DOES NOT HAVE ______ LAYER BUT OSI MODEL HAVE THIS LAYER.",
+    "options": [
+      "SESSION LAYER",
+      "PRESENTATION LAYER",
+      "APPLICATION LAYER",
+      "Both Session and Presentation layer"
+    ],
+    "answer": 3,
+    "explanation": "TCP/IP **lacks distinct Session & Presentation layers**; functionality is folded into Application."
+  },
+  {
+    "question": "Tangible premises in planning doesn’t include",
+    "options": [
+      "capital investment",
+      "Unit of production",
+      "Cost per unit",
+      "Goodwill"
+    ],
+    "answer": 3,
+    "explanation": "**Goodwill** is intangible; the others are quantifiable tangible premises."
+  }
+]

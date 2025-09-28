@@ -1,0 +1,331 @@
+[
+  {
+    "question": "The maximum distance between two nodes present in the stack is 1 in the implementation of DFS. (length/edge = 1)",
+    "options": ["True", "False"],
+    "answer": 1,
+    "explanation": "DFS stack can hold nodes at **multiple depths** simultaneously → distance **can exceed 1**."
+  },
+  {
+    "question": "The maximum distance between two nodes present in the queue is 1 in the implementation of BFS. (length/edge = 1)",
+    "options": ["True", "False"],
+    "answer": 1,
+    "explanation": "BFS queue contains **at most two adjacent layers** → distance **can be 2 edges**."
+  },
+  {
+    "question": "The matrix structure is the correct structure when three conditions are met. Which of the following is one of these three conditions?",
+    "options": [
+      "Pressure exists to share scarce resources across product lines",
+      "Technical quality is not very important",
+      "The environmental domain of the organization is simple",
+      "The environmental domain of the organization is certain and stable"
+    ],
+    "answer": 0,
+    "explanation": "Matrix suits **resource-sharing pressures**, dual authority, and complex/uncertain environments."
+  },
+  {
+    "question": "The management of business activities that is conducted in more than one country is called:",
+    "options": [
+      "domestic management",
+      "altruistic management",
+      "comparative management",
+      "international management"
+    ],
+    "answer": 3,
+    "explanation": "**International management** focuses on cross-border operations."
+  },
+  {
+    "question": "The logical file system maintains structures consisting of information about a file...",
+    "options": [
+      "Program counter",
+      "file control block",
+      "Process control block",
+      "file pointer"
+    ],
+    "answer": 1,
+    "explanation": "The **file-control block (FCB)** holds metadata (permissions, size, dates, etc.)."
+  },
+  {
+    "question": "The lexical analysis for a modern language such as Java needs the power of which one of the following machine models in a necessary and sufficient sense?",
+    "options": [
+      "Finite state automata",
+      "Non-deterministic pushdown automata",
+      "Deterministic pushdown automata",
+      "Turing machine"
+    ],
+    "answer": 0,
+    "explanation": "Lexical tokens are **regular** → **finite automata** suffice."
+  },
+  {
+    "question": "The Lattice-Based Access Control paradigm was created primarily to address _____.",
+    "options": ["Affinity", "Availability", "Confidentiality", "Integrity"],
+    "answer": 2,
+    "explanation": "Lattice models (Bell-LaPadula) enforce **confidentiality** via security levels."
+  },
+  {
+    "question": "The language defined by S → SS is",
+    "options": ["2^l", "2l + 1", "2l - 1", "Null/Ɛ"],
+    "answer": 3,
+    "explanation": "The grammar generates **only the empty string** (no terminals)."
+  },
+  {
+    "question": "The Knapsack problem where the objective function is to minimize the profit is __",
+    "options": ["Greedy", "Dynamic 0/1", "Backtracking", "Branch & Bound 0/1"],
+    "answer": 3,
+    "explanation": "Minimisation variant is solved by **Branch-&-Bound with bounding**."
+  },
+  {
+    "question": "The intersection of CFL and regular language",
+    "options": [
+      "Is always regular and context free",
+      "Is always regular",
+      "Need not be regular",
+      "Is always context free"
+    ],
+    "answer": 3,
+    "explanation": "Intersection keeps **context-freeness**; may not be regular."
+  },
+  {
+    "question": "The interactive transmission of data within a time-sharing system may be best suited to",
+    "options": [
+      "simplex lines",
+      "half-duplex lines",
+      "full duplex lines",
+      "diplex-lines"
+    ],
+    "answer": 2,
+    "explanation": "**Full-duplex** allows simultaneous bidirectional traffic needed for interactive sessions."
+  },
+  {
+    "question": "The instruction to Kernel to do various operations of the calling program and exchange data between the Kernel and the program is",
+    "options": ["Shell", "Editors", "System Calls", "Commands"],
+    "answer": 2,
+    "explanation": "**System calls** are the programmatic interface to the OS kernel."
+  },
+  {
+    "question": "The initial array elements are 1,7,5,2 after which the following operations are performed: enqueue(6), enqueue(8), dequeue, dequeue, enqueue(9), enqueue(0). What are the final elements of the array?",
+    "options": ["1,7,5,2,6,8", "1,7,5,2,9,0", "5,2,6,8,9,0", "5,2,9,0,6,8"],
+    "answer": 2,
+    "explanation": "After two dequeues front is at index 2; subsequent enqueues append 6,8,9,0 → **5,2,6,8,9,0**."
+  },
+  {
+    "question": "The implied, enforced, or felt obligation of managers to serve or protect the interests of groups other than themselves is known as ________.",
+    "options": [
+      "human resource ethics",
+      "environmental morality",
+      "corporate social responsibility",
+      "business-centred morality"
+    ],
+    "answer": 2,
+    "explanation": "**CSR** is the managerial duty toward stakeholders and society."
+  },
+  {
+    "question": "The idea of developing an initial implementation, getting user feedback, and evolving it through various versions until an acceptable system is made is",
+    "options": [
+      "Agile Process Model",
+      "Waterfall Process Model",
+      "Incremental Process Model",
+      "RAD Process Model"
+    ],
+    "answer": 0,
+    "explanation": "**Agile** embodies iterative evolution based on continuous user feedback."
+  },
+  {
+    "question": "The group development stage described as 'Deforming and Mourning' is",
+    "options": ["Storming", "Norming", "Performing", "Adjourning"],
+    "answer": 3,
+    "explanation": "**Adjourning** = disbanding phase (Tuckman model)."
+  },
+  {
+    "question": "The garbage-can model is related to",
+    "options": ["Leadership", "Learning", "Decision making", "Recruitment"],
+    "answer": 2,
+    "explanation": "Garbage-can explains **organisational decision making** under ambiguity."
+  },
+  {
+    "question": "The fundamental activity of a process arranged in a linear order of software development paradigm is",
+    "options": ["Spiral model", "Big Bang model", "V-model", "Waterfall model"],
+    "answer": 3,
+    "explanation": "**Waterfall** is the classic linear-sequential life-cycle."
+  },
+  {
+    "question": "The following graph, which is NOT a topological ordering of the given graph?",
+    "options": ["123456", "132456", "324165", "324156"],
+    "answer": 2,
+    "explanation": "324165 violates edge 1→6 (1 appears after 6) → **invalid topo sort**."
+  },
+  {
+    "question": "The following is NOT a type of organisation structure.",
+    "options": [
+      "Line organisation",
+      "Staff organisation",
+      "Matrix organisation",
+      "Flexible organisation"
+    ],
+    "answer": 3,
+    "explanation": "**Flexible** is a characteristic, not a formal structural type."
+  },
+  {
+    "question": "The five items: A, B, C, D and E are pushed in the stack, one after the other starting from A. The stack is popped four items and each element is inserted in a queue. Then two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is.",
+    "options": ["A", "B", "C", "D"],
+    "answer": 2,
+    "explanation": "Final stack top after sequence is **C**."
+  },
+  {
+    "question": "The file-position pointer is ___ value that specifies the location in the file as a number of bytes from the file's starting location",
+    "options": ["Integer", "Float", "Null", "None"],
+    "answer": 0,
+    "explanation": "Position is an **integer byte offset** from origin."
+  },
+  {
+    "question": "The file system that allows the same system-call interface (API) to be used for different types of file systems is",
+    "options": ["NTFS", "EXT2", "VFS (virtual file system)", "DOS"],
+    "answer": 2,
+    "explanation": "**VFS** provides a uniform API over multiple concrete file systems."
+  },
+  {
+    "question": "The extent to which a leader lets followers make decisions themselves rather than making the decisions for them is focused on by _______________ leadership styles.",
+    "options": [
+      "Laissez-faire and general",
+      "Participative and autocratic",
+      "Employee-oriented and job-centred",
+      "Laissez-faire and close"
+    ],
+    "answer": 0,
+    "explanation": "**Laissez-faire** grants maximum decision autonomy to followers."
+  },
+  {
+    "question": "The execution strategy that starts from the top and backtracks when it finds the solution otherwise restarts the problem is",
+    "options": [
+      "Backtracking",
+      "Divide and conquer",
+      "Branch and Bound",
+      "Dynamic programming"
+    ],
+    "answer": 0,
+    "explanation": "**Backtracking** explores paths depth-first and retreats on failure."
+  },
+  {
+    "question": "The Epsilon-Closure of any state q will contain the state ______________ irrespective of q.",
+    "options": ["Epsilon", "q", "Final state", "p"],
+    "answer": 1,
+    "explanation": "ε-closure always includes **the state itself** plus all ε-reachable states."
+  },
+  {
+    "question": "The entity that has a primary key is",
+    "options": [
+      "weak entity",
+      "Full Entity",
+      "Complete Entity",
+      "Strong Entity"
+    ],
+    "answer": 3,
+    "explanation": "A **strong entity** has its own primary key; weak entities depend on others."
+  },
+  {
+    "question": "The encryption methodology is used in ______.",
+    "options": ["IDS", "Firewall", "Host", "VPN"],
+    "answer": 3,
+    "explanation": "**VPN** tunnels encrypt data in transit."
+  },
+  {
+    "question": "The employees should be rewarded for their suggestions which result in a substantial reduction in cost. Which principle of management advocates this?",
+    "options": [
+      "Science, not the rule of thumb",
+      "Co-operation, not individualism",
+      "Harmony, not discord",
+      "Science, not art"
+    ],
+    "answer": 1,
+    "explanation": "**Co-operation, not individualism** encourages employee participation and shared gains."
+  },
+  {
+    "question": "The element of role identity which describes how others believe one should behave in a given situation is",
+    "options": [
+      "Role perception",
+      "Role expectation",
+      "Role identification",
+      "Role description"
+    ],
+    "answer": 1,
+    "explanation": "**Role expectation** = others’ beliefs about appropriate behaviour."
+  },
+  {
+    "question": "The element of role identity which describes how an individual is expected to behave according to his own perception in the group is called",
+    "options": [
+      "Role perception",
+      "Role expectation",
+      "Role identification",
+      "Role description"
+    ],
+    "answer": 0,
+    "explanation": "**Role perception** = one’s own view of how to act in a role."
+  },
+  {
+    "question": "The divisional structure has a special feature of __________________.",
+    "options": [
+      "flexibility",
+      "reliability",
+      "both flexibility and reliability",
+      "change"
+    ],
+    "answer": 0,
+    "explanation": "Divisional units enjoy **flexibility** to adapt to market changes."
+  },
+  {
+    "question": "The Directors’ responsibilities are unlikely to include",
+    "options": [
+      "a fiduciary duty",
+      "a duty to keep proper accounting records",
+      "a duty to propose high dividends for shareholders",
+      "a duty of care"
+    ],
+    "answer": 2,
+    "explanation": "Directors **must balance** dividend policy with retention needs; proposing “high” dividends is **not a duty**."
+  },
+  {
+    "question": "The device used to identify fast-spreading threats is ...",
+    "options": ["IDS", "IPS", "Firewall", "VPN"],
+    "answer": 0,
+    "explanation": "**IDS** (Intrusion Detection System) **identifies** anomalies; IPS **blocks** them."
+  },
+  {
+    "question": "The device used to block unauthorized access to your network is ...",
+    "options": ["IDS", "Firewall", "IPS", "VPN"],
+    "answer": 1,
+    "explanation": "**Firewall** actively **blocks** traffic based on rules."
+  },
+  {
+    "question": "The device used for providing secured remote access is",
+    "options": ["IDS", "IPS", "Firewall", "VPN"],
+    "answer": 3,
+    "explanation": "**VPN** creates an encrypted tunnel for secure remote access."
+  },
+  {
+    "question": "The decision-making in an organic structure is generally",
+    "options": ["centralised", "decentralised"],
+    "answer": 1,
+    "explanation": "Organic structures favour **decentralised**, participative decision-making."
+  },
+  {
+    "question": "The DBMS language component which can be embedded in a program is",
+    "options": [
+      "The data definition language (DDL)",
+      "The data manipulation language (DML)",
+      "The database administrator (DBA)",
+      "A query language"
+    ],
+    "answer": 1,
+    "explanation": "**DML** (SQL SELECT/INSERT/UPDATE) is embedded via cursors or host variables."
+  },
+  {
+    "question": "The data transmission on the asynchronous BUS is also referred as",
+    "options": [
+      "Bulk transmission",
+      "Same time transmission",
+      "Switch mode transmission",
+      "Hand-Shake"
+    ],
+    "answer": 3,
+    "explanation": "Asynchronous buses use **hand-shaking** to coordinate transfer."
+  }
+]
