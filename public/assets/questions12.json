@@ -1,0 +1,318 @@
+[
+  {
+    "question": "Periodically adding, changing and deleting file records is called as File?",
+    "options": ["Updating", "Upgrading", "Reconstructing", "Renewing"],
+    "answer": 0,
+    "explanation": "**Updating** is the routine maintenance of file records."
+  },
+  {
+    "question": "Parallel computing means doing several tasks simultaneously thus improving the performance of the _____.",
+    "options": ["Data system", "Computer system", "Memory", "Vector system"],
+    "answer": 1,
+    "explanation": "**Computer system** throughput increases via parallel execution."
+  },
+  {
+    "question": "Page fault occurs when the referenced page is",
+    "options": [
+      "not in main memory",
+      "not in secondary memory",
+      "not in tertiary memory",
+      "not in shared memory"
+    ],
+    "answer": 0,
+    "explanation": "**Page fault** = required page **not resident in RAM**."
+  },
+  {
+    "question": "Overflow condition was raised by the stack; which of the condition holds false?",
+    "options": [
+      "maximum limit exceeds",
+      "top of the stack is reached",
+      "limited stack size",
+      "none of these"
+    ],
+    "answer": 1,
+    "explanation": "**Top reaching max index** is the **true** overflow condition; question asks for **false**."
+  },
+  {
+    "question": "Output will be: #include<stdio.h> int myFunction(int parameter){ return parameter; } int main(){ int value=100; printf(\"%d %d\", myFunction(value), myFunction(value+100)); }",
+    "options": ["100 100", "100 200", "Error", "Warning during compilation"],
+    "answer": 1,
+    "explanation": "Two separate calls print **100** and **200** → **100 200**."
+  },
+  {
+    "question": "Output will be: #include<stdio.h> #include<string.h> int main(){ char Be[16]=\"Positive \"; char Positive[16]=\"Positive \"; printf(\"%d\",strcmp(Be,Positive)); }",
+    "options": ["1", "-1", "0", "Error"],
+    "answer": 2,
+    "explanation": "Strings are **identical** → strcmp returns **0**."
+  },
+  {
+    "question": "Output of the given code will be: #include<stdio.h> #include<string.h> int main(){ char Be[16]=\"Positive \"; char Positive[16]=\"positive \"; printf(\"%d\",strcmp(Be,Positive)); }",
+    "options": ["1", "-1", "0", "Error"],
+    "answer": 0,
+    "explanation": "Upper-case **‘P’** > lower-case **‘p’** → **positive value 1**."
+  },
+  {
+    "question": "Output of the following code will be: #include<stdio.h> int myFunction(){ return 1; } int myFunction(int a){ return 2; } int main(){ printf(\"%d %d\", myFunction(), myFunction(1)); }",
+    "options": ["1 1", "1 2", "2 2", "Error"],
+    "answer": 1,
+    "explanation": "Overloading resolves: **no-arg → 1**, **int-arg → 2** → prints **1 2**."
+  },
+  {
+    "question": "Operating System maintains the page table for",
+    "options": [
+      "each process",
+      "each thread",
+      "each instruction",
+      "each address"
+    ],
+    "answer": 0,
+    "explanation": "One **page table per process** (threads share it)."
+  },
+  {
+    "question": "Open mail relays are",
+    "options": [
+      "Mail user agent",
+      "Mail transfer agent",
+      "Mail delivers agent",
+      "Internet mail extension"
+    ],
+    "answer": 1,
+    "explanation": "**MTA** (like Sendmail) can be configured as an **open relay**."
+  },
+  {
+    "question": "Only one external reference is required for",
+    "options": [
+      "Linear linked list",
+      "Circular linked list",
+      "Double ended list",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "**Linear list** needs **only head pointer** exported; circular/double need more."
+  },
+  {
+    "question": "Nusrat sees her role as someone who provides direction and resources for her team then gets out of their way and lets them do their work however they think best. Nusrat uses the ______ style of leadership.",
+    "options": ["autocratic", "participative", "democratic", "laissez-faire"],
+    "answer": 3,
+    "explanation": "**Laissez-faire** = high autonomy, minimal interference."
+  },
+  {
+    "question": "Non-type template parameters provide the ability to pass what type of data at compile time?",
+    "options": ["int", "float", "constant expression", "none of the mentioned"],
+    "answer": 2,
+    "explanation": "Must be **integral constant expression** (e.g. **5**, **sizeof(int)**)."
+  },
+  {
+    "question": "Non-type parameters are mainly used for specifying _____ values or any other constant value for a particular instance of a template.",
+    "options": ["max and min", "max or min", "min", "max"],
+    "answer": 0,
+    "explanation": "Often used to supply **max-size** or **min-value** constants."
+  },
+  {
+    "question": "Nesting of try block is …………..",
+    "options": [
+      "syntax error",
+      "possible in C++",
+      "logical error",
+      "both (a) and (c)"
+    ],
+    "answer": 1,
+    "explanation": "C++ **allows** nested try-blocks for fine-grained exception handling."
+  },
+  {
+    "question": "Nesting of catch block is ……………",
+    "options": [
+      "syntax error",
+      "possible in C++",
+      "logical error",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "catch-blocks can also be **nested** inside try or other catch blocks."
+  },
+  {
+    "question": "Negative cash flow is one of the classification when desired rate of return is minimum by actual rate of return",
+    "options": ["True", "False"],
+    "answer": 1,
+    "explanation": "Negative cash-flow **classification** is **independent** of rate-of-return comparison."
+  },
+  {
+    "question": "Narrow span of control results into",
+    "options": [
+      "Tall structure",
+      "Flat structure",
+      "Mechanistic structure",
+      "All the above"
+    ],
+    "answer": 0,
+    "explanation": "Few subordinates per supervisor → **many layers** → **tall organisation**."
+  },
+  {
+    "question": "N Ach, N Aff and N Pow are related",
+    "options": [
+      "McClelland’s Learned Needs",
+      "ERG theory",
+      "Justice Theory",
+      "Equity theory"
+    ],
+    "answer": 0,
+    "explanation": "**McClelland**’s trio: **Need for Achievement, Affiliation, Power**."
+  },
+  {
+    "question": "Multivalued attribute Example",
+    "options": [
+      "Student Name",
+      "Student address",
+      "Student Phone number",
+      "Student Id number"
+    ],
+    "answer": 2,
+    "explanation": "One student can have **multiple phone numbers** → **multi-valued**."
+  },
+  {
+    "question": "Minnesota Multi-phasic Personality Inventory (MMPI) is used to assess",
+    "options": ["Attitude", "Personality", "Work engagement", "Wellbeing"],
+    "answer": 1,
+    "explanation": "**MMPI** is a standard **personality** assessment tool."
+  },
+  {
+    "question": "Memory management technique in which system stores and retrieves data from secondary storage for use in main memory is called",
+    "options": ["fragmentation", "paging", "mapping", "spooling"],
+    "answer": 1,
+    "explanation": "**Paging** moves pages between disk and RAM transparently."
+  },
+  {
+    "question": "Memory Address locations are specified using which data representation?",
+    "options": [
+      "Sign-magnitude",
+      "one's complement",
+      "Unsigned",
+      "two's complement"
+    ],
+    "answer": 2,
+    "explanation": "Addresses are **non-negative integers** → **unsigned** representation."
+  },
+  {
+    "question": "McKinsey’s 7S framework doesn’t include:",
+    "options": ["System", "Shared value", "Share holders", "Staff"],
+    "answer": 2,
+    "explanation": "**Shareholders** are **external**; 7S covers **internal** elements only."
+  },
+  {
+    "question": "MBTI is used to measure",
+    "options": ["Attitude", "Behaviour", "Personality", "Response"],
+    "answer": 2,
+    "explanation": "**Myers-Briggs Type Indicator** assesses **personality preferences**."
+  },
+  {
+    "question": "Max Weber belongs to which school of Management thought?",
+    "options": [
+      "Scientific",
+      "Administrative",
+      "Bureaucratic",
+      "Human relations"
+    ],
+    "answer": 2,
+    "explanation": "Weber’s **bureaucratic** model is a distinct school of thought."
+  },
+  {
+    "question": "Match the following: i. Breadth-first search – a. Heap ii. Depth-first search – b. Stack iii. Sorting – c. Queue",
+    "options": [
+      "i-a ii-b iii-c",
+      "i-c ii-b iii-a",
+      "i-c ii-a iii-b",
+      "i-a ii-b iii-c"
+    ],
+    "answer": 1,
+    "explanation": "BFS→**Queue**, DFS→**Stack**, Heap-sort→**Heap**."
+  },
+  {
+    "question": "Match the following elements of organisation with their characteristics: 1. Strategic apex – B. Centralised and Simple structure 2. Techno-structure – A. Decentralised and professional bureaucracy 3. Middle line – E. Mutual adjustments and machine bureaucracy 4. Support staff – D. Autonomy and Divisional structure 5. Operating core – C. Dominant standardisation",
+    "options": [
+      "1-B, 2-A, 3-E, 4-D, 5-C",
+      "1-C, 2-B, 3-E, 4-D, 5-A",
+      "1-E, 2-C, 3-B, 4-A, 5-D",
+      "1-B, 2-A, 3-E, 4-C, 5-D"
+    ],
+    "answer": 0,
+    "explanation": "Mintzberg’s mapping: apex→centralised, techno-structure→professional, etc."
+  },
+  {
+    "question": "Management as a process refers to __________",
+    "options": [
+      "Group of managers",
+      "Functions of management",
+      "Subject of management",
+      "All of these"
+    ],
+    "answer": 1,
+    "explanation": "Process view = **planning, organising, leading, controlling** functions."
+  },
+  {
+    "question": "Management as a Noun refers to __________",
+    "options": [
+      "Group of managers",
+      "Functions of management",
+      "Subject of management",
+      "All of these"
+    ],
+    "answer": 0,
+    "explanation": "Noun view = **the people** (managers) who perform management."
+  },
+  {
+    "question": "Magnetic tape is a",
+    "options": [
+      "serial access medium",
+      "Random access medium",
+      "A parallel access medium",
+      "NONE"
+    ],
+    "answer": 0,
+    "explanation": "Tape must be **read sequentially** → **serial access**."
+  },
+  {
+    "question": "LSD stands for ________________",
+    "options": [
+      "Lean Software Development",
+      "Live Software Development",
+      "Less Software Data",
+      "Least Software Data loss"
+    ],
+    "answer": 0,
+    "explanation": "**LSD** = **Lean Software Development** (Mary & Tom Poppendieck)."
+  },
+  {
+    "question": "Lower and upper limits are present in which chart ?",
+    "options": [
+      "Run chart",
+      "Bar chart",
+      "Control chart",
+      "None of the mentioned"
+    ],
+    "answer": 2,
+    "explanation": "**Control chart** displays **upper/lower control limits** for process variability."
+  },
+  {
+    "question": "Logical memory is broken into blocks of the same size called ________",
+    "options": ["frames", "pages", "backing store", "registers"],
+    "answer": 1,
+    "explanation": "Logical address space is divided into **pages**; physical memory into **frames**."
+  },
+  {
+    "question": "Linked list uses",
+    "options": [
+      "Random memory allocation",
+      "Static memory allocation",
+      "Fixed memory allocation",
+      "Dynamic memory allocation"
+    ],
+    "answer": 3,
+    "explanation": "Nodes are **allocated/de-allocated at runtime** → **dynamic memory**."
+  },
+  {
+    "question": "Like normal parameters, we can specify _____ arguments to templates.",
+    "options": ["Default", "Function", "Class", "None"],
+    "answer": 0,
+    "explanation": "C++ allows **default template arguments** (types and non-type constants)."
+  }
+]

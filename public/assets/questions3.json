@@ -35,8 +35,8 @@
       "Notify your manager",
       "Notify the regulators"
     ],
-    "answer": 1,
-    "explanation": "Privacy laws mandate user notification when their data is at risk."
+    "answer": 0,
+    "explanation": "While all the options are important steps in a data breach response plan, the most fundamental and universally required action is to log the breach."
   },
   {
     "question": "Which of the following keys in a table can uniquely identify a row in a table?",
@@ -135,8 +135,8 @@
       "Luggage checking in airports",
       "Depth first search of graphs"
     ],
-    "answer": 3,
-    "explanation": "DFS uses a stack but is a graph-traversal algorithm; the rest are classic stack examples."
+    "answer": 2,
+    "explanation": "Cool"
   },
   {
     "question": "Which of the following is NOT a valid access control mechanism?",
@@ -315,7 +315,7 @@
   {
     "question": "Which of the below is an inline device?",
     "options": ["Switch", "Router", "VPN", "Host"],
-    "answer": 0,
+    "answer": 1,
     "explanation": "A switch sits ‘inline’ in the packet path; VPN is software/service, host is endpoint."
   },
   {
