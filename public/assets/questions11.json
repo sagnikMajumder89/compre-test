@@ -1,0 +1,361 @@
+[
+  {
+    "question": "What will be printed? #include<stdio.h> main(){ char arr[]=\"ab.cd.ef\"; printf(\"%s\",strchr(arr,'.')); }",
+    "options": ["ab", ".cd", ".cd.ef", ".ef"],
+    "answer": 1,
+    "explanation": "strchr returns pointer to FIRST ‘.’ → prints from \".cd\" onward."
+  },
+  {
+    "question": "What will be printed? #include<stdio.h> main(){ char arr[5]=\"apple\"; printf(\"%c\",0[arr]); }",
+    "options": ["apple", "a", "97", "Error"],
+    "answer": 1,
+    "explanation": "0[arr] ≡ arr[0] → character ‘a’ is printed (not 97)."
+  },
+  {
+    "question": "What type of teams are composed of workers from different functional departments of the organization that meet to solve an important organizational problem?",
+    "options": [
+      "Line teams",
+      "Cross-functional teams",
+      "Staff teams",
+      "Multi-dimensional teams"
+    ],
+    "answer": 1,
+    "explanation": "Cross-functional teams blend diverse expertise for specific projects."
+  },
+  {
+    "question": "What type of computer chips are volatile?",
+    "options": ["RAM chips", "ROM chips", "CDROM", "FLASH MEMORY"],
+    "answer": 0,
+    "explanation": "RAM loses its content when power is removed (volatile)."
+  },
+  {
+    "question": "What type of encryption is capable of encrypting a fixed-length plaintext block into a 128-bit ciphertext block at the same time?",
+    "options": ["Block", "Symmetric", "Hash", "None of the choices"],
+    "answer": 0,
+    "explanation": "Block ciphers (e.g. AES-128) operate on fixed 128-bit blocks."
+  },
+  {
+    "question": "What type of encryption encrypts the plaintext byte-by-byte or bit-by-bit?",
+    "options": ["Block", "Hash", "Stream", "Elliptic"],
+    "answer": 2,
+    "explanation": "Stream ciphers emit a continuous keystream XOR-ed with data."
+  },
+  {
+    "question": "What terms are applied by sociologists to two contrasting pictures of organizations: competing individuals and groups or people acting with common interests?",
+    "options": [
+      "contingent, functional",
+      "pooled, reciprocal",
+      "pluralist, unitary",
+      "co-operative, conflictual"
+    ],
+    "answer": 2,
+    "explanation": "Pluralist = conflict of interests; Unitary = shared goals."
+  },
+  {
+    "question": "What should you do with someone's personal data once you've finished using it?",
+    "options": [
+      "Pass it on to someone else",
+      "Throw it out",
+      "Give it back to the owner",
+      "Securely delete or destroy it"
+    ],
+    "answer": 3,
+    "explanation": "Privacy laws require secure disposal when retention purpose ends."
+  },
+  {
+    "question": "What should a project manager do to ensure clear boundaries for project completion?",
+    "options": [
+      "Scope verification",
+      "Completing a scope statement",
+      "Scope definition",
+      "Risk management plan"
+    ],
+    "answer": 0,
+    "explanation": "Scope verification formally accepts deliverables and signals project closure."
+  },
+  {
+    "question": "What Oracle backup and recovery file contains user and system data?",
+    "options": [
+      "Datafile",
+      "Control file",
+      "Online ReDo file",
+      "Redo-log file"
+    ],
+    "answer": 0,
+    "explanation": "Datafiles store actual user & system segments; others store metadata or logs."
+  },
+  {
+    "question": "What is {1,2}* ∩ {2,3}*?",
+    "options": ["{12,2}*", "{23,2}*", "{2}*", "{12,23}*"],
+    "answer": 2,
+    "explanation": "Only strings consisting solely of 2’s belong to both Kleene stars."
+  },
+  {
+    "question": "What is the value of the postfix expression 6 3 2 4 + - *?",
+    "options": [
+      "Something between -15 and -100",
+      "Something between -5 and -15",
+      "Something between 5 and -5",
+      "Something between 5 and 15"
+    ],
+    "answer": 1,
+    "explanation": "Stack evaluation: (2+4)=6 → 3-6=-3 → 6×(-3)=-18 ∈ [-5,-15]."
+  },
+  {
+    "question": "What is the status of array after the first iteration of selection sort for the given array: 5,7,10,12,2,8?",
+    "options": [
+      "5,7,10,12,2,8",
+      "2,5,10,12,7,8",
+      "2,7,10,12,5,8",
+      "5,7,10,2,8,12"
+    ],
+    "answer": 2,
+    "explanation": "Smallest element (2) swapped with position 0 → 2,7,10,12,5,8."
+  },
+  {
+    "question": "What is the result of the operation Top(Push(S, X))?",
+    "options": ["X", "Null", "S", "None"],
+    "answer": 0,
+    "explanation": "Push places X on top; Top immediately returns that same X."
+  },
+  {
+    "question": "What is the real disadvantage of a linear list of directory entries?",
+    "options": [
+      "size of the linear list in memory",
+      "linear search to find a file",
+      "it is not reliable",
+      "all of the mentioned"
+    ],
+    "answer": 3,
+    "explanation": "All listed issues (memory, slow search, reliability) afflict linear directory lists."
+  },
+  {
+    "question": "What is the postfix form of the prefix expression * + a b – c d?",
+    "options": [
+      "a b + c d – *",
+      "a b c + * –",
+      "a b + * c d –",
+      "a b + c d – *"
+    ],
+    "answer": 0,
+    "explanation": "Prefix-to-postfix scan yields operators after operands: a b + c d – *."
+  },
+  {
+    "question": "What is the name of the process in which an employee informs another responsible employee in the company about potentially unethical behaviour?",
+    "options": [
+      "Whistleblowing",
+      "Purging and releasing",
+      "Identification",
+      "Information transfer"
+    ],
+    "answer": 0,
+    "explanation": "Whistleblowing = reporting wrong-doing internally or externally."
+  },
+  {
+    "question": "What is the level of recursion if the input array is {4,8,32,58,98,129,201} and key is 8?",
+    "options": ["5", "2", "3", "4"],
+    "answer": 1,
+    "explanation": "Binary-search recursion tree: mid=58 → left half mid=8 found at depth 2."
+  },
+  {
+    "question": "What is the difference between graph traversal and tree traversal?",
+    "options": [
+      "There can be a loop in the graph",
+      "DFS and BFS are the same",
+      "There can’t be a loop in the graph",
+      "DFS and BFD are different"
+    ],
+    "answer": 0,
+    "explanation": "Graphs may contain cycles; trees are acyclic—hence need visited-sets in graphs."
+  },
+  {
+    "question": "What is the current industry measure of Software Quality?",
+    "options": [
+      "Iterations to Successful Build",
+      "Number of Bugs Fixed",
+      "Number of Defects per KLOC",
+      "None in the list"
+    ],
+    "answer": 2,
+    "explanation": "Defect density (defects/KLOC) remains a widely used internal quality metric."
+  },
+  {
+    "question": "What is the function of HTTP?",
+    "options": [
+      "web-server and browser activity according to command",
+      "Mark-up language",
+      "Forming authority of the page",
+      "Tag files and create effects"
+    ],
+    "answer": 0,
+    "explanation": "HTTP is the application protocol that governs client-server web interactions."
+  },
+  {
+    "question": "What is the complexity of quick-sort algorithm if the array is already in sorted order?",
+    "options": ["O(n²)", "O(n log n)", "Constant", "O(n)"],
+    "answer": 0,
+    "explanation": "Worst-case of basic quick-sort (no randomisation) occurs on sorted input → O(n²)."
+  },
+  {
+    "question": "What is split horizon?",
+    "options": [
+      "Information about a route should not be sent back in the direction from which the original update came",
+      "It splits the traffic when you have a large bus physical network",
+      "It holds regular updates from broadcasting to a downed link",
+      "It prevents regular update messages from reinstating a route that has gone down"
+    ],
+    "answer": 0,
+    "explanation": "Split-horizon rule stops routers from advertising a route back out the interface it was learned on."
+  },
+  {
+    "question": "What is Cyclomatic complexity?",
+    "options": [
+      "Black-box testing",
+      "White-box testing",
+      "Yellow box testing",
+      "Green box testing"
+    ],
+    "answer": 1,
+    "explanation": "Cyclomatic complexity is a white-box structural metric for program paths."
+  },
+  {
+    "question": "What is Address Binding?",
+    "options": [
+      "going to an address in memory",
+      "locating an address with the help of another address",
+      "binding two addresses together to form a new address in a different memory space",
+      "a mapping from one address space to another"
+    ],
+    "answer": 3,
+    "explanation": "Binding maps logical/virtual addresses to physical addresses."
+  },
+  {
+    "question": "What is a network?",
+    "options": [
+      "A group of 1 or more devices that communicate",
+      "A group of 2 or more devices that communicate",
+      "When 2 or more computers are in the same building",
+      "A group of 3 or more devices that communicate"
+    ],
+    "answer": 1,
+    "explanation": "Minimum requirement: two devices able to exchange data."
+  },
+  {
+    "question": "What is a Network Protocol?",
+    "options": [
+      "Formal standards and policies comprised of memes",
+      "Formal standards and policies",
+      "Formal standards and policies comprised of rules, procedures and formats",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "Protocols are agreed-upon rules & formats for communication."
+  },
+  {
+    "question": "What is a disadvantage of a star network?",
+    "options": [
+      "It is cheap",
+      "It uses one cable",
+      "It is expensive",
+      "It has a terminator"
+    ],
+    "answer": 2,
+    "explanation": "Central switch/hub and extra cabling make star topology costlier than bus."
+  },
+  {
+    "question": "What happens to a task force after it finishes its assignment?",
+    "options": [
+      "It is integrated with the organisation",
+      "It is disbanded",
+      "It continues after accomplishment",
+      "None of the other answers is correct"
+    ],
+    "answer": 1,
+    "explanation": "Task forces are temporary; they dissolve once objectives are met."
+  },
+  {
+    "question": "What does DPIA expand as?",
+    "options": [
+      "Data Privacy Impact Assessment",
+      "Data Protection Impact Assessment",
+      "Data Privacy Identification Assessment",
+      "Data Protection Identification Assessment"
+    ],
+    "answer": 1,
+    "explanation": "GDPR art. 35 mandates a Data-Protection Impact Assessment for high-risk processing."
+  },
+  {
+    "question": "What does biometrics have to do with access control?",
+    "options": [
+      "Authorization",
+      "Authentication",
+      "Confirmation",
+      "Certification"
+    ],
+    "answer": 1,
+    "explanation": "Biometrics verify identity (authentication) before granting access."
+  },
+  {
+    "question": "What are the mid values in each level of recursion in the binary search for the input array {4,8,58,98,129,201} and key 201?",
+    "options": ["58,129,201", "98,129,201", "98,201", "58,129,201"],
+    "answer": 1,
+    "explanation": "Binary-search path: mid=98 → right half mid=129 → right half mid=201."
+  },
+  {
+    "question": "What are all candidate keys, other than the primary key, called?",
+    "options": [
+      "Partial keys",
+      "Alternate keys",
+      "Superkey keys",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "Alternate keys are the remaining candidate keys not chosen as primary."
+  },
+  {
+    "question": "What Access Control paradigm was created to deal primarily with computer system information flow?",
+    "options": ["Lattice-Based", "Integrity Based", "Flow-Based", "Area Based"],
+    "answer": 0,
+    "explanation": "Lattice models (Bell-LaPadula, Biba) control information flow via security levels."
+  },
+  {
+    "question": "What is another way to describe a parent-child relationship in inheritance?",
+    "options": ["Has-A", "Is-A", "Does-A", "Gets-A"],
+    "answer": 1,
+    "explanation": "Inheritance expresses an “Is-A” relationship (a child IS-A kind of parent)."
+  },
+  {
+    "question": "Virtual memory technique facilitates sharing of memory among",
+    "options": ["processes", "threads", "instructions", "programs"],
+    "answer": 0,
+    "explanation": "VM allows multiple processes to share physical frames via common mappings."
+  },
+  {
+    "question": "Unity of command means:",
+    "options": [
+      "Parity of authority and responsibility",
+      "The flow of command from superior to a subordinate",
+      "Parity in controlling",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "Fayol’s principle: one superior → one subordinate → clear command chain."
+  },
+  {
+    "question": "Unit testing is done by __________________?",
+    "options": ["Users", "Developers", "Customers", "None of the mentioned"],
+    "answer": 1,
+    "explanation": "Developers write and run unit tests during coding."
+  },
+  {
+    "question": "Triple Bottom Line reporting refers to:",
+    "options": [
+      "using low, medium, high estimates for profitability",
+      "measuring impact on stockholders, customers, employees",
+      "measuring social, environmental, financial performance",
+      "measuring impact of governments on the firm"
+    ],
+    "answer": 2,
+    "explanation": "TBL = People, Planet, Profit (social, environmental, financial)."
+  }
+]

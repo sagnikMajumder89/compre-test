@@ -358,7 +358,12 @@
   },
   {
     "question": "Which of the following properties are necessary for an Algorithm?",
-    "options": ["Definiteness", "Correctness", "Effectiveness", "A and C"],
+    "options": [
+      "Definiteness",
+      "Correctness",
+      "Effectiveness",
+      "Definiteness and Effectiveness"
+    ],
     "answer": 3,
     "explanation": "Algorithms must be definite and effective (steps must be doable)."
   },

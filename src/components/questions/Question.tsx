@@ -156,11 +156,11 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
                         <AccordionTrigger>
                           <div className="flex items-center gap-2">
                             {isCorrect ? (
-                              <CheckCircle2 className="text-green-500 w-5 " />
+                              <CheckCircle2 className="text-green-500" />
                             ) : (
                               <XCircle className="text-red-500" />
                             )}
-                            <span className="text-left">
+                            <span className="text-left w-11/12">
                               {question.question}
                             </span>
                           </div>
