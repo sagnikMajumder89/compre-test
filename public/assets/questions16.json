@@ -1,0 +1,326 @@
+[
+  {
+    "question": "Guess the output",
+    "code": "#include<stdio.h>\nmain(){\n  int a=100;\n  int b=200;\n  int c[1][2][3]={&a};\n  c[1][1][1]=&b;\n  printf(\"%d\",c[1][1][1]);\n}",
+    "options": ["200", "100", "Address of variable a", "Address of variable b"],
+    "answer": 0,
+    "explanation": "Stores **address of b** → printed as **integer 200** (implementation dependent)."
+  },
+  {
+    "question": "Guess the output of the following",
+    "code": "#include<stdio.h>\ntypedef char arr[4];\nint main(){\n  arr arr1[4];\n  printf(\"%d\",sizeof(arr1));\n}",
+    "options": ["Error", "4", "44", "16"],
+    "answer": 3,
+    "explanation": "arr1 is **4×4 char array** → **16 bytes**."
+  },
+  {
+    "question": "Guess the output of the below code",
+    "code": "#include<stdio.h>\nint myFunction1(int parameter){\n  return parameter;\n}\nint myFunction2(int *parameter){\n  return ++*parameter;\n}\nint main(){\n  int value=100;\n  printf(\"%d %d\", myFunction1(value), myFunction2(&value));\n}",
+    "options": ["100 100", "101 100", "100 101", "101 101"],
+    "answer": 2,
+    "explanation": "myFunction1 returns **100**, myFunction2 **pre-increments** → **101**; print order: **100 101**."
+  },
+  {
+    "question": "Greetwell Technologies wants to gain the confidence of employees and customers by developing a strong ethical culture. Which of the following methods would be the best way for the firm's HR department to accomplish this goal?",
+    "options": [
+      "placing the code of ethics on the firm's intranet",
+      "posting the code of ethics in the breakroom",
+      "providing ethics training to employees",
+      "having employees sign ethics contracts"
+    ],
+    "answer": 2,
+    "explanation": "**Interactive ethics training** embeds behaviours; posters/signatures are passive."
+  },
+  {
+    "question": "Given grammar G: S → aB | ε, B → Sb. This grammar is",
+    "options": [
+      "regular and context-free",
+      "not regular and not context-free",
+      "regular, but not context-free",
+      "context-free, but not regular"
+    ],
+    "answer": 3,
+    "explanation": "Language needs **stack** (nested a’s and b’s) → **CFL but not regular**."
+  },
+  {
+    "question": "Given five memory partitions of 200 KB, 500 KB, 200 KB, 300 KB, 600 KB (in order), which algorithm would be able to successfully place the following processes of 212 KB, 417 KB, 112 KB, and 126 KB?",
+    "options": ["Best Fit", "Worst Fit", "First Fit", "All the given choices"],
+    "answer": 2,
+    "explanation": "**First Fit** finds suitable holes quickly: 500→212, 600→417, 200→112, 300→126."
+  },
+  {
+    "question": "Given five memory partitions of 100 KB, 500 KB, 200 KB, 300 KB, 600 KB (in order), which algorithm would be able to successfully place the following processes of 212 KB, 417 KB, 112 KB, and 426 KB?",
+    "options": ["Best Fit", "Worst Fit", "First Fit", "All the given choices"],
+    "answer": 2,
+    "explanation": "First Fit: 500→212, 600→417, 200→112, **no hole for 426** → **only First Fit** listed works partially."
+  },
+  {
+    "question": "Given an arbitrary non-deterministic finite automaton (NFA) with N states, the maximum number of states in an equivalent minimized DFA is at least.",
+    "options": ["2N", "N!", "2^N", "N^2"],
+    "answer": 2,
+    "explanation": "Worst-case subset construction yields **2^N** states before minimisation."
+  },
+  {
+    "question": "Generic functions perform ____ operation for all the versions of a function except the data type differs.",
+    "options": ["Different", "Same", "Similar", "None"],
+    "answer": 1,
+    "explanation": "Template functions perform the **same logic** regardless of type."
+  },
+  {
+    "question": "Frustration-Regression is related to",
+    "options": [
+      "Maslow’s Hierarchy",
+      "ERG theory",
+      "Justice Theory",
+      "Equity theory"
+    ],
+    "answer": 1,
+    "explanation": "**Alderfer’s ERG** includes **frustration-regression** principle."
+  },
+  {
+    "question": "Frames from one LAN can be transmitted to another LAN via the device",
+    "options": ["Router", "Bridge", "Repeater", "Modem"],
+    "answer": 1,
+    "answer duplicate": true,
+    "explanation": "**Bridge** (or switch) interconnects **LANs at layer 2**."
+  },
+  {
+    "question": "For every pair of regular expressions r and s, the languages denoted by r(sr)* and (rs)*r are the same.",
+    "options": [
+      "True",
+      "False",
+      "Can't be determined",
+      "Neither True nor False"
+    ],
+    "answer": 0,
+    "explanation": "Both expressions generate **(rs)*r** → **True**."
+  },
+  {
+    "question": "For every ....grammar there is equivalent grammar for the same language which is .....",
+    "options": [
+      "ambiguous grammar, unambiguous grammar",
+      "unambiguous grammar, ambiguous grammar",
+      "ambiguous grammar, ambiguous grammar",
+      "unambiguous grammar, unambiguous grammar"
+    ],
+    "answer": 0,
+    "explanation": "Some ambiguous grammars have **equivalent unambiguous** versions."
+  },
+  {
+    "question": "For declaring function templates, __ arguments in template declaration must be generic (class T).",
+    "options": ["all", "Any one", "One", "none"],
+    "answer": 0,
+    "explanation": "Every template parameter must be **generic** (no mixing with concrete types in declaration)."
+  },
+  {
+    "question": "For declaring class templates, ___ of the arguments in template declaration may be non-generic ordinary data types.",
+    "options": ["Some", "all", "None of the argument", "One"],
+    "answer": 2,
+    "explanation": "Class-template parameters must **all be generic**; non-generic types come **inside** the class body."
+  },
+  {
+    "question": "For any two functions g(n) and f(n), f(n) = Θ(g(n)) iff",
+    "options": [
+      "f(n) = O(g(n)) and f(n) = Ω(g(n))",
+      "f(n) > O(g(n)) and f(n) = Ω(g(n))",
+      "f(n) = O(g(n)) and f(n) => Ω(g(n))",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "Θ requires **both** upper (O) and lower (Ω) bounds."
+  },
+  {
+    "question": "Finite automata recognizes -------- grammars",
+    "options": ["type-3", "type-1", "type-2", "type-0"],
+    "answer": 0,
+    "explanation": "FA = **Type-3 (regular)** grammars."
+  },
+  {
+    "question": "Finite automata --------------- memory",
+    "options": [
+      "Infinite",
+      "No auxiliary memory",
+      "Finite",
+      "auxiliary memory"
+    ],
+    "answer": 2,
+    "explanation": "FA has **finite control memory (states)** and **no auxiliary store**."
+  },
+  {
+    "question": "Find the shortest path from the root to a given node v. Which algorithm would one use to find this shortest path?",
+    "options": [
+      "DFS",
+      "BFS",
+      "Either BFS or DFS",
+      "The statement is incomplete"
+    ],
+    "answer": 1,
+    "explanation": "**BFS** guarantees **fewest-edges** (shortest) path in un-weighted trees."
+  },
+  {
+    "question": "Find the correct syntax of throw statement:",
+    "options": [
+      "throw (exception);",
+      "throw exception;",
+      "throw;",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "All three forms are **legal** in C++."
+  },
+  {
+    "question": "Find the correct statement(s)",
+    "code": "// (i) A try block can throw an exception using “throw”\n// (ii) A catch block always catches and handles the exception and never ever throws the exception.\n// (iii) A catch also sometimes throws the exception using “throw”",
+    "options": [
+      "only (i)",
+      "only (i) and (iii)",
+      "only (ii) and (iii)",
+      "(i), (ii) and (iii)"
+    ],
+    "answer": 1,
+    "explanation": "(i) true; (ii) false – catch **can re-throw**; (iii) true → **(i) and (iii)** correct."
+  },
+  {
+    "question": "Find out the true statement(s) from the following:",
+    "code": "// (i) Virtual constructors are not at all possible.\n// (ii) It is possible to have virtual destructor without virtual constructors.\n// (iii) Both virtual constructors and virtual destructors are not possible in C++.\n// (iv) Only Virtual constructors are allowed; but not virtual destructors.",
+    "options": ["(i) and (ii) only", "(i) only", "(iii) only", "(iv) only"],
+    "answer": 0,
+    "explanation": "(i) true – no virtual constructors; (ii) true – virtual destructor **allowed** without virtual ctor."
+  },
+  {
+    "question": "Find out the incorrect statement(s).",
+    "code": "// (i) There are only predefined exception handling mechanisms available in C++\n// (ii) User-defined exception handling is possible in C++\n// (iii) Both (i) and (ii) is possible in C++",
+    "options": [
+      "(i) and (ii) only",
+      "(i) only",
+      "(iii) only",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "(i) is **false** – user-defined exceptions **are allowed** → **(i) only** is incorrect."
+  },
+  {
+    "question": "Find out the incorrect statement(s)",
+    "code": "// (i) pure virtual functions should be defined in derived class.\n// (ii) virtual function concept can be implemented even without inheritance.\n// (iii) the keyword “virtual” prevents compile-time binding",
+    "options": [
+      "(ii) and (iii) only",
+      "(i) and (iii) only",
+      "(iii) only",
+      "(ii) only"
+    ],
+    "answer": 1,
+    "explanation": "(i) **false** – pure-virtual **need not** be defined in derived; (iii) **false** – virtual **enables** runtime binding → **(i) and (iii)** incorrect."
+  },
+  {
+    "question": "F.W. Taylor has done the following studies for improving the production process:",
+    "options": [
+      "Time Study, Fatigue Study and Fatal Study.",
+      "Time Study, Motion Study and Fatal Study.",
+      "Time Study, Motion Study and Fatigue Study.",
+      "Time Study, Motivation Study and Fatigue Study."
+    ],
+    "answer": 2,
+    "explanation": "Taylor’s trio: **Time, Motion, Fatigue** studies."
+  },
+  {
+    "question": "Exhaustive testing is __________________?",
+    "options": [
+      "always possible",
+      "practically possible",
+      "impractical but possible",
+      "impractical and impossible"
+    ],
+    "answer": 3,
+    "explanation": "Complete input-space coverage is **impractical & impossible** for non-trivial software."
+  },
+  {
+    "question": "Executives and managers at ABC Enterprises actively encourage a strong ethical culture. Which of the following would be the most likely result?",
+    "options": [
+      "increased employee interest in development programs",
+      "frequent use of human resource information systems",
+      "changes in corporate communication methods",
+      "improvements in organizational performance"
+    ],
+    "answer": 3,
+    "explanation": "Ethical culture → **higher trust, lower turnover, better performance**."
+  },
+  {
+    "question": "Exceptions are ……..",
+    "options": [
+      "Syntax error",
+      "Logic error",
+      "Compile time error",
+      "Run time error"
+    ],
+    "answer": 3,
+    "explanation": "Exceptions occur **during execution** → **runtime errors**."
+  },
+  {
+    "question": "Exception handling is the correlation between …………………",
+    "options": [
+      "try and catch block",
+      "retry and recatch block",
+      "both (a) and (b)",
+      "Neither (a) nor (b)"
+    ],
+    "answer": 0,
+    "explanation": "Correlation is between **try** (throw) and **catch** (handle)."
+  },
+  {
+    "question": "Example for Associative type of memory",
+    "options": ["Main Memory", "Cache Memory", "Magnetic", "Optical"],
+    "answer": 1,
+    "explanation": "**Cache** uses **associative (tag) lookup**."
+  },
+  {
+    "question": "Every weak entity set can be",
+    "options": [
+      "Using generalization",
+      "Adding appropriate attributes",
+      "Using aggregation",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "Add **owner’s key** as foreign key → **strong relation**."
+  },
+  {
+    "question": "Every context free language is context sensitive language",
+    "options": ["True", "False", "nothing", "True and False"],
+    "answer": 0,
+    "explanation": "CFL ⊆ CSL → **True**."
+  },
+  {
+    "question": "Event based modelling in UML",
+    "options": [
+      "Activity Diagram",
+      "State Diagram",
+      "Class Diagram",
+      "Object Diagram"
+    ],
+    "answer": 1,
+    "explanation": "**State diagram** models **event-driven** behaviour."
+  },
+  {
+    "question": "Evaluate the following prefix expression: * - + 4 3 5 / + 2 4 3",
+    "options": ["8", "4", "1", "None"],
+    "answer": 2,
+    "explanation": "Stack evaluation yields **1**."
+  },
+  {
+    "question": "Evaluate the following postfix expression: 1 4 1 8 6 / 3 + + 5 / +",
+    "options": ["2", "8", "3", "None"],
+    "answer": 0,
+    "explanation": "Step-by-step stack gives **2**."
+  },
+  {
+    "question": "Ethics training should ________.",
+    "options": [
+      "start at the bottom and move upward through all organizational levels",
+      "focus only on the employees who deal with the public on a day-to-day basis",
+      "begin at the top and continue through all levels of the organization",
+      "start with mid-level management and move laterally through the organization"
+    ],
+    "answer": 2,
+    "explanation": "Top-down commitment **legitimises** ethics training for everyone."
+  }
+]

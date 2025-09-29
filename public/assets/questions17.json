@@ -1,0 +1,371 @@
+[
+  {
+    "question": "Esprit de corps refers to",
+    "options": [
+      "Team work and cooperation",
+      "A Single Boss",
+      "Flexibility",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "**Esprit de corps** = **team spirit and mutual cohesion** (Fayol’s principle)."
+  },
+  {
+    "question": "Environmental protection can best be done by the efforts of ____________.",
+    "options": [
+      "business people.",
+      "the scientists.",
+      "the government.",
+      "all the people."
+    ],
+    "answer": 3,
+    "explanation": "Sustainability requires **collective action** from **all stakeholders**."
+  },
+  {
+    "question": "Ensuring processes request resources only if all resources are available in the system, violates the _______________ condition of deadlock",
+    "options": [
+      "Mutual exclusion",
+      "Hold and Wait",
+      "Circular Wait",
+      "No Preemption"
+    ],
+    "answer": 1,
+    "explanation": "Requesting **only when all are free** removes **Hold-and-Wait**."
+  },
+  {
+    "question": "End-to-end connectivity is provided from host-to-host in:",
+    "options": [
+      "Network layer",
+      "Session layer",
+      "Transport layer",
+      "Datalink layer"
+    ],
+    "answer": 2,
+    "explanation": "**Transport layer** (TCP/UDP) delivers **host-to-host** end-to-end service."
+  },
+  {
+    "question": "Empty stack top pointer indicates to",
+    "options": [
+      "Last memory location",
+      "Set to 1",
+      "Set to -1",
+      "Beginning of memory location"
+    ],
+    "answer": 2,
+    "explanation": "Convention: **top = -1** signals **empty stack**."
+  },
+  {
+    "question": "Effort is mostly used to estimate______________",
+    "options": [
+      "Project resource costs",
+      "Project duration",
+      "Remaining calendar time",
+      "Contingencies"
+    ],
+    "answer": 0,
+    "explanation": "**Person-months effort** directly drives **resource cost** estimation."
+  },
+  {
+    "question": "Effort Adjustment Factor is the product of effort multipliers of all the_________attributes",
+    "options": ["11", "12", "14", "15"],
+    "answer": 3,
+    "explanation": "COCOMO-II uses **15 cost-drivers** → **EAF** product of their multipliers."
+  },
+  {
+    "question": "Effective access time is directly proportional to ____________",
+    "options": [
+      "page read/write time",
+      "hit ratio",
+      "memory access time",
+      "page-fault rate"
+    ],
+    "answer": 3,
+    "explanation": "Higher **page-fault rate** → **more disk waits** → **higher effective access time**."
+  },
+  {
+    "question": "Early research on leadership traits",
+    "options": [
+      "sought to prove that charisma was an essential trait of leadership",
+      "focused on behavioural traits rather than physical traits of a leader",
+      "found consistent and unique traits that would apply to all effective leaders",
+      "focused on characteristics that might differentiate leaders from non-leaders"
+    ],
+    "answer": 3,
+    "explanation": "Trait school looked for **differentiating characteristics** (height, energy, etc.)."
+  },
+  {
+    "question": "EA stands for______.",
+    "options": [
+      "Effective add",
+      "Effective absolute",
+      "Effective address",
+      "End address"
+    ],
+    "answer": 2,
+    "explanation": "EA = **Effective Address** (after segmentation/paging translation)."
+  },
+  {
+    "question": "Dynamic growing stack finds the solution with the help of",
+    "options": [
+      "Array implementation",
+      "Pointer implementation",
+      "Linked list implementation",
+      "All of these"
+    ],
+    "answer": 2,
+    "explanation": "**Pointer/linked-list** allows **unbounded growth** without relocation."
+  },
+  {
+    "question": "During the ______ design phase of database design, the properties of data are given importance, rather than its storage details",
+    "options": ["conceptual", "logical", "physical", "actual"],
+    "answer": 1,
+    "explanation": "**Logical design** focuses on **data properties & relationships**; storage comes later."
+  },
+  {
+    "question": "DSDM stands for _____________",
+    "options": [
+      "Dynamic systems development method",
+      "Dynamic solutions development method",
+      "Database systems development method",
+      "Database solutions development method"
+    ],
+    "answer": 0,
+    "explanation": "DSDM = **Dynamic Systems Development Method** (Agile framework)."
+  },
+  {
+    "question": "Draw up plans to avoid or minimise the effects of the risk is called ____________",
+    "options": [
+      "Risk identification",
+      "Risk analysis",
+      "Risk planning",
+      "Risk monitoring"
+    ],
+    "answer": 2,
+    "explanation": "**Risk planning** produces **mitigation & contingency plans**."
+  },
+  {
+    "question": "Double Diamond representation in ER diagram",
+    "options": [
+      "weak Entity Set",
+      "Total Participation",
+      "Strong Entity Set",
+      "Complete Entity Set"
+    ],
+    "answer": 0,
+    "explanation": "**Double-diamond** = **identifying relationship** of a **weak entity**."
+  },
+  {
+    "question": "Does an algorithm solve the all-pair shortest path problem?",
+    "options": [
+      "Floyd’s algorithm",
+      "Prim’s algorithm",
+      "Dijkstra’s algorithm",
+      "Warshall’s algorithm"
+    ],
+    "answer": 0,
+    "explanation": "**Floyd-Warshall** computes **all-pairs shortest paths** in O(n³)."
+  },
+  {
+    "question": "Do vertices dominate over vertex 6 in the given graph?",
+    "options": ["1,2,4,5", "0,1,2,4,7", "1,3,4,5,7", "0,1,2,3,4,5"],
+    "answer": 3,
+    "explanation": "Set **{0,1,2,3,4,5}** contains all predecessors of **6** → **dominating set**."
+  },
+  {
+    "question": "Disk scheduling policies that results in minimum amount of head movement.",
+    "options": ["FCFS", "Circular SCAN", "Elevator", "CSCAN"],
+    "answer": 2,
+    "explanation": "**Elevator (SCAN)** **minimises arm oscillation** while maintaining fairness."
+  },
+  {
+    "question": "Disk Response Time is...",
+    "options": [
+      "the average of time spent by a request waiting to perform its I/O operation.",
+      "the time taken to locate the disk arm to a specified track where the data is to be read or write.",
+      "the time taken by the desired sector of disk to rotate into a position so that it can access the read/write heads.",
+      "the time taken to complete the execution."
+    ],
+    "answer": 0,
+    "explanation": "Response time = **queueing + seek + rotational + transfer** averages."
+  },
+  {
+    "question": "Dialogue control and Token management are responsibility of which OSI Layer",
+    "options": [
+      "session layer",
+      "network layer",
+      "transport layer",
+      "data link layer"
+    ],
+    "answer": 0,
+    "explanation": "**Session layer** manages **dialogue control & token management**."
+  },
+  {
+    "question": "Design techniques which one is used to finding all the pairs of shortest distances in a graph?",
+    "options": [
+      "Backtracking",
+      "Greedy",
+      "Dynamic programming",
+      "Divide and Conquer"
+    ],
+    "answer": 2,
+    "explanation": "**Floyd-Warshall (DP)** computes **all-pairs shortest paths**."
+  },
+  {
+    "question": "Departmentalization is a process in which",
+    "options": [
+      "Tasks are grouped into jobs",
+      "Jobs are grouped into effective work groups",
+      "Work groups are grouped into identifiable segments",
+      "All the other answers are correct"
+    ],
+    "answer": 3,
+    "explanation": "Departmentalization groups **tasks → jobs → groups → segments**."
+  },
+  {
+    "question": "Definition of a language L with alphabet {a} is given as L= { a^(nk) | k > 0, and n is a positive integer constant}. What is the minimum number of states needed in a DFA to recognize L?",
+    "options": ["2^n+1", "n+1", "k+1", "2^k+1"],
+    "answer": 1,
+    "explanation": "Language is **{a^n, a^(2n), ...}** → cycle of **n states + 1 trap** → **n+1** states."
+  },
+  {
+    "question": "Decision table technique is sometimes also referred to as a ________ table.",
+    "options": ["Cause-effect", "Redundant", "Extreme", "Isolated"],
+    "answer": 0,
+    "explanation": "Decision tables map **causes (inputs) → effects (actions)**."
+  },
+  {
+    "question": "Databases overall structure is maintained in a file called",
+    "options": ["Redolog File", "Data file", "Control file", "All"],
+    "answer": 2,
+    "explanation": "**Control file** holds **database structure, timestamps, log pointers**."
+  },
+  {
+    "question": "Data on someone's racial or ethnic heritage, political, philosophical, or religious beliefs, union affiliation, and health or sex life and sexual orientation, either directly or indirectly. What kind of personal information is this?",
+    "options": [
+      "Direct personal data",
+      "Indirect personal data",
+      "Pseudonymized data",
+      "Special category personal data"
+    ],
+    "answer": 3,
+    "explanation": "GDPR labels these fields **special-category data** requiring **extra protection**."
+  },
+  {
+    "question": "CPU fetches the instruction from memory according to the value of ____________",
+    "options": [
+      "program counter",
+      "status register",
+      "instruction register",
+      "program status word"
+    ],
+    "answer": 0,
+    "explanation": "**PC** holds **address of next instruction** to fetch."
+  },
+  {
+    "question": "Correct relationship",
+    "options": [
+      "O(log n) < O(n) < O(n log n) < O(2^n) < O(n^2)",
+      "O(n) < O(log n) < O(n log n) < O(2^n) < O(n^2)",
+      "O(n) < O(log n) < O(n log n) < O(n^2) < O(2^n)",
+      "O(log n) < O(n) < O(n log n) < O(n^2) < O(2^n)"
+    ],
+    "answer": 3,
+    "explanation": "Standard ordering: **log < linear < linear-log < polynomial < exponential**."
+  },
+  {
+    "question": "Control that monitors ongoing employee activities during their progress, to ensure they are consistent with quality standards, is called as",
+    "options": [
+      "Feed Forward Control",
+      "Concurrent Control",
+      "Feedback Control",
+      "Control measure"
+    ],
+    "answer": 1,
+    "explanation": "**Concurrent control** = **real-time monitoring** during task execution."
+  },
+  {
+    "question": "Control that attempts to identify and prevent deviations before they occur is called as",
+    "options": [
+      "Feed Forward Control",
+      "Concurrent Control",
+      "Feedback Control",
+      "Control measure"
+    ],
+    "answer": 0,
+    "explanation": "**Feed-forward** acts **before** the process to **prevent** deviation."
+  },
+  {
+    "question": "Contingency theories of leadership are based on the belief that:",
+    "options": [
+      "there is no single style of leadership appropriate to all situations.",
+      "there is a single style of leadership appropriate to all managers.",
+      "there is a single style of leadership appropriate to all situations.",
+      "None of the other answers is correct."
+    ],
+    "answer": 0,
+    "explanation": "Contingency view: **best style depends on situation** – **no universal style**."
+  },
+  {
+    "question": "Contemporary organizations are redesigning their ethics programs to facilitate a broader, more consistent process that ________.",
+    "options": [
+      "embraces chaos and forges new paradigms.",
+      "incorporates the analysis of outcomes and continual improvement.",
+      "uses outcome analysis to focus on short-term goals.",
+      "relies on expediency and situational management."
+    ],
+    "answer": 1,
+    "explanation": "Modern ethics programs use **metrics and feedback loops** for **continual improvement**."
+  },
+  {
+    "question": "Consider the regular language L = (111 + 11111)*. The minimum number of states in any DFA accepting the language is",
+    "options": ["3", "5", "8", "9"],
+    "answer": 2,
+    "explanation": "LCM(3,5)=15 → cycle of **8 states** (mod-15 counter) plus accept."
+  },
+  {
+    "question": "Consider the following right-linear grammar G = (N,T,P,S) N={S}, P={ S→aS|aA, A→bA|b}, T={a,b}. Which of the following regular expressions denotes L(G)?",
+    "options": ["a*b*", "aa*bb*", "a(ab)*b", "(a+b)*"],
+    "answer": 1,
+    "explanation": "Grammar generates **aa*bb*** (one or more a’s followed by one or more b’s)."
+  },
+  {
+    "question": "Consider the following language L={a^nb^n | n>=1}. L is",
+    "options": [
+      "regular",
+      "CFL but not regular",
+      "type 0 language but not type 1",
+      "CSL but not CFL"
+    ],
+    "answer": 1,
+    "explanation": "Needs **stack** to count → **CFL but not regular**."
+  },
+  {
+    "question": "Consider the following language L={a^nb^mc^pd^q | n,m,p,q>=1}. L is",
+    "options": [
+      "CFL but not regular",
+      "CSL but not CFL",
+      "type 0 language but not type 1",
+      "regular"
+    ],
+    "answer": 3,
+    "explanation": "No counting required → **regular** (finite union of concatenations)."
+  },
+  {
+    "question": "Consider the following DFA. How many states does the DFA have after minimization?",
+    "options": ["5", "4", "3", "2"],
+    "answer": 2,
+    "explanation": "Partitioning reduces to **3 equivalent states**."
+  },
+  {
+    "question": "Consider that a page is 1KB in size and a process is 9485 bytes in length. What would be the number of valid entries in the corresponding page table?",
+    "options": ["8", "10", "9", "11"],
+    "answer": 2,
+    "explanation": "9485 / 1024 = **9.26** → **9 full pages** → **9 valid entries**."
+  },
+  {
+    "question": "Consider pumping lemma of regular language, here w = pqr and q refers to the middle part and |q|>0. What do we call the process of repeating q 0 or more times before checking that they still belong to the language L or not?",
+    "options": ["Pumping", "Generating", "Creating", "Producing"],
+    "answer": 0,
+    "explanation": "The act is **pumping** the middle substring."
+  }
+]

@@ -1,15 +1,17 @@
 [
   {
-    "question": "What will be printed? #include<stdio.h> main(){ char arr[]=\"ab.cd.ef\"; printf(\"%s\",strchr(arr,'.')); }",
+    "question": "What will be printed?",
+    "code": "#include<stdio.h>\nmain(){\n    char arr[]=\"ab.cd.ef\";\n    printf(\"%s\",strchr(arr,'.'));\n}",
     "options": ["ab", ".cd", ".cd.ef", ".ef"],
     "answer": 1,
-    "explanation": "strchr returns pointer to FIRST ‘.’ → prints from \".cd\" onward."
+    "explanation": "strchr returns pointer to FIRST '.' → prints from \".cd\" onward."
   },
   {
-    "question": "What will be printed? #include<stdio.h> main(){ char arr[5]=\"apple\"; printf(\"%c\",0[arr]); }",
+    "question": "What will be printed?",
+    "code": "#include<stdio.h>\nmain(){\n    char arr[5]=\"apple\";\n    printf(\"%c\",0[arr]);\n}",
     "options": ["apple", "a", "97", "Error"],
     "answer": 1,
-    "explanation": "0[arr] ≡ arr[0] → character ‘a’ is printed (not 97)."
+    "explanation": "0[arr] ≡ arr[0] → character 'a' is printed (not 97)."
   },
   {
     "question": "What type of teams are composed of workers from different functional departments of the organization that meet to solve an important organizational problem?",
@@ -88,7 +90,7 @@
     "question": "What is {1,2}* ∩ {2,3}*?",
     "options": ["{12,2}*", "{23,2}*", "{2}*", "{12,23}*"],
     "answer": 2,
-    "explanation": "Only strings consisting solely of 2’s belong to both Kleene stars."
+    "explanation": "Only strings consisting solely of 2's belong to both Kleene stars."
   },
   {
     "question": "What is the value of the postfix expression 6 3 2 4 + - *?",
@@ -162,7 +164,7 @@
     "options": [
       "There can be a loop in the graph",
       "DFS and BFS are the same",
-      "There can’t be a loop in the graph",
+      "There can't be a loop in the graph",
       "DFS and BFD are different"
     ],
     "answer": 0,
@@ -322,7 +324,7 @@
     "question": "What is another way to describe a parent-child relationship in inheritance?",
     "options": ["Has-A", "Is-A", "Does-A", "Gets-A"],
     "answer": 1,
-    "explanation": "Inheritance expresses an “Is-A” relationship (a child IS-A kind of parent)."
+    "explanation": "Inheritance expresses an \"Is-A\" relationship (a child IS-A kind of parent)."
   },
   {
     "question": "Virtual memory technique facilitates sharing of memory among",
@@ -339,7 +341,7 @@
       "None of the above"
     ],
     "answer": 1,
-    "explanation": "Fayol’s principle: one superior → one subordinate → clear command chain."
+    "explanation": "Fayol's principle: one superior → one subordinate → clear command chain."
   },
   {
     "question": "Unit testing is done by __________________?",
