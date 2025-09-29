@@ -70,8 +70,8 @@
   {
     "question": "When FA M recognises language L and we build a machine for reverse(L) using M, there can be ______ final states",
     "options": ["Two", "Three", "Only one", "Any number"],
-    "answer": 3,
-    "explanation": "Reversing an FA may leave any subset of states as final; no fixed count."
+    "answer": 2,
+    "explanation": "Since a standard Finite Automaton (FA) has exactly one start state, the resulting machine for reverse(L) will, by definition, have only one final state."
   },
   {
     "question": "When employee satisfaction is measured, employees seem to be more satisfied under a(n) ______ leadership style than under a(n) ______ one.",
@@ -195,8 +195,8 @@
     "question": "What will be the output of the given program?",
     "code": "#include<stdio.h>\nint myFunction(int parameter) {\n    return parameter++;\n}\nint main(){\n    int value1=100;\n    int value2=myFunction(value1);\n    printf(\"%d\",--value2);\n}",
     "options": ["100", "101", "99", "Error"],
-    "answer": 0,
-    "explanation": "Post-increment returns 100; --value2 becomes 100 again."
+    "answer": 2,
+    "explanation": "99"
   },
   {
     "question": "What will be the output of the given code?",
