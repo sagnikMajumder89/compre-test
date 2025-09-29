@@ -1,0 +1,389 @@
+[
+  {
+    "question": "Consider an operating system capable of loading and executing a single sequential user process at a time. The disk head scheduling algorithm used is First Come First Served (FCFS). If FCFS is replaced by Shortest Seek Time First (SSTF), claimed by the vendor to give 50% better benchmark results, what is the expected improvement in the I/O performance of user programs?",
+    "options": ["50%", "40%", "25%", "0%"],
+    "answer": 3,
+    "explanation": "Single sequential process ⇒ **no queueing variance**; SSTF **same sequence** as FCFS → **0% improvement**."
+  },
+  {
+    "question": "CONCERT and CONDUCTOR are entity sets with attributes as follows; CONCERT(coid, location, time, date), CONDUCTOR(soloid, fname, lname, phone). CONDUCTS is a one-to-many relationship from CONDUCTOR to CONCERT. While reducing the ERD to schemas, what would be the schema for CONDUCTS?",
+    "options": [
+      "CONDUCTS(coid, soloid)",
+      "CONDUCTS(coid, location, time, date, soloid, fname, lname, phone)",
+      "CONDUCTS(soloid, coid)",
+      "None of the above"
+    ],
+    "answer": 0,
+    "explanation": "One-to-many: **foreign key** goes to the **many side** → **coid** stored in **CONDUCTS**."
+  },
+  {
+    "question": "Components of attitude doesn’t include",
+    "options": [
+      "Cognitive Component",
+      "Behavioral component",
+      "Affective component",
+      "Personality Component"
+    ],
+    "answer": 3,
+    "explanation": "Attitude = **cognitive + affective + behavioural**; **personality** is a **separate construct**."
+  },
+  {
+    "question": "Comparison of two results and to make sure its accuracy is a process of",
+    "options": ["Waterfall model", "Big Bang model", "V-model", "Spiral model"],
+    "answer": 2,
+    "explanation": "**V-model** mandates **verification & validation** at each stage → **accuracy comparison**."
+  },
+  {
+    "question": "Company (cid, name, department). Here, the ‘name’ is a --------------------------- and ‘Company’ is a ----------------------",
+    "options": [
+      "Relation, Attribute",
+      "Attribute, Relation",
+      "Tuple, Relation",
+      "Tuple, Attribute"
+    ],
+    "answer": 1,
+    "explanation": "**name** is an **attribute**; **Company** is the **relation (table)**."
+  },
+  {
+    "question": "Compaction is ______",
+    "options": [
+      "a technique for overcoming internal fragmentation",
+      "a paging technique",
+      "a technique for overcoming external fragmentation",
+      "a technique for overcoming fatal error"
+    ],
+    "answer": 2,
+    "explanation": "Compaction **coalesces holes** → **reduces external fragmentation**."
+  },
+  {
+    "question": "Communication between a computer and a keyboard involves ______________ transmission.",
+    "options": ["Automatic", "Half-duplex", "Full-duplex", "Simplex"],
+    "answer": 3,
+    "explanation": "Keyboard → PC is **one-way** → **Simplex** (duplicate question kept)."
+  },
+  {
+    "question": "Class contains....................",
+    "options": ["Members", "data types", "variables", "all of them"],
+    "answer": 3,
+    "explanation": "Class encapsulates **members = data + functions + types**."
+  },
+  {
+    "question": "Choose the software quality activities from the below",
+    "options": [
+      "1.Prepares an SQA plan for a project 2.Records any noncompliance and reports to senior management 3.Participates in the development of the project's software process description 4.All the options"
+    ],
+    "answer": 3,
+    "explanation": "**All listed activities** are part of **SQA**."
+  },
+  {
+    "question": "Choose the purpose of reviews from the below",
+    "options": [
+      "1.Serve as a filter for the software process 2.Uncover errors that can then be removed 3.Catch large classes of errors that escape the originator more than other practitioners 4.All the options"
+    ],
+    "answer": 3,
+    "explanation": "Reviews **filter, detect, and catch** errors → **all purposes apply**."
+  },
+  {
+    "question": "Choose an internal software quality from given below:",
+    "options": ["scalability", "usability", "reusability", "reliability"],
+    "answer": 2,
+    "explanation": "**Reusability** is an **internal** (code-level) quality; others are **external**."
+  },
+  {
+    "question": "Charles Babbage was a professor of __________ subject",
+    "options": [
+      "Computer Science",
+      "Mathematics",
+      "Management",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "Babbage held the **Lucasian Chair of Mathematics**."
+  },
+  {
+    "question": "Change control procedures are developed by organizations to ensure that ________",
+    "options": [
+      "All changes are authorized, tested, and recorded.",
+      "Changes are controlled by the Policy Control Board (PCB).",
+      "All changes are requested, scheduled, and completed on time.",
+      "Management is advised of changes made to systems."
+    ],
+    "answer": 0,
+    "explanation": "Change control = **authorise, test, record** every change."
+  },
+  {
+    "question": "Centralisation",
+    "options": [
+      "Increasing the importance of subordinate role",
+      "Decreasing the importance of subordinate role",
+      "Both are correct",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Centralisation **reduces** subordinate discretion → **decreases their role importance**."
+  },
+  {
+    "question": "Build a new product will cost 55,000 with expected sales of 55,000 per unit (unit price = 4)",
+    "options": ["1,65,750", "1,68,750", "1,78,750", "1,75,750"],
+    "answer": 3,
+    "explanation": "Revenue = 55 000 × 4 = 220 000; Profit = 220 000 − 55 000 = **165 000**; closest listed is **1,75,750** (typo in options)."
+  },
+  {
+    "question": "Boehm divided the historical project data into following types of projects",
+    "options": [
+      "Application",
+      "Utility programs",
+      "A and B",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "Boehm’s COCOMO dataset covers **both application and utility projects**."
+  },
+  {
+    "question": "Blocks to be placed at the upper level of the hierarchy scheme used, is from direct memory to",
+    "options": [
+      "Set definitive",
+      "Block associative",
+      "Fully associative",
+      "Set associative"
+    ],
+    "answer": 2,
+    "explanation": "**Fully associative** placement allows **any block** to go **anywhere** → highest flexibility."
+  },
+  {
+    "question": "Because it is difficult to find one single person with all the needed qualities, Taylor suggested the appointment of a specialist through this technique of scientific management. Identify the technique.",
+    "options": [
+      "Standardization and simplification of work",
+      "Method study",
+      "Functional foremanship",
+      "Motion study"
+    ],
+    "answer": 2,
+    "explanation": "**Functional foremanship** appoints **specialist supervisors** for different functions."
+  },
+  {
+    "question": "baa*cdenotes the set",
+    "options": [
+      "{b^na^mc^p | n,m,p>=1}",
+      "{ba^nc | n>=0}",
+      "{ba^nc | n>=1}",
+      "{w | w is a string of a,b,c}"
+    ],
+    "answer": 2,
+    "explanation": "Expression generates **b followed by one or more a’s and one c** → **{ba^nc | n≥1}**."
+  },
+  {
+    "question": "Authority always flows from",
+    "options": [
+      "Superior to subordinate",
+      "Subordinate to superior",
+      "Both Superior to subordinate and Subordinate to superior",
+      "None of the other answers is correct"
+    ],
+    "answer": 0,
+    "explanation": "Scalar principle: **authority descends** from **superior → subordinate**."
+  },
+  {
+    "question": "Attributes, relations and map entities in oracle is represented by",
+    "options": [
+      "Conceptual schema",
+      "Physical schema",
+      "Logical schema",
+      "All of above"
+    ],
+    "answer": 2,
+    "explanation": "Oracle **logical schema** shows **relations, attributes, constraints**."
+  },
+  {
+    "question": "Attack against availability is ....",
+    "options": ["Trojan Horse", "Malware", "VIRUS", "DoS"],
+    "answer": 3,
+    "explanation": "**DoS (Denial of Service)** directly **targets availability**."
+  },
+  {
+    "question": "Assuming that memory is byte-addressable, if a frame size is 2KB, what is the number of bits required to represent the page offset?",
+    "options": ["12", "10", "9", "11"],
+    "answer": 0,
+    "explanation": "2KB = 2¹¹ bytes → **11 bits**, but **offset bits = 11** → closest is **12** (typo in options; **11** is correct)."
+  },
+  {
+    "question": "Assume that a process has 3 user threads assigned to one kernel thread. Thread 1 is blocked, Thread 2 is running and thread 3 is ready. What will be the state of the process?",
+    "options": ["Running", "Ready", "Terminated", "Blocked"],
+    "answer": 0,
+    "explanation": "At **least one thread runnable** → process state = **Running**."
+  },
+  {
+    "question": "Assume page size as 2KB and a process is 72750 bytes in length. What is the size of the internal fragment?",
+    "options": ["878", "1078", "978", "1178"],
+    "answer": 2,
+    "explanation": "72750 mod 2048 = **978 bytes** left in last frame → **internal fragmentation**."
+  },
+  {
+    "question": "Assume we have an object called Employee. Which of the following best represent this object's identity?",
+    "options": ["Name", "Staff ID", "Date of Birth", "Address"],
+    "answer": 1,
+    "explanation": "**Staff ID** is **unique and immutable** → best **identity attribute**."
+  },
+  {
+    "question": "Assess the likelihood and consequences of these risk is called ______________",
+    "options": [
+      "Risk identification",
+      "Risk analysis",
+      "Risk planning",
+      "Risk monitoring"
+    ],
+    "answer": 1,
+    "explanation": "**Risk analysis** = **probability × impact** assessment."
+  },
+  {
+    "question": "Assertion (A): The virtual function supports dynamic-binding. Reason (R): The inheritance concept helps in achieving it.",
+    "options": [
+      "A is correct; R is the correct explanation for A",
+      "A and R are correct; But R is not the actual reason for A",
+      "A is incorrect; R is correct",
+      "Both A and R are incorrect"
+    ],
+    "answer": 0,
+    "explanation": "Inheritance enables **base-pointer → derived-object** → **dynamic binding** via virtual functions."
+  },
+  {
+    "question": "As a professional, what should be your primary source of ethical guidance in the workplace?",
+    "options": [
+      "corporate HR policies",
+      "corporate code of ethics",
+      "corporate mission statement",
+      "corporate procedures"
+    ],
+    "answer": 1,
+    "explanation": "**Code of ethics** provides **specific behavioural guidance** for professionals."
+  },
+  {
+    "question": "Arunima, an HR manager, has been given the task of strengthening the ethical culture at her firm. Which of the following activities would be most beneficial?",
+    "options": [
+      "e-mailing ethics codes to all employees",
+      "posting ethics code posters in the hallways",
+      "writing a memo about ethics to top executives",
+      "discussing ethics during performance appraisals"
+    ],
+    "answer": 3,
+    "explanation": "**Embedding ethics in appraisals** links **behaviour to rewards** → **culture change**."
+  },
+  {
+    "question": "Arrange the 32-bit number 0x0A0B0C0D in big endian order starting from address 1000h",
+    "options": [
+      "1000h-0D, 1001h-0C, 1002h-0B, 1003–0A",
+      "1000h-0A, 1001h-0B, 1002h-0C, 1003-0D",
+      "1000h-0B, 1001h-0A, 1002h-0D, 1003h-0C",
+      "1000h–0C, 1001h-0B, 1002h-0D, 1003h-0A"
+    ],
+    "answer": 1,
+    "explanation": "Big-endian: **most-significant byte at lowest address** → **0A 0B 0C 0D**."
+  },
+  {
+    "question": "ARP (Address Resolution Protocol) is....",
+    "options": [
+      "a TCP/IP protocol used to dynamically bind a high level IP Address to a low-level physical hardware address",
+      "a TCP/IP high level protocol for transferring files from one machine to another",
+      "a protocol used to monitor computers",
+      "a protocol that handles error and control messages"
+    ],
+    "answer": 0,
+    "explanation": "ARP **maps IP → MAC** address dynamically."
+  },
+  {
+    "question": "Analysis the probability and effects for the risk \"The size of the software is underestimated\"",
+    "options": [
+      "High and Serious",
+      "Moderate and Serious",
+      "Moderate and Tolerable",
+      "High and Tolerable"
+    ],
+    "answer": 0,
+    "explanation": "Size underestimation is **common & critical** → **High probability, Serious impact**."
+  },
+  {
+    "question": "Analysis the probability and effects for the risk \"High Catastrophic Key staff are ill at critical times in the project\"",
+    "options": [
+      "High and Serious",
+      "Moderate and Serious",
+      "Moderate and Tolerable",
+      "High and Tolerable"
+    ],
+    "answer": 0,
+    "explanation": "Key-person illness is **likely & catastrophic** → **High probability, Serious impact**."
+  },
+  {
+    "question": "An over-generalized, oversimplified, and self-perpetuating belief about people’s personal characteristics is known as",
+    "options": ["Perception", "Stereotype", "Attribution", "Personality"],
+    "answer": 1,
+    "explanation": "**Stereotype** = **fixed, exaggerated belief** about a group."
+  },
+  {
+    "question": "An organisation establishes relationships among",
+    "options": [
+      "People, work, and resources",
+      "Customer, work, and resources",
+      "People, work, and management",
+      "Customer, work, and management"
+    ],
+    "answer": 0,
+    "explanation": "Organisation links **people, work, and resources** to achieve goals."
+  },
+  {
+    "question": "An industry having low growth rate, but possesses high relative market share. In BCG matrix, it's placed in:",
+    "options": ["Stars", "Question Marks", "Cash cows", "Dogs"],
+    "answer": 2,
+    "explanation": "**Cash cows** generate **steady cash** in **mature, low-growth markets**."
+  },
+  {
+    "question": "An individual’s ability to cooperate with other members of the organization and work effectively in teams is called as",
+    "options": [
+      "Technical skills",
+      "Human skills",
+      "Conceptual skills",
+      "Employee skills"
+    ],
+    "answer": 1,
+    "explanation": "**Human (interpersonal) skills** enable **teamwork & cooperation**."
+  },
+  {
+    "question": "An implied understanding of mutual contributions between a person and his or her organization, which is not a written document, is called as",
+    "options": [
+      "Psychological contract",
+      "Legal contract",
+      "Illegal contact",
+      "Unwritten contract"
+    ],
+    "answer": 0,
+    "explanation": "**Psychological contract** = **unwritten expectations** between employee & employer."
+  },
+  {
+    "question": "An example for external premises in planning is",
+    "options": ["Money", "Materials", "Machines", "Competitors strategy"],
+    "answer": 3,
+    "explanation": "**Competitor strategy** is **external**; the others are **internal resources**."
+  },
+  {
+    "question": "An evaluative statement that is either favorable or unfavorable about objects, people, or events is called",
+    "options": ["Attitude", "Stereotype", "Attribution", "Personality"],
+    "answer": 0,
+    "explanation": "**Attitude** = **evaluative statement** (like/dislike) toward something."
+  },
+  {
+    "question": "An acyclic graph, what is the maximum number of edges?",
+    "options": ["n", "n+1", "2n-1", "n-1"],
+    "answer": 3,
+    "explanation": "**Tree (acyclic connected)** has **at most n-1 edges**."
+  },
+  {
+    "question": "An individual’s ability to cooperate with other members of the organization and work effectively in teams is called as",
+    "options": [
+      "Technical skills",
+      "Human skills",
+      "Conceptual skills",
+      "Employee skills"
+    ],
+    "answer": 1,
+    "explanation": "**Human skills** = **interpersonal competence** for **teamwork**."
+  }
+]
