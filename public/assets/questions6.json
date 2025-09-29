@@ -3,7 +3,7 @@
     "question": "What will be printed?",
     "code": "#include<stdio.h>\nmain(){\n    char arr[]=\"ab.cd.ef\";\n    printf(\"%s\",strchr(arr,'.'));\n}",
     "options": ["ab", ".cd", ".cd.ef", ".ef"],
-    "answer": 1,
+    "answer": 2,
     "explanation": "strchr returns pointer to FIRST '.' → prints from \".cd\" onward."
   },
   {
@@ -299,8 +299,8 @@
   },
   {
     "question": "What are the mid values in each level of recursion in the binary search for the input array {4,8,58,98,129,201} and key 201?",
-    "options": ["58,129,201", "98,129,201", "98,201", "58,129,201"],
-    "answer": 1,
+    "options": ["58,129,201", "98,129,201", "98,201", "58,129,2011"],
+    "answer": 0,
     "explanation": "Binary-search path: mid=98 → right half mid=129 → right half mid=201."
   },
   {
