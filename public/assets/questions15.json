@@ -1,0 +1,266 @@
+[
+  {
+    "question": "If the characters 'D''C''B''A' are placed in a queue (in that order), and then removed one at a time, in what order will they be removed?",
+    "options": ["DCAB", "ABCD", "ABDC", "DCBA"],
+    "answer": 1,
+    "explanation": "Queue is **FIFO** → removal order is **ABCD**."
+  },
+  {
+    "question": "R is a regular language and M is a finite language. Then L ∪ M must be a regular language.",
+    "options": [
+      "True",
+      "False",
+      "Can't be determined",
+      "Neither True nor False"
+    ],
+    "answer": 0,
+    "explanation": "Regular ∪ Finite = **Regular** (finite languages are a subset of regular)."
+  },
+  {
+    "question": "If M1 machine recognizes L with n states, then M2 recognizing L* constructed using Thompson construction will have ______ states.",
+    "options": ["n-1", "n+2", "n+1", "n"],
+    "answer": 2,
+    "explanation": "Thompson’s star construction adds **one new start/accept pair** → **n+1** states."
+  },
+  {
+    "question": "If L1 and L2 are languages such that L1L2, L1L2, and L2L1 are all regular, then L1 must be regular.",
+    "options": [
+      "True",
+      "False",
+      "Can't be determined",
+      "Neither True nor False"
+    ],
+    "answer": 1,
+    "explanation": "Counter-example exists (e.g. one-letter languages) → **False**."
+  },
+  {
+    "question": "If L1 and L2 are CFL and R a regular set, one of the languages below is **not necessarily** a CFL. Which one?",
+    "options": ["L1 ∩ L2", "L1 ∩ R", "L1L2", "L1 ∪ L2"],
+    "answer": 0,
+    "explanation": "**CFL ∩ CFL** may **not** be context-free; the others **preserve** CFL."
+  },
+  {
+    "question": "If an item is referenced once, then it will again be referenced soon; given statement is stated by",
+    "options": [
+      "Temporary locality",
+      "Spatial locality",
+      "Temporal locality",
+      "Spectral Locality"
+    ],
+    "answer": 2,
+    "explanation": "**Temporal locality** = recently accessed items likely to be reused soon."
+  },
+  {
+    "question": "If a selection sort algorithm in the worst case is taking 20 sec for processing an array of size 32, which of the following is close to the maximum input size that can be solved in 5 minutes?",
+    "options": ["256", "512", "1024", "128"],
+    "answer": 2,
+    "explanation": "Selection sort is **O(n²)**; 20 s → 32², 300 s → n² ≈ 1024² → **n ≈ 1024**."
+  },
+  {
+    "question": "If a problem can be broken into subproblems that are reused several times, the property is called",
+    "options": [
+      "Overlapping subproblems",
+      "Optimal substructure",
+      "Memoization",
+      "Greedy"
+    ],
+    "answer": 0,
+    "explanation": "**Overlapping subproblems** enable dynamic-programming reuse."
+  },
+  {
+    "question": "Identity and Access Management (IdAM) is for ...",
+    "options": [
+      "Storing multiple passwords",
+      "Protecting multiple data",
+      "Providing Data Leakage Prevention",
+      "Providing Data Leakage in cloud"
+    ],
+    "answer": 2,
+    "explanation": "IdAM **controls identities & access** → core to **preventing data leakage**."
+  },
+  {
+    "question": "Identify which one feature explains Indian Ethos.",
+    "options": [
+      "Belief in Ego Assertion",
+      "Spirit of Sacrifice and Self Control",
+      "Emphasis on Individual Achievement",
+      "Your Status defines your Character"
+    ],
+    "answer": 1,
+    "explanation": "**Sacrifice and self-control** are cornerstones of **Indian ethos**."
+  },
+  {
+    "question": "Identify the organisational risk from the following:",
+    "options": [
+      "Software components which should be reused contain defects which limit their functionality",
+      "Required training for staff is not available",
+      "Customers fail to understand the impact of requirements changes",
+      "None in the list"
+    ],
+    "answer": 1,
+    "explanation": "Lack of **training** is an **internal organisational risk**."
+  },
+  {
+    "question": "Identify the model which is **not** coming under the four categories of access control models?",
+    "options": ["Discretionary", "Mandatory", "Role-based", "Delegated"],
+    "answer": 3,
+    "explanation": "**Delegated** is a **mechanism**, not one of the four canonical **access-control models**."
+  },
+  {
+    "question": "Human Relations School is related to",
+    "options": ["Elton Mayo", "Henry Fayol", "F W Taylor", "Max Weber"],
+    "answer": 0,
+    "explanation": "**Elton Mayo** founded the **Human Relations** movement via Hawthorne studies."
+  },
+  {
+    "question": "How often should your data be backed up?",
+    "options": [
+      "In accordance with your organization's backup policy",
+      "Once a fortnight",
+      "Once a month",
+      "Once a week"
+    ],
+    "answer": 0,
+    "explanation": "Follow **organisational policy** (frequency depends on RPO/RTO)."
+  },
+  {
+    "question": "How many \"SCOPE\"s are printed by **only child processes**? int main(){ if(fork() || fork()) fork(); printf(\"SCOPE\"); }",
+    "options": ["5,2", "5,3", "5,4", "5,1"],
+    "answer": 1,
+    "explanation": "Logic trace gives **3 SCOPEs from child processes only**."
+  },
+  {
+    "question": "How many “hello” messages will be printed if the following program is executed? int main(){ pid_t p; fork(); if (p > 0){ fork(); fork(); } if (p==0){ fork(); fork(); exit(0); } printf(“hello”); }",
+    "options": ["2", "3", "1", "4"],
+    "answer": 1,
+    "explanation": "Process tree yields **3 hello prints** (one parent, two children)."
+  },
+  {
+    "question": "How many “hello” messages will be printed if the following program is executed? int main(){ pid_t p; fork(); if (p > 0){ fork(); fork(); exit(0); } if (p==0){ fork(); fork(); exit(0); } printf(“hello”); }",
+    "options": ["1", "3", "0", "4"],
+    "answer": 2,
+    "explanation": "**exit(0)** before printf → **0 hellos** printed."
+  },
+  {
+    "question": "How many undirected graphs (not necessarily connected) can be constructed out of a given set V = {v1, v2, ... vn} of n vertices?",
+    "options": ["n(n-1)/2", "2^n", "2n!", "2^(n(n-1)/2)"],
+    "answer": 3,
+    "explanation": "Each of the **n(n-1)/2** possible edges can be **present or absent** → **2^(n(n-1)/2)** graphs."
+  },
+  {
+    "question": "How many principles of the Data Protection Act are there?",
+    "options": ["8", "5", "6", "7"],
+    "answer": 3,
+    "explanation": "UK GDPR (Data Protection Act 2018) lists **7 principles**."
+  },
+  {
+    "question": "How many minimum no of stack is required for the runtime executable script",
+    "options": ["1", "2", "3", "4"],
+    "answer": 0,
+    "explanation": "Single **call-stack** suffices for runtime execution."
+  },
+  {
+    "question": "How many address lines are needed to address each memory location in a 2048 × 4 memory chip?",
+    "options": ["10", "12", "11", "8"],
+    "answer": 2,
+    "explanation": "2048 = 2¹¹ → **11 address lines**."
+  },
+  {
+    "question": "How many rounds are there in DES?",
+    "options": ["15", "8", "64", "16"],
+    "answer": 3,
+    "explanation": "DES performs **16 rounds** of Feistel transformation."
+  },
+  {
+    "question": "How does your personal computer recognize its IP address and the Gateway IP address when you connect it to the internet?",
+    "options": [
+      "DNS (Domain Name System)",
+      "ARP (Address Resolution Protocol)",
+      "DHCP (Dynamic Host Configuration Protocol)",
+      "FTP (File transfer protocol)"
+    ],
+    "answer": 2,
+    "explanation": "**DHCP** automatically supplies **IP, gateway, DNS** to the host."
+  },
+  {
+    "question": "Hospitals, banks, and supermarkets are all linked using which network type?",
+    "options": ["WAN", "LAN", "BUS", "WiFi"],
+    "answer": 0,
+    "explanation": "Multiple geographically separated sites → **WAN** links."
+  },
+  {
+    "question": "Hofstede’s framework is regarding",
+    "options": ["Personality", "Culture", "Perception", "Stereotype"],
+    "answer": 1,
+    "explanation": "Hofstede’s dimensions describe **national cultures**."
+  },
+  {
+    "question": "Hit-rate of the processor is the memory fraction found in",
+    "options": ["DRAM", "SRAM", "Magnetic disk", "Cache"],
+    "answer": 3,
+    "explanation": "**Cache hit-rate** measures how often data is found in **cache**."
+  },
+  {
+    "question": "Hiding internal data from the outside world and accessing it only through publicly exposed methods is known as data ________.",
+    "options": ["inheritance", "polymorphism", "abstraction", "encapsulation"],
+    "answer": 3,
+    "explanation": "**Encapsulation** = data hiding + public interface."
+  },
+  {
+    "question": "Harsha Electronics has used several methods to create an ethical culture. What is the most effective way for the firm to sustain its ethical culture?",
+    "options": [
+      "asking job candidates ethical questions",
+      "implementing an ethics audit regularly",
+      "publishing the firm's code of ethics periodically",
+      "ensuring that new employees receive ethics training"
+    ],
+    "answer": 1,
+    "explanation": "**Regular ethics audits** provide **continuous feedback** and **accountability**."
+  },
+  {
+    "question": "Hardware, Personnel, Facility are not the factors of Cost",
+    "options": ["True", "False"],
+    "answer": 1,
+    "explanation": "They **are** cost factors → statement is **False**."
+  },
+  {
+    "question": "Hardware unavailability risk is the _________ type of risk",
+    "options": ["Project", "Product", "Business", "None in the list"],
+    "answer": 2,
+    "explanation": "Unavailability affects **business operations/strategy** → **Business risk**."
+  },
+  {
+    "question": "Hardware solution to the critical section problem using test&set implements",
+    "options": [
+      "mutual exclusion and progress",
+      "only mutual exclusion",
+      "progress and bounded waiting",
+      "mutual exclusion and bounded waiting"
+    ],
+    "answer": 0,
+    "explanation": "Test-and-set with busy-wait gives **mutual exclusion** and **progress** (no starvation guarantee)."
+  },
+  {
+    "question": "Hardware solution to the critical section problem using swap:",
+    "options": [
+      "mutual exclusion and progress",
+      "only mutual exclusion",
+      "progress and bounded waiting",
+      "mutual exclusion and bounded waiting"
+    ],
+    "answer": 3,
+    "explanation": "Swap-based solution yields **mutual exclusion** and **bounded waiting**."
+  },
+  {
+    "question": "Guess the output: #include<stdio.h> #include<string.h> int main(){ char Be[16]=\"Positive \"; char Positive[16]=\"Be \"; strcat(Be,Positive); printf(\"%s\",Be); }",
+    "options": ["Be", "Positive", "Positive Be", "Be Positive"],
+    "answer": 2,
+    "explanation": "strcat appends → **\"Positive Be\"** is printed."
+  },
+  {
+    "question": "Guess the output: #include<stdio.h> void myFunction(int parameter){ parameter=200; printf(\"%d\", parameter); } int main(){ int value=100; myFunction(value); }",
+    "options": ["100", "200", "100 200", "Error"],
+    "answer": 1,
+    "explanation": "Function prints **200** (pass-by-value change is local)."
+  }
+]
