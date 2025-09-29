@@ -20,6 +20,7 @@ import { CheckCircle2, XCircle } from "lucide-react";
 
 export interface Question {
   question: string;
+  code?: string;
   options: string[];
   answer: number;
   explanation: string;
@@ -208,6 +209,12 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
                 </CardDescription>
               </CardHeader>
               <CardContent className="flex flex-col gap-3">
+                {shuffledQuestions[currentQuestionIndex].code && (
+                  <pre className="bg-muted p-4 rounded-md text-sm overflow-x-auto">
+                    <code>{shuffledQuestions[currentQuestionIndex].code}</code>
+                  </pre>
+                )}
+
                 {shuffledQuestions[currentQuestionIndex].options.map(
                   (option, index) => {
                     const selected =

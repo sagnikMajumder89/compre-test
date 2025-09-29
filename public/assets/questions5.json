@@ -14,7 +14,7 @@
     "question": "When we concatenate two languages L1 and L2 recognised by machines M1 and M2, we obtain a machine with final state same as that of ______",
     "options": ["M2", "M1", "M1 and M2", "M1 or M2"],
     "answer": 0,
-    "explanation": "Standard construction links M1’s old finals to M2’s start; only M2’s final states remain final."
+    "explanation": "Standard construction links M1's old finals to M2's start; only M2's final states remain final."
   },
   {
     "question": "When there is more than one final state in the reduced FA, then its regular expression will contain ______ operator surely",
@@ -104,7 +104,7 @@
       "Organisational data protection"
     ],
     "answer": 2,
-    "explanation": "GDPR art. 25 labels early privacy engineering ‘Data Protection by Design’."
+    "explanation": "GDPR art. 25 labels early privacy engineering 'Data Protection by Design'."
   },
   {
     "question": "When a state in a FA has a self-loop, its regular expression will have ______",
@@ -136,79 +136,92 @@
     "explanation": "With indices 0-4, the last valid top position is 4."
   },
   {
-    "question": "What will be the output? #include<stdio.h> #include<string.h> int main(){ char arr1[5]={'a','p','p','l','e'}; char arr2[5]; arr2=arr1; printf(\"%s\",arr2); }",
+    "question": "What will be the output?",
+    "code": "#include<stdio.h>\n#include<string.h>\nint main(){\n    char arr1[5]={'a','p','p','l','e'};\n    char arr2[5];\n    arr2=arr1;\n    printf(\"%s\",arr2);\n}",
     "options": ["apple", "Error", "a", "0"],
     "answer": 1,
     "explanation": "Arrays cannot be assigned with = in C; compile-time error."
   },
   {
-    "question": "What will be the output? #include<stdio.h> int main(){ char arr[]=\"ab.cd.ef\"; printf(\"%s\",strrchr(arr,'.')); }",
+    "question": "What will be the output?",
+    "code": "#include<stdio.h>\nint main(){\n    char arr[]=\"ab.cd.ef\";\n    printf(\"%s\",strrchr(arr,'.'));\n}",
     "options": ["ab", ".cd", ".cd.ef", ".ef"],
     "answer": 3,
-    "explanation": "strrchr returns pointer to the LAST occurrence of ‘.’, hence “.ef”."
+    "explanation": "strrchr returns pointer to the LAST occurrence of '.', hence \".ef\"."
   },
   {
-    "question": "What will be the output? #include<stdio.h> int value=100; void myFunction(int parameter){ printf(\"%d\",parameter); } int main(){ int value=200; myFunction(value); }",
+    "question": "What will be the output?",
+    "code": "#include<stdio.h>\nint value=100;\nvoid myFunction(int parameter){\n    printf(\"%d\",parameter);\n}\nint main(){\n    int value=200;\n    myFunction(value);\n}",
     "options": ["200", "100", "100 200", "200 100"],
     "answer": 0,
     "explanation": "Local variable shadows global; 200 is passed and printed."
   },
   {
-    "question": "What will be the output? #include<stdio.h> void myFunction(){ return 1; } int main(){ printf(\"%d\", myFunction()); }",
+    "question": "What will be the output?",
+    "code": "#include<stdio.h>\nvoid myFunction(){\n    return 1;\n}\nint main(){\n    printf(\"%d\", myFunction());\n}",
     "options": ["1", "0", "Error", "None of these"],
     "answer": 2,
     "explanation": "Function declared void cannot return a value → compile error."
   },
   {
-    "question": "What will be the output? #include<stdio.h> int main(){ int arr[4]={0,1,2,3}; int one,two,three; one=++arr[1]; two=arr[one]+1; three=arr[one+1]; printf(\"%d %d %d\",one,two,three); }",
+    "question": "What will be the output?",
+    "code": "#include<stdio.h>\nint main(){\n    int arr[4]={0,1,2,3};\n    int one,two,three;\n    one=++arr[1];\n    two=arr[one]+1;\n    three=arr[one+1];\n    printf(\"%d %d %d\",one,two,three);\n}",
     "options": ["1 2 3", "2 3 3", "2 2 3", "0 1 2"],
     "answer": 1,
-    "explanation": "one=2, two=arr[2]+1=3, three=arr[3]=3 → “2 3 3”."
+    "explanation": "one=2, two=arr[2]+1=3, three=arr[3]=3 → \"2 3 3\"."
   },
   {
-    "question": "What will be the output? #include<stdio.h> int main(){ float a[]={1.23,2.34,3.45,4.56,5.67}; printf(\"%d\",sizeof(a)/sizeof(a[-1])); }",
+    "question": "What will be the output?",
+    "code": "#include<stdio.h>\nint main(){\n    float a[]={1.23,2.34,3.45,4.56,5.67};\n    printf(\"%d\",sizeof(a)/sizeof(a[-1]));\n}",
     "options": ["5", "1", "Error", "0"],
     "answer": 0,
     "explanation": "sizeof entire array / one element = 5 (array has 5 floats)."
   },
   {
-    "question": "What will be the output? #include<stdio.h> int myFunction1(int parameter){ return parameter; } int myFunction2(int *parameter){ return *parameter++; } int main(){ int value=100; printf(\"%d %d\", myFunction1(value), myFunction2(&value)); }",
+    "question": "What will be the output?",
+    "code": "#include<stdio.h>\nint myFunction1(int parameter){\n    return parameter;\n}\nint myFunction2(int *parameter){\n    return *parameter++;\n}\nint main(){\n    int value=100;\n    printf(\"%d %d\", myFunction1(value), myFunction2(&value));\n}",
     "options": ["100 101", "101 101", "100 100", "101 100"],
     "answer": 2,
     "explanation": "Post-increment inside myFunction2 uses value then increments; both prints show 100."
   },
   {
-    "question": "What will be the output? #include <stdio.h> char* cut(char *parameter) { parameter+=5; return parameter; } int main() { printf(\"%s\",cut(\"AllisWell!\")); }",
+    "question": "What will be the output?",
+    "code": "#include <stdio.h>\nchar* cut(char *parameter) {\n    parameter+=5;\n    return parameter;\n}\nint main() {\n    printf(\"%s\",cut(\"AllisWell!\"));\n}",
     "options": ["Allis", "Well!", "AllisWell!", "Error"],
     "answer": 1,
-    "explanation": "Pointer advanced by 5 → starts at “Well!”."
+    "explanation": "Pointer advanced by 5 → starts at \"Well!\"."
   },
   {
-    "question": "What will be the output of the given program? #include<stdio.h> int myFunction(int parameter) { return parameter++; } int main(){ int value1=100; int value2=myFunction(value1); printf(\"%d\",--value2); }",
+    "question": "What will be the output of the given program?",
+    "code": "#include<stdio.h>\nint myFunction(int parameter) {\n    return parameter++;\n}\nint main(){\n    int value1=100;\n    int value2=myFunction(value1);\n    printf(\"%d\",--value2);\n}",
     "options": ["100", "101", "99", "Error"],
     "answer": 0,
     "explanation": "Post-increment returns 100; --value2 becomes 100 again."
   },
   {
-    "question": "What will be the output of the given code? #include<stdio.h> void myFunction(int parameter) { printf(\"%d \",parameter); } int main(){ int value1=1; myFunction(value1); static int value2; if (value2<value1) { value2++; main(); } }",
+    "question": "What will be the output of the given code?",
+    "code": "#include<stdio.h>\nvoid myFunction(int parameter) {\n    printf(\"%d \",parameter);\n}\nint main(){\n    int value1=1;\n    myFunction(value1);\n    static int value2;\n    if (value2<value1) {\n        value2++;\n        main();\n    }\n}",
     "options": ["Error", "1", "2", "1 1"],
     "answer": 3,
     "explanation": "Recursion prints 1 twice before value2 stops being < 1."
   },
   {
-    "question": "What will be the output of the below code? #include<stdio.h> int myFunction(int *parameter) { return ++*parameter; } int main(){ int value=100; printf(\"%d \",value); myFunction(&value); printf(\"%d\",value); }",
+    "question": "What will be the output of the below code?",
+    "code": "#include<stdio.h>\nint myFunction(int *parameter) {\n    return ++*parameter;\n}\nint main(){\n    int value=100;\n    printf(\"%d \",value);\n    myFunction(&value);\n    printf(\"%d\",value);\n}",
     "options": ["100 100", "101 101", "101 100", "100 101"],
     "answer": 3,
     "explanation": "Pre-increment inside function changes value to 101; second print shows 101."
   },
   {
-    "question": "What will be printed? #include<stdio.h> int myFunction() { return 1; return 2; } int main(){ printf(\"%d\", myFunction()); }",
+    "question": "What will be printed?",
+    "code": "#include<stdio.h>\nint myFunction() {\n    return 1;\n    return 2;\n}\nint main(){\n    printf(\"%d\", myFunction());\n}",
     "options": ["1", "2", "1 2", "2 1"],
     "answer": 0,
     "explanation": "First return executes; second is unreachable → prints 1."
   },
   {
-    "question": "What will be printed? #include<stdio.h> int main(){ int myFunction() { return 1; } printf(\"%d\", myFunction()); }",
+    "question": "What will be printed?",
+    "code": "#include<stdio.h>\nint main(){\n    int myFunction() {\n        return 1;\n    }\n    printf(\"%d\", myFunction());\n}",
     "options": [
       "Invalid function definition",
       "myFunction() should be defined outside main method",
