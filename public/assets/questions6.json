@@ -72,7 +72,7 @@
       "Scope definition",
       "Risk management plan"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Scope verification formally accepts deliverables and signals project closure."
   },
   {
@@ -100,8 +100,8 @@
       "Something between 5 and -5",
       "Something between 5 and 15"
     ],
-    "answer": 1,
-    "explanation": "Stack evaluation: (2+4)=6 → 3-6=-3 → 6×(-3)=-18 ∈ [-5,-15]."
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "What is the status of array after the first iteration of selection sort for the given array: 5,7,10,12,2,8?",
@@ -128,8 +128,8 @@
       "it is not reliable",
       "all of the mentioned"
     ],
-    "answer": 3,
-    "explanation": "All listed issues (memory, slow search, reliability) afflict linear directory lists."
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "What is the postfix form of the prefix expression * + a b – c d?",
