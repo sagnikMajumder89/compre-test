@@ -62,8 +62,8 @@ export const QuizSetSelector: React.FC<QuizSetSelectorProps> = ({
 
       {/* Grid Layout for Buttons */}
       {loading ? (
-        <div className="flex items-center justify-center h-screen">
-          <Loader2 />
+        <div className="flex items-center justify-center gap-4 p-8 text-center">
+          <Loader2 className="animate-spin" />
           <p>Loading...</p>
         </div>
       ) : (
