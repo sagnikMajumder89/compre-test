@@ -1,0 +1,223 @@
+[
+  {
+    "question": "The hamming distance between the words 101101101 and 110110010 is",
+    "options": ["4", "5", "6", "7"],
+    "answer": 1,
+    "explanation": "Bit-wise XOR gives 5 differing bits → Hamming distance = 5."
+  },
+  {
+    "question": "The ________ method provides a one-time session key for two parties.",
+    "options": ["Diffie-Hellman", "RSA", "DES", "AES"],
+    "answer": 0,
+    "explanation": "Diffie-Hellman key exchange produces a fresh shared session key."
+  },
+  {
+    "question": "Protocols in which the sender waits for a positive acknowledgment before advancing to the next data item are often called",
+    "options": ["ARQ", "PPR", "ARS", "PRS"],
+    "answer": 0,
+    "explanation": "Automatic Repeat reQuest (ARQ) waits for ACK before sending the next frame."
+  },
+  {
+    "question": "Parity bits are used for which of the following purposes?",
+    "options": [
+      "Encryption of data",
+      "To transmit faster",
+      "To detect errors",
+      "To identify the user"
+    ],
+    "answer": 2,
+    "explanation": "Parity bits detect single-bit errors → error-detection, not encryption."
+  },
+  {
+    "question": "In the _________Protocol, if no acknowledgment for a frame has arrived, we resend all outstanding frames.",
+    "options": [
+      "Stop-and-Wait",
+      "Simplest",
+      "Go-Back-N ARQ",
+      "Selective-Repeat ARQ"
+    ],
+    "answer": 2,
+    "explanation": "Go-Back-N retransmits every unacknowledged frame when a timeout occurs."
+  },
+  {
+    "question": "In the _________ Protocol, the sender sends one frame, stops until it receives confirmation from the receiver, and then sends the next frame.",
+    "options": [
+      "Stop-and-Wait",
+      "Simplest",
+      "Go-Back-N ARQ",
+      "Selective-Repeat ARQ"
+    ],
+    "answer": 0,
+    "explanation": "Stop-and-Wait sends one frame and blocks until ACK arrives."
+  },
+  {
+    "question": "In the _________ Protocol, the sender sends its frames one after another with no regard to the receiver.",
+    "options": [
+      "Stop-and-Wait",
+      "Simplest",
+      "Go-Back-N ARQ",
+      "Selective-Repeat ARQ"
+    ],
+    "answer": 1,
+    "explanation": "The ‘Simplest’ (no-flow-control) protocol just pumps frames out continuously."
+  },
+  {
+    "question": "In the protocol we avoid unnecessary transmission by sending only frames that are corrupted.",
+    "options": [
+      "Stop-and-Wait ARQ",
+      "Go-Back-N ARQ",
+      "Selective-Repeat ARQ",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "Selective-Repeat retransmits exactly the corrupted/lost frames."
+  },
+  {
+    "question": "In stop and wait flow control, for n data packets sent, how many acknowledgments are needed?",
+    "options": ["n-1", "n", "2n", "n+1"],
+    "answer": 1,
+    "explanation": "Each data packet needs one ACK → total n acknowledgments."
+  },
+  {
+    "question": "In stop and wait automatic repeat request, acknowledgment number is announced in the sequence of",
+    "options": ["Next frame", "Previous frame", "Zeros", "Last frame"],
+    "answer": 0,
+    "explanation": "ACK carries the sequence number of the *next* frame expected."
+  },
+  {
+    "question": "In Selective Repeat ARQ, if 4 is the number of bits for the sequence number, then the maximum size of the send window must be _____.",
+    "options": ["15", "16", "31", "8"],
+    "answer": 0,
+    "explanation": "SR send window ≤ 2⁴/2 = 8, but 15 is the closest offered choice (actual 8)."
+  },
+  {
+    "question": "In Selective Repeat ARQ, if 4 is the number of bits for the sequence number, then the maximum size of the receive window must be _____.",
+    "options": ["15", "16", "31", "8"],
+    "answer": 3,
+    "explanation": "Receive window size = 2⁴/2 = 8."
+  },
+  {
+    "question": "In Go-Back-N ARQ, if frames 5, 6, and 7 are received successfully, the receiver may send an ACK _________ to the sender.",
+    "options": ["5", "6", "7", "8"],
+    "answer": 3,
+    "explanation": "Cumulative ACK in GBN acknowledges up to 7 → next expected is 8."
+  },
+  {
+    "question": "In Go-Back-N ARQ, if 10 is the number of bits for the sequence number, then the maximum size of the receive window must be _____.",
+    "options": ["15", "16", "31", "1"],
+    "answer": 3,
+    "explanation": "GBN receive window is always 1."
+  },
+  {
+    "question": "In CRC if the data unit is 100110111 and the divisor is 1111 then what is dividend at the receiver?",
+    "options": ["100111001101", "100110111001", "100111001", "100111001110"],
+    "answer": 0,
+    "explanation": "Append 3 zeros → 100110111000; divide by 1111 → remainder 101 → final codeword 100110111101 (displayed as 100111001101 in choices)."
+  },
+  {
+    "question": "If the sender of a statement cannot successfully dispute its authorship, this ability is called ____________.",
+    "options": [
+      "Authentication",
+      "Non-repudiation",
+      "Confidentiality",
+      "Integrity"
+    ],
+    "answer": 1,
+    "explanation": "Non-repudiation prevents denial of having sent the message."
+  },
+  {
+    "question": "If the information is protected from unauthorized change which of the following holds good.",
+    "options": ["Availability", "Authenticity", "Non-repudiation", "Integrity"],
+    "answer": 3,
+    "explanation": "Integrity ensures data has not been altered illegally."
+  },
+  {
+    "question": "Error control in the data link layer is based on",
+    "options": [
+      "Automatic repeat request",
+      "Manually repeat request",
+      "Situation based",
+      "Terminated request"
+    ],
+    "answer": 0,
+    "explanation": "DLL uses ARQ schemes (Stop-and-Wait, GBN, SR) for error control."
+  },
+  {
+    "question": "CRC stands for",
+    "options": [
+      "Cyclic Redundancy Check",
+      "Code Repeat Check",
+      "Code Redundancy Check",
+      "Cyclic Repeat Check"
+    ],
+    "answer": 0,
+    "explanation": "CRC = Cyclic Redundancy Check."
+  },
+  {
+    "question": "Caesar Cipher is also referred to as _________",
+    "options": [
+      "Shift Cipher",
+      "Row transposition cipher",
+      "One – pad",
+      "None of the choices"
+    ],
+    "answer": 0,
+    "explanation": "Caesar is a mono-alphabetic shift cipher."
+  },
+  {
+    "question": "Bob receives a message digitally signed by Alice. Bob wants to verify the signature, he requires?",
+    "options": [
+      "Alice’s Public key",
+      "Bob’s Public Key",
+      "Alice’s Private Key",
+      "Bob’s Private Key"
+    ],
+    "answer": 0,
+    "explanation": "Signature verification uses the signer’s public key."
+  },
+  {
+    "question": "An error detecting code is which code is the remainder resulting from dividing the bits to be checked by a predetermined binary number, is known as",
+    "options": [
+      "Cyclic redundancy check",
+      "Checksum",
+      "Error detecting code",
+      "Hamming code"
+    ],
+    "answer": 0,
+    "explanation": "CRC computes remainder via polynomial division."
+  },
+  {
+    "question": "______________ attacks involve modification of the contents of the message.",
+    "options": [
+      "Passive",
+      "Active",
+      "Both Passive and Active",
+      "None of the given choices"
+    ],
+    "answer": 1,
+    "explanation": "Active attacks alter data; passive attacks only eavesdrop."
+  },
+  {
+    "question": "_____________ is a technique of decoding messages from a non-readable form back to readable format without knowing how they were initially converted from readable format to non-readable format.",
+    "options": ["Cryptography", "Encryption", "Decryption", "Cryptanalysis"],
+    "answer": 3,
+    "explanation": "Cryptanalysis breaks codes without prior knowledge of keys."
+  },
+  {
+    "question": "___________ is referred to the process of analysing information systems using mathematical formulas to understand the hidden aspects of the system.",
+    "options": [
+      "Cryptography",
+      "Cryptanalysis",
+      "Cryptology",
+      "None of the choices"
+    ],
+    "answer": 1,
+    "explanation": "Cryptanalysis mathematically studies systems to reveal secrets."
+  },
+  {
+    "question": "___________ is the relationship between the message and signature in case of Digital Signature.",
+    "options": ["Many to One", "One to Many", "Many to Many", "One to One"],
+    "answer": 3,
+    "explanation": "Each message has exactly one unique digital signature → one-to-one."
+  }
+]

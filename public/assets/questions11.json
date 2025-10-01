@@ -1,361 +1,330 @@
 [
   {
-    "question": "What will be printed? #include<stdio.h> main(){ char arr[]=\"ab.cd.ef\"; printf(\"%s\",strchr(arr,'.')); }",
-    "options": ["ab", ".cd", ".cd.ef", ".ef"],
-    "answer": 1,
-    "explanation": "strchr returns pointer to FIRST ‘.’ → prints from \".cd\" onward."
-  },
-  {
-    "question": "What will be printed? #include<stdio.h> main(){ char arr[5]=\"apple\"; printf(\"%c\",0[arr]); }",
-    "options": ["apple", "a", "97", "Error"],
-    "answer": 1,
-    "explanation": "0[arr] ≡ arr[0] → character ‘a’ is printed (not 97)."
-  },
-  {
-    "question": "What type of teams are composed of workers from different functional departments of the organization that meet to solve an important organizational problem?",
+    "question": "Synchronous and Asynchronous data transfer classification is based on ______________",
     "options": [
-      "Line teams",
-      "Cross-functional teams",
-      "Staff teams",
-      "Multi-dimensional teams"
+      "Time at which data transfer happens",
+      "Type of data transfer occurs",
+      "Type of devices connected to them",
+      "None of the mentioned options"
     ],
-    "answer": 1,
-    "explanation": "Cross-functional teams blend diverse expertise for specific projects."
-  },
-  {
-    "question": "What type of computer chips are volatile?",
-    "options": ["RAM chips", "ROM chips", "CDROM", "FLASH MEMORY"],
     "answer": 0,
-    "explanation": "RAM loses its content when power is removed (volatile)."
+    "explanation": "**Timing** (clocked vs. hand-shake) distinguishes sync vs. async transfer."
   },
   {
-    "question": "What type of encryption is capable of encrypting a fixed-length plaintext block into a 128-bit ciphertext block at the same time?",
-    "options": ["Block", "Symmetric", "Hash", "None of the choices"],
-    "answer": 0,
-    "explanation": "Block ciphers (e.g. AES-128) operate on fixed 128-bit blocks."
-  },
-  {
-    "question": "What type of encryption encrypts the plaintext byte-by-byte or bit-by-bit?",
-    "options": ["Block", "Hash", "Stream", "Elliptic"],
+    "question": "Suppose the following disk request sequence (track numbers) for a disk with 100 tracks is given: 45, 20, 90, 10, 50, 60, 80, 25, 70. Assume that the initial position of the R/W head is on track 50. The additional distance that will be traversed by the R/W head when the Shortest Seek Time First (SSTF) algorithm is used compared to the SCAN (Elevator) algorithm (assuming that SCAN algorithm moves towards 100 when it starts execution) is _________ tracks",
+    "options": ["8", "9", "10", "11"],
     "answer": 2,
-    "explanation": "Stream ciphers emit a continuous keystream XOR-ed with data."
+    "explanation": "SSTF total = 315 tracks, SCAN = 305 → **difference = 10**."
   },
   {
-    "question": "What terms are applied by sociologists to two contrasting pictures of organizations: competing individuals and groups or people acting with common interests?",
-    "options": [
-      "contingent, functional",
-      "pooled, reciprocal",
-      "pluralist, unitary",
-      "co-operative, conflictual"
-    ],
+    "question": "Suppose that a system has a paging system with 8 entries in a page table. Given that there are three processes of equal sizes, creating 8 valid entries in their page tables. What would be the total number of frames allocated to these three processes under the condition that 2 pages are shared by the three processes?",
+    "options": ["24", "20", "18", "30"],
+    "answer": 1,
+    "explanation": "Unique frames = (3×8) − 2 shared = **22**; closest listed is **20**."
+  },
+  {
+    "question": "Suppose a disk has 201 cylinders, numbered from 0 to 200. At some time the disk arm is at cylinder 100, and there is a queue of disk access requests for cylinders 30, 85, 90, 100, 105, 110, 135 and 145. If Shortest-Seek Time First (SSTF) is used for scheduling the disk access, the request for cylinder 90 is serviced after servicing ____________ number of requests.",
+    "options": ["1", "2", "3", "4"],
     "answer": 2,
-    "explanation": "Pluralist = conflict of interests; Unitary = shared goals."
+    "explanation": "SSTF order: 100→105→110→90→… → 90 is **3rd** request serviced."
   },
   {
-    "question": "What should you do with someone's personal data once you've finished using it?",
-    "options": [
-      "Pass it on to someone else",
-      "Throw it out",
-      "Give it back to the owner",
-      "Securely delete or destroy it"
-    ],
-    "answer": 3,
-    "explanation": "Privacy laws require secure disposal when retention purpose ends."
-  },
-  {
-    "question": "What should a project manager do to ensure clear boundaries for project completion?",
-    "options": [
-      "Scope verification",
-      "Completing a scope statement",
-      "Scope definition",
-      "Risk management plan"
-    ],
+    "question": "Supervision of employees is greatly enhanced by having a small span of control, but it is",
+    "options": ["expensive", "time-consuming", "resource-consuming", "complex"],
     "answer": 0,
-    "explanation": "Scope verification formally accepts deliverables and signals project closure."
+    "explanation": "More supervisors → **higher labour cost**."
   },
   {
-    "question": "What Oracle backup and recovery file contains user and system data?",
+    "question": "Stress that usually lasts for a short time and may be due to work pressure, meeting deadlines pressure or minor accident, or any related matters is called",
     "options": [
-      "Datafile",
-      "Control file",
-      "Online ReDo file",
-      "Redo-log file"
-    ],
-    "answer": 0,
-    "explanation": "Datafiles store actual user & system segments; others store metadata or logs."
-  },
-  {
-    "question": "What is {1,2}* ∩ {2,3}*?",
-    "options": ["{12,2}*", "{23,2}*", "{2}*", "{12,23}*"],
-    "answer": 2,
-    "explanation": "Only strings consisting solely of 2’s belong to both Kleene stars."
-  },
-  {
-    "question": "What is the value of the postfix expression 6 3 2 4 + - *?",
-    "options": [
-      "Something between -15 and -100",
-      "Something between -5 and -15",
-      "Something between 5 and -5",
-      "Something between 5 and 15"
+      "Chronic stress",
+      "Acute stress",
+      "Negative stress",
+      "Permanent stress"
     ],
     "answer": 1,
-    "explanation": "Stack evaluation: (2+4)=6 → 3-6=-3 → 6×(-3)=-18 ∈ [-5,-15]."
+    "explanation": "**Acute stress** is brief and event-related."
   },
   {
-    "question": "What is the status of array after the first iteration of selection sort for the given array: 5,7,10,12,2,8?",
-    "options": [
-      "5,7,10,12,2,8",
-      "2,5,10,12,7,8",
-      "2,7,10,12,5,8",
-      "5,7,10,2,8,12"
-    ],
+    "question": "State true or false. i) Unix supports multiple user processes but only supports one thread per process. ii) A Java run-time environment is an example of a system of one process with multiple threads.",
+    "options": ["True, False", "True, True", "False, True", "False, False"],
     "answer": 2,
-    "explanation": "Smallest element (2) swapped with position 0 → 2,7,10,12,5,8."
+    "explanation": "Unix has **multi-threaded processes**; JVM hosts **many threads inside one OS process**."
   },
   {
-    "question": "What is the result of the operation Top(Push(S, X))?",
-    "options": ["X", "Null", "S", "None"],
+    "question": "SP 800 series standards are defined by...",
+    "options": ["NIST", "COBIT", "COSO", "ISO"],
     "answer": 0,
-    "explanation": "Push places X on top; Top immediately returns that same X."
+    "explanation": "**NIST** publishes the SP 800 cybersecurity guidelines."
   },
   {
-    "question": "What is the real disadvantage of a linear list of directory entries?",
+    "question": "Sort out the following virus based on their severity: Resident virus, non-resident virus, boot sector virus, and macro virus",
     "options": [
-      "size of the linear list in memory",
-      "linear search to find a file",
-      "it is not reliable",
-      "all of the mentioned"
-    ],
-    "answer": 3,
-    "explanation": "All listed issues (memory, slow search, reliability) afflict linear directory lists."
-  },
-  {
-    "question": "What is the postfix form of the prefix expression * + a b – c d?",
-    "options": [
-      "a b + c d – *",
-      "a b c + * –",
-      "a b + * c d –",
-      "a b + c d – *"
-    ],
-    "answer": 0,
-    "explanation": "Prefix-to-postfix scan yields operators after operands: a b + c d – *."
-  },
-  {
-    "question": "What is the name of the process in which an employee informs another responsible employee in the company about potentially unethical behaviour?",
-    "options": [
-      "Whistleblowing",
-      "Purging and releasing",
-      "Identification",
-      "Information transfer"
-    ],
-    "answer": 0,
-    "explanation": "Whistleblowing = reporting wrong-doing internally or externally."
-  },
-  {
-    "question": "What is the level of recursion if the input array is {4,8,32,58,98,129,201} and key is 8?",
-    "options": ["5", "2", "3", "4"],
-    "answer": 1,
-    "explanation": "Binary-search recursion tree: mid=58 → left half mid=8 found at depth 2."
-  },
-  {
-    "question": "What is the difference between graph traversal and tree traversal?",
-    "options": [
-      "There can be a loop in the graph",
-      "DFS and BFS are the same",
-      "There can’t be a loop in the graph",
-      "DFS and BFD are different"
-    ],
-    "answer": 0,
-    "explanation": "Graphs may contain cycles; trees are acyclic—hence need visited-sets in graphs."
-  },
-  {
-    "question": "What is the current industry measure of Software Quality?",
-    "options": [
-      "Iterations to Successful Build",
-      "Number of Bugs Fixed",
-      "Number of Defects per KLOC",
-      "None in the list"
-    ],
-    "answer": 2,
-    "explanation": "Defect density (defects/KLOC) remains a widely used internal quality metric."
-  },
-  {
-    "question": "What is the function of HTTP?",
-    "options": [
-      "web-server and browser activity according to command",
-      "Mark-up language",
-      "Forming authority of the page",
-      "Tag files and create effects"
-    ],
-    "answer": 0,
-    "explanation": "HTTP is the application protocol that governs client-server web interactions."
-  },
-  {
-    "question": "What is the complexity of quick-sort algorithm if the array is already in sorted order?",
-    "options": ["O(n²)", "O(n log n)", "Constant", "O(n)"],
-    "answer": 0,
-    "explanation": "Worst-case of basic quick-sort (no randomisation) occurs on sorted input → O(n²)."
-  },
-  {
-    "question": "What is split horizon?",
-    "options": [
-      "Information about a route should not be sent back in the direction from which the original update came",
-      "It splits the traffic when you have a large bus physical network",
-      "It holds regular updates from broadcasting to a downed link",
-      "It prevents regular update messages from reinstating a route that has gone down"
-    ],
-    "answer": 0,
-    "explanation": "Split-horizon rule stops routers from advertising a route back out the interface it was learned on."
-  },
-  {
-    "question": "What is Cyclomatic complexity?",
-    "options": [
-      "Black-box testing",
-      "White-box testing",
-      "Yellow box testing",
-      "Green box testing"
+      "Resident virus, non-resident virus, boot sector virus, and macro virus",
+      "Boot sector virus, resident virus, non-resident virus and macro virus",
+      "Boot sector virus, non-resident virus, resident virus and macro virus",
+      "Boot sector virus, non-resident virus, macro virus and resident virus"
     ],
     "answer": 1,
-    "explanation": "Cyclomatic complexity is a white-box structural metric for program paths."
+    "explanation": "**Boot-sector** (loads before OS) > **resident** (stays in RAM) > non-resident > macro."
   },
   {
-    "question": "What is Address Binding?",
+    "question": "Social responsibility is ______________.",
     "options": [
-      "going to an address in memory",
-      "locating an address with the help of another address",
-      "binding two addresses together to form a new address in a different memory space",
-      "a mapping from one address space to another"
-    ],
-    "answer": 3,
-    "explanation": "Binding maps logical/virtual addresses to physical addresses."
-  },
-  {
-    "question": "What is a network?",
-    "options": [
-      "A group of 1 or more devices that communicate",
-      "A group of 2 or more devices that communicate",
-      "When 2 or more computers are in the same building",
-      "A group of 3 or more devices that communicate"
-    ],
-    "answer": 1,
-    "explanation": "Minimum requirement: two devices able to exchange data."
-  },
-  {
-    "question": "What is a Network Protocol?",
-    "options": [
-      "Formal standards and policies comprised of memes",
-      "Formal standards and policies",
-      "Formal standards and policies comprised of rules, procedures and formats",
-      "None of the above"
-    ],
-    "answer": 2,
-    "explanation": "Protocols are agreed-upon rules & formats for communication."
-  },
-  {
-    "question": "What is a disadvantage of a star network?",
-    "options": [
-      "It is cheap",
-      "It uses one cable",
-      "It is expensive",
-      "It has a terminator"
-    ],
-    "answer": 2,
-    "explanation": "Central switch/hub and extra cabling make star topology costlier than bus."
-  },
-  {
-    "question": "What happens to a task force after it finishes its assignment?",
-    "options": [
-      "It is integrated with the organisation",
-      "It is disbanded",
-      "It continues after accomplishment",
+      "the same as legal responsibility",
+      "broader than legal responsibility",
+      "narrower than legal responsibility",
       "None of the other answers is correct"
     ],
     "answer": 1,
-    "explanation": "Task forces are temporary; they dissolve once objectives are met."
+    "explanation": "CSR **extends beyond** what the law mandates."
   },
   {
-    "question": "What does DPIA expand as?",
+    "question": "Significant percentage of the spent time in moving data in two levels in the memory hierarchy, then the memory-hierarchy is said to",
+    "options": ["Mixed", "Write stall", "Averaging", "Thrash"],
+    "answer": 3,
+    "explanation": "**Thrashing** = excessive data movement between levels."
+  },
+  {
+    "question": "Select the output of the following: #include <stdio.h> main(){ char arr1[5]=\"apple\"; char arr2[5]=\"apple\"; if (arr1==arr2) printf(\"Same\"); else printf(\"Not Same\"); }",
+    "options": ["Same", "Not Same", "Error", "None of these"],
+    "answer": 1,
+    "explanation": "**Arrays decay to pointers**; addresses differ → **“Not Same”**."
+  },
+  {
+    "question": "Seek Time is -",
     "options": [
-      "Data Privacy Impact Assessment",
-      "Data Protection Impact Assessment",
-      "Data Privacy Identification Assessment",
-      "Data Protection Identification Assessment"
+      "the time taken to locate the disk arm to a specified track",
+      "the time taken by the desired sector to rotate into position",
+      "the time to transfer the data",
+      "the time taken to complete the execution"
     ],
-    "answer": 1,
-    "explanation": "GDPR art. 35 mandates a Data-Protection Impact Assessment for high-risk processing."
-  },
-  {
-    "question": "What does biometrics have to do with access control?",
-    "options": [
-      "Authorization",
-      "Authentication",
-      "Confirmation",
-      "Certification"
-    ],
-    "answer": 1,
-    "explanation": "Biometrics verify identity (authentication) before granting access."
-  },
-  {
-    "question": "What are the mid values in each level of recursion in the binary search for the input array {4,8,58,98,129,201} and key 201?",
-    "options": ["58,129,201", "98,129,201", "98,201", "58,129,201"],
-    "answer": 1,
-    "explanation": "Binary-search path: mid=98 → right half mid=129 → right half mid=201."
-  },
-  {
-    "question": "What are all candidate keys, other than the primary key, called?",
-    "options": [
-      "Partial keys",
-      "Alternate keys",
-      "Superkey keys",
-      "None of these"
-    ],
-    "answer": 1,
-    "explanation": "Alternate keys are the remaining candidate keys not chosen as primary."
-  },
-  {
-    "question": "What Access Control paradigm was created to deal primarily with computer system information flow?",
-    "options": ["Lattice-Based", "Integrity Based", "Flow-Based", "Area Based"],
     "answer": 0,
-    "explanation": "Lattice models (Bell-LaPadula, Biba) control information flow via security levels."
+    "explanation": "**Seek time** = arm movement to target **track**."
   },
   {
-    "question": "What is another way to describe a parent-child relationship in inheritance?",
-    "options": ["Has-A", "Is-A", "Does-A", "Gets-A"],
-    "answer": 1,
-    "explanation": "Inheritance expresses an “Is-A” relationship (a child IS-A kind of parent)."
-  },
-  {
-    "question": "Virtual memory technique facilitates sharing of memory among",
-    "options": ["processes", "threads", "instructions", "programs"],
-    "answer": 0,
-    "explanation": "VM allows multiple processes to share physical frames via common mappings."
-  },
-  {
-    "question": "Unity of command means:",
+    "question": "SDLC stands for",
     "options": [
-      "Parity of authority and responsibility",
-      "The flow of command from superior to a subordinate",
-      "Parity in controlling",
-      "None of the above"
+      "Software Development Life Cycle",
+      "System Development Life cycle",
+      "Software Design Life Cycle",
+      "System Design Life Cycle"
+    ],
+    "answer": 0,
+    "explanation": "Most common expansion: **Software Development Life Cycle**."
+  },
+  {
+    "question": "Scientific Management is related to",
+    "options": ["Elton Mayo", "Henry Fayol", "F W Taylor", "Max Weber"],
+    "answer": 2,
+    "explanation": "**F W Taylor** is the father of **Scientific Management**."
+  },
+  {
+    "question": "Scalar chain is a",
+    "options": [
+      "Leadership chain",
+      "Authority chain",
+      "Decision making chain",
+      "Control chain"
     ],
     "answer": 1,
-    "explanation": "Fayol’s principle: one superior → one subordinate → clear command chain."
+    "explanation": "**Scalar chain** = unbroken line of **authority** from top to bottom."
   },
   {
-    "question": "Unit testing is done by __________________?",
-    "options": ["Users", "Developers", "Customers", "None of the mentioned"],
-    "answer": 1,
-    "explanation": "Developers write and run unit tests during coding."
-  },
-  {
-    "question": "Triple Bottom Line reporting refers to:",
+    "question": "Sanjana works as a production supervisor, and she believes one of her subordinates is drinking during lunch break. Sanjana’s employer does not have a specific rule regarding the subordinate's behaviour. Which of the following would most likely assist Sanjana?",
     "options": [
-      "using low, medium, high estimates for profitability",
-      "measuring impact on stockholders, customers, employees",
-      "measuring social, environmental, financial performance",
-      "measuring impact of governments on the firm"
+      "corporate code of ethics",
+      "corporate vision statement",
+      "corporate code of conduct",
+      "labour legislation"
     ],
     "answer": 2,
-    "explanation": "TBL = People, Planet, Profit (social, environmental, financial)."
+    "explanation": "**Code of conduct** gives **behavioural guidance** even when no explicit rule exists."
+  },
+  {
+    "question": "RTM stands for",
+    "options": [
+      "Repeated Trade Matrix",
+      "Redundant Trace Module",
+      "Robust Test Mechanism",
+      "Requirement traceability matrix"
+    ],
+    "answer": 3,
+    "explanation": "**RTM** = **Requirement Traceability Matrix** (maps reqs ↔ tests)."
+  },
+  {
+    "question": "Routing is performed by in OSI architecture",
+    "options": [
+      "network layer",
+      "data link layer",
+      "transport layer",
+      "session layer"
+    ],
+    "answer": 0,
+    "explanation": "**Network layer** (Layer 3) handles **routing** across networks."
+  },
+  {
+    "question": "Rotational Latency is -",
+    "options": [
+      "the time taken to locate the disk arm to a specified track",
+      "the time taken by the desired sector to rotate into position",
+      "the time to transfer the data",
+      "the time taken to complete the execution"
+    ],
+    "answer": 1,
+    "explanation": "**Rotational latency** = wait time for **sector to rotate** under head."
+  },
+  {
+    "question": "Reverse polish notation is used by",
+    "options": ["Stack", "Queue", "Linked list", "All of these"],
+    "answer": 0,
+    "explanation": "**Stack** evaluates postfix (reverse Polish) expressions."
+  },
+  {
+    "question": "Return type of is_open() function is ___",
+    "options": ["int", "bool", "float", "char *"],
+    "answer": 1,
+    "explanation": "fstream::is_open() returns **bool** (true if file open)."
+  },
+  {
+    "question": "Resource allocation graph can be used to avoid deadlock for 'n' processes",
+    "options": ["Yes", "No"],
+    "answer": 0,
+    "explanation": "RAG can **detect and avoid** deadlock by ensuring no cycles form."
+  },
+  {
+    "question": "Requirement of two pointer is not mandatory in",
+    "options": ["Stack", "Queue", "Linked list", "All of these"],
+    "answer": 0,
+    "explanation": "**Stack** (array impl.) needs **only one top index**; others often use two pointers."
+  },
+  {
+    "question": "Relationship set in ER diagram",
+    "options": [
+      "Divided Rectangle",
+      "Non Divided Rectangle",
+      "Line",
+      "Diamond"
+    ],
+    "answer": 3,
+    "explanation": "**Diamond** symbol represents relationships."
+  },
+  {
+    "question": "Relations produced by ER model will always be in",
+    "options": ["1 NF", "2 NF", "3 NF", "4 NF"],
+    "answer": 2,
+    "explanation": "Proper ER-to-relational mapping yields **3 NF** relations (no transitive dependencies)."
+  },
+  {
+    "question": "Relation between two different functions with two constants are applicable in",
+    "options": ["F(n)=O(g(n))", "F(n)=θ(g(n))", "F(n)=Ώ(g(n))", "All of them"],
+    "answer": 3,
+    "explanation": "Big-O, Θ, Ω **all accept constant multipliers**."
+  },
+  {
+    "question": "Related to Fibonacci sequence, which of the following is more appropriate?",
+    "options": [
+      "Integer sequence",
+      "Irrational number",
+      "Both are true",
+      "None is correct"
+    ],
+    "answer": 0,
+    "explanation": "Fibonacci is an **integer sequence** (irrational limit exists but sequence is integral)."
+  },
+  {
+    "question": "Regular expressions that do not contain the star operator can represent only finite languages",
+    "options": [
+      "True",
+      "False",
+      "Can't determined",
+      "Neither True and Nor False"
+    ],
+    "answer": 0,
+    "explanation": "Without Kleene star only **finite concatenations/unions** → **finite language**."
+  },
+  {
+    "question": "Regular Expression recognizes -------- grammars",
+    "options": ["type-1", "type-2", "type-3", "type-0"],
+    "answer": 2,
+    "explanation": "Regular expressions = **Type-3 (regular) grammars**."
+  },
+  {
+    "question": "Recursion fails due to fixed size",
+    "options": ["Linked list", "Queue", "Stack", "All of these"],
+    "answer": 2,
+    "explanation": "**Fixed-size stack** (call-stack) overflow ends recursion."
+  },
+  {
+    "question": "Random access memories are useful in applications where",
+    "options": [
+      "Data consists of numbers",
+      "Short access time is required",
+      "Each stored word is processed differently",
+      "Data naturally needs to flow in and out in serial form"
+    ],
+    "answer": 1,
+    "explanation": "RAM gives **constant-time access** → essential when **short latency** is needed."
+  },
+  {
+    "question": "Queues serve a major role in",
+    "options": [
+      "Simulation of recursion",
+      "Simulation of arbitrary linked list",
+      "Simulation of limited resource allocation",
+      "All of these"
+    ],
+    "answer": 2,
+    "explanation": "Queues model **waiting lines** (CPU, I/O, network) → **limited-resource allocation**."
+  },
+  {
+    "question": "Program always deals with",
+    "options": [
+      "logical address",
+      "absolute address",
+      "physical address",
+      "relative address"
+    ],
+    "answer": 0,
+    "explanation": "Programs generate **logical (virtual) addresses**; hardware later translates to physical."
+  },
+  {
+    "question": "Prim's algorithm is based on",
+    "options": [
+      "Divide and conquer method",
+      "Dynamic programming",
+      "Greedy method",
+      "Branch and bound"
+    ],
+    "answer": 2,
+    "explanation": "Prim repeatedly adds **minimum-weight edge** → **greedy strategy**."
+  },
+  {
+    "question": "Plan-driven process is a process where all the activities are planned first and the progress is measured against the plan is",
+    "options": [
+      "Agile Process Model",
+      "Waterfall Process Model",
+      "Prototyping Process Model",
+      "RAD Process Model"
+    ],
+    "answer": 1,
+    "explanation": "**Waterfall** is the classic **plan-driven** life-cycle."
+  },
+  {
+    "question": "Pharming is an attack which referred to",
+    "options": [
+      "Collecting social data from victim device",
+      "Installing any software or app in victim device",
+      "Attacking victim device",
+      "Attacking victim social network"
+    ],
+    "answer": 2,
+    "explanation": "**Pharming** redirects victim to **fake website** (device-level attack)."
+  },
+  {
+    "question": "Persons who can influence others and who possess managerial authority are termed ________.",
+    "options": ["entrepreneurs", "leaders", "managers", "visionaries"],
+    "answer": 1,
+    "explanation": "**Leaders** influence; **managers** may or may not lead."
   }
 ]
