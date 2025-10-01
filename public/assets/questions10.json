@@ -63,7 +63,12 @@
   },
   {
     "question": "The cache term is now applied when buffering is employed for reusing commonly occurring items, for example",
-    "options": ["File caches", "Name cache", "Flash memory", "Both a and b"],
+    "options": [
+      "File caches (a)",
+      "Name cache (b)",
+      "Flash memory",
+      "Both a and b"
+    ],
     "answer": 3,
     "explanation": "OS keeps **file & name caches** to speed repeated accesses."
   },
@@ -209,14 +214,14 @@
       "External level",
       "None of these"
     ],
-    "answer": 0,
-    "explanation": "**Physical level** describes how data are actually stored (indices, partitions, etc.)."
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "The style of leadership that tends to involve employees in decision making, delegate authority, encourage participation, and use feedback as coaching is",
     "options": ["participative", "autocratic", "democratic", "laissez-faire"],
-    "answer": 2,
-    "explanation": "**Democratic** leaders share decision power and encourage participation."
+    "answer": 0,
+    "explanation": ""
   },
   {
     "question": "The theory stating that a manager's choice of organisational structures and control systems depends on the characteristics of the external environment is",
@@ -244,8 +249,8 @@
   {
     "question": "The Simple Security Condition requires that a subject S can read an object O only if _____ and any DAC permits.",
     "options": ["Is > Io", "LO ≤ LS", "L0 ≤ LS", "Is ≤ Io"],
-    "answer": 3,
-    "explanation": "Bell-LaPadula: **no read up** → subject’s level **≥** object’s level (Is ≤ Io)."
+    "answer": 1,
+    "explanation": "Bell-LaPadula: **no read up** → subject’s level **≥** object’s level."
   },
   {
     "question": "The number of subordinates a superior can effectively handle is called",
@@ -304,10 +309,10 @@
     "explanation": "**Functional testing** validates **whole-system behaviour** against requirements."
   },
   {
-    "question": "Templates eliminate some common errors found in code that makes heavy use of function-like macros",
+    "question": "Templates ____ some common errors found in code that makes heavy use of function-like macros",
     "options": ["Reject", "Allow", "Discard", "None"],
-    "answer": 1,
-    "explanation": "C++ **templates** **allow** type-safe inline code, avoiding macro pitfalls."
+    "answer": 2,
+    "explanation": ""
   },
   {
     "question": "Template uses _____ keyword?",

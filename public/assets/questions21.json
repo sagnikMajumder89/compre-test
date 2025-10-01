@@ -1,0 +1,291 @@
+[
+  {
+    "question": "__________ is the average number of steps that can be executed for the given parameters",
+    "options": ["Average case", "Worst case", "Time complexity", "Best case"],
+    "answer": 0,
+    "explanation": "**Average case** gives the **expected step count** over all inputs."
+  },
+  {
+    "question": "__________ in the code are signs of bad code designs and should be avoided.",
+    "options": ["Repetitions", "Modularity", "Functions", "Documentation"],
+    "answer": 0,
+    "explanation": "**Code repetition** violates **DRY** principle → **maintenance nightmare**."
+  },
+  {
+    "question": "__________ cable consists of inner copper core and a second conducting outer sheath",
+    "options": [
+      "Coaxial cable",
+      "Twisted Pair",
+      "Optical fibre cable",
+      "shielded Twisted Pair"
+    ],
+    "answer": 0,
+    "explanation": "**Coaxial** = **inner conductor + outer metallic sheath + insulation**."
+  },
+  {
+    "question": "__________ begins at the root and follows a path down to the specified file.",
+    "options": [
+      "Relative path name",
+      "Absolute path name",
+      "Standalone name",
+      "All of the above"
+    ],
+    "answer": 1,
+    "explanation": "**Absolute pathname** starts from **root (/)** and **traverses down**."
+  },
+  {
+    "question": "_________ utilization is the use of available bandwidth to achieve specific goals.",
+    "options": ["Amplitude", "Frequency", "Bandwidth", "None of the above"],
+    "answer": 2,
+    "explanation": "**Bandwidth utilization** = **efficient use of available frequency spectrum**."
+  },
+  {
+    "question": "_________ memory management scheme will produce least fragment",
+    "options": [
+      "Best Fit",
+      "Worst Fit",
+      "First Fit",
+      "None of the given choices"
+    ],
+    "answer": 0,
+    "explanation": "**Best Fit** leaves the **smallest residual hole** → **least fragmentation**."
+  },
+  {
+    "question": "_________ is the maximum number of steps that can execute for the given parameters",
+    "options": ["Average case", "Worst case", "Time complexity", "Best case"],
+    "answer": 1,
+    "explanation": "**Worst case** gives the **upper bound** on steps for **any input**."
+  },
+  {
+    "question": "_________ is not the operation that can be performed on queue.",
+    "options": ["Insertion", "Deletion", "Retrieval", "Traversal"],
+    "answer": 3,
+    "explanation": "Queue ADT supports **enqueue, dequeue, front**; **traversal** is **not basic**."
+  },
+  {
+    "question": "_________ are used for cellular phone, satellite, and wireless LAN communications.",
+    "options": [
+      "Radio waves",
+      "Infrared waves",
+      "Microwaves",
+      "None of the above"
+    ],
+    "answer": 0,
+    "explanation": "**Radio waves** (GHz bands) are **standard for mobile & Wi-Fi**."
+  },
+  {
+    "question": "_________ affect schedule or resources",
+    "options": [
+      "Project risks",
+      "Project people",
+      "Task dependencies",
+      "None in the list"
+    ],
+    "answer": 0,
+    "explanation": "**Project risks** directly **impact schedule & resource allocations**."
+  },
+  {
+    "question": "________ cable consists of two insulated copper wires twisted together.",
+    "options": ["Coaxial", "Fiber-optic", "Twisted-pair", "none of the above"],
+    "answer": 2,
+    "explanation": "**Twisted-pair** = **two insulated copper wires twisted** to reduce interference."
+  },
+  {
+    "question": "________ are used for short-range communications such as those between a PC and a peripheral device.",
+    "options": [
+      "Radio waves",
+      "Infrared waves",
+      "Microwaves",
+      "none of the above"
+    ],
+    "answer": 1,
+    "explanation": "**Infrared** (IrDA) is **short-range, line-of-sight** for **peripherals**."
+  },
+  {
+    "question": "_______ is the singleness of purpose that makes possible the creation of one plan of action to guide managers in resource allocations.",
+    "options": [
+      "Unity of direction",
+      "Unity of command",
+      "Unity of resources",
+      "Unity of authority"
+    ],
+    "answer": 0,
+    "explanation": "**Unity of direction** = **one plan per objective** → **guides resource allocation**."
+  },
+  {
+    "question": "_______ is designed to be used in wireless applications in which stations must be able to share the medium without interception by an eavesdropper and without being subject to jamming from a malicious intruder.",
+    "options": [
+      "Multiplexing",
+      "Spread spectrum",
+      "Modulation",
+      "None of the above."
+    ],
+    "answer": 1,
+    "explanation": "**Spread spectrum** (DSSS/FHSS) **spreads signal** → **resists jamming & eavesdropping**."
+  },
+  {
+    "question": "_______ diagrams are important part of object modeling methodology",
+    "options": ["application", "data", "class", "level"],
+    "answer": 2,
+    "explanation": "**Class diagrams** are **core to object-oriented modelling**."
+  },
+  {
+    "question": "______ can be applied when the bandwidth of a link (in hertz) is greater than the combined bandwidths of the signals to be transmitted.",
+    "options": ["TDM", "FDM", "Both TDM or FDM", "Neither TDM or FDM"],
+    "answer": 1,
+    "explanation": "**FDM** divides **frequency bands** → needs **total BW < link BW**."
+  },
+  {
+    "question": "______ cables are composed of a glass or plastic inner core surrounded by cladding, all encased in an outside jacket.",
+    "options": ["Coaxial", "Fiber-optic", "Twisted-pair", "none of the above"],
+    "answer": 1,
+    "explanation": "**Fiber-optic** = **core + cladding + jacket** for **light transmission**."
+  },
+  {
+    "question": "_____ is the concept in which a process is copied into main memory from the secondary memory according to the requirement.",
+    "options": ["Paging", "Demand paging", "Segmentation", "Swapping"],
+    "answer": 1,
+    "explanation": "**Demand paging** loads **pages on demand** → **copy into RAM when needed**."
+  },
+  {
+    "question": "____ provide member functions for repositioning the file-position pointer.",
+    "options": ["istream", "ostream", "istream and ostream", "None"],
+    "answer": 2,
+    "explanation": "Both **istream (seekg)** and **ostream (seekp)** offer **position-pointer methods**."
+  },
+  {
+    "question": "____ is designed to use the high bandwidth capability of fiber-optic cable.",
+    "options": ["WDM", "FDM", "TDM", "None of the above"],
+    "answer": 0,
+    "explanation": "**WDM (Wave-Division Multiplexing)** exploits **fiber’s huge bandwidth**."
+  },
+  {
+    "question": "____ function can create versions of the add function for adding the int, float or double type values.",
+    "options": ["Sum()", "Add()", "Total()", "all"],
+    "answer": 3,
+    "explanation": "**Template function** (add) can be **instantiated for any numeric type** → **all**."
+  },
+  {
+    "question": "____ data type represents the file stream generally, and has the capabilities of both ofstream and ifstream which means it can create files, write information to files, and read information from files.",
+    "options": ["Fstream", "stream", "filestream", "None"],
+    "answer": 0,
+    "explanation": "**fstream** class in C++ **combines input & output file operations**."
+  },
+  {
+    "question": "Which of the following statements is false?",
+    "options": [
+      "The halting problem for Turing machine is undecidable.",
+      "Determining whether a context-free grammar is ambiguous is undecidable.",
+      "Given two arbitrary context-free grammars, G1 and G2, it is undecidable whether L(G1) = L(G2)",
+      "Given two regular grammars G1 and G2, it is undecidable whether L(G1) = L(G2)"
+    ],
+    "answer": 3,
+    "explanation": "**Equivalence of regular grammars IS decidable** → statement **D is false**."
+  },
+  {
+    "question": "Which one of the following is decidable?",
+    "options": [
+      "Given a string M, a string s, and an integer k, M accepts s with k steps",
+      "Equivalence of two given Turing machines",
+      "Language accepted by a given DFA is nonempty",
+      "Language generated by a CFG is nonempty"
+    ],
+    "answer": 2,
+    "explanation": "**Non-emptiness of DFA language** is **decidable** (reachability test)."
+  },
+  {
+    "question": "The language { 0^n² 1^n | n ≥0 } over the alphabet { 0, 1} is",
+    "options": [
+      "Not recursive",
+      "is recursive and is a deterministic CFL",
+      "is a regular language",
+      "is not a deterministic CFL but a CFL"
+    ],
+    "answer": 1,
+    "explanation": "Language is **context-free** (push-down can count) and **recursive**."
+  },
+  {
+    "question": "It is undecidable, whether",
+    "options": [
+      "an arbitrary TM has 15 states",
+      "an arbitrary TM halts after 10 steps",
+      "an arbitrary TM ever prints a specific letter",
+      "an arbitrary TM accepts a string w in 5 steps"
+    ],
+    "answer": 2,
+    "explanation": "**Printing a specific letter** is **undecidable** (reduces to halting)."
+  },
+  {
+    "question": "Which of these statements is TRUE about a LAN?",
+    "options": [
+      "A LAN connects computers in a small area such as an office",
+      "A modem is needed to connect a computer to a LAN",
+      "A LAN consists of only one computer",
+      "Internet is a LAN"
+    ],
+    "answer": 0,
+    "explanation": "**LAN** = **Local Area Network** (office, building) → **statement A true**."
+  },
+  {
+    "question": "Which one of the following protocols is used for the noisy channel?",
+    "options": [
+      "Simplest protocol",
+      "Half duplex",
+      "Selective repeat ARQ",
+      "Hybrid"
+    ],
+    "answer": 2,
+    "explanation": "**Selective Repeat ARQ** **retransmits only lost frames** → **efficient for noisy channels**."
+  },
+  {
+    "question": "Which of the following is not a primitive root of 17?",
+    "options": ["7", "10", "14", "4"],
+    "answer": 3,
+    "explanation": "**4** is **not a primitive root** mod 17 (order < 16)."
+  },
+  {
+    "question": "Which error detection method uses one's complement arithmetic?",
+    "options": [
+      "Simple parity check",
+      "Checksum",
+      "Two-dimensional parity check",
+      "CRC"
+    ],
+    "answer": 1,
+    "explanation": "**Internet checksum** uses **one’s-complement addition**."
+  },
+  {
+    "question": "Which error detection method involves polynomials?",
+    "options": [
+      "CRC",
+      "Simple parity check",
+      "Two-dimensional parity check",
+      "Checksum"
+    ],
+    "answer": 0,
+    "explanation": "**CRC** treats data as **polynomial coefficients** mod generator polynomial."
+  },
+  {
+    "question": "What is the minimum hamming distance of this coding scheme d(01101, 10011)?",
+    "options": ["1", "2", "3", "4"],
+    "answer": 3,
+    "explanation": "Bit-wise XOR: **4 positions differ** → **Hamming distance = 4**."
+  },
+  {
+    "question": "What is the efficiency of the Go back N ARQ protocol?",
+    "options": [
+      "N = N / (2a + 2a)",
+      "N = N / (1 + 2a)",
+      "N = N * (2a + 2a)",
+      "N = N * (1 + 2a)"
+    ],
+    "answer": 1,
+    "explanation": "Efficiency ≈ **N / (1 + 2a)** where **a = propagation time / transmission time**."
+  },
+  {
+    "question": "The term that refers to a set of procedures used to restrict the amount of data that the sender can send before waiting for acknowledgment is",
+    "options": ["Error control", "Flow control", "Delay", "None"],
+    "answer": 1,
+    "explanation": "**Flow control** (sliding window) **limits outstanding data** to prevent overflow."
+  }
+]
