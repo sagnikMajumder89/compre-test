@@ -1,0 +1,304 @@
+[
+  {
+    "question": "The control circuit which is responsible for the DMA transfer is known as _________",
+    "options": [
+      "DMA controller",
+      "DMA interface",
+      "Data Controller",
+      "CPU control unit"
+    ],
+    "answer": 0,
+    "explanation": "The **DMA controller** is the dedicated hardware block that manages entire DMA transfers without continuous CPU intervention."
+  },
+  {
+    "question": "MIMD classified computers are known as ______________, if the processor has high degree of interactions among themselves.",
+    "options": [
+      "UMA",
+      "NUMA",
+      "Dynamic Memory accessing",
+      "Random Memory Accessing"
+    ],
+    "answer": 1,
+    "explanation": "**NUMA** (Non-Uniform Memory Access) is the MIMD architecture where processors share memory but with *non-uniform* access times, reflecting tight interaction."
+  },
+  {
+    "question": "I/O device is connected to the interconnection network by using a device interface, the interface includes _________________________ registers accessed by the processor.",
+    "options": ["Data", "Status", "Control", "Data, Status and Control"],
+    "answer": 3,
+    "explanation": "A standard device interface exposes **Data, Status, and Control** registers so the CPU can exchange data, check state, and issue commands."
+  },
+  {
+    "question": "High-speed of I/O data transfer is possible by using _______________ mechanism",
+    "options": [
+      "Interrupt driven I/O",
+      "Program – controlled I/O",
+      "DMA",
+      "Memory mapped I/O"
+    ],
+    "answer": 2,
+    "explanation": "**DMA** bypasses the CPU to move blocks directly between device and memory, yielding the highest throughput."
+  },
+  {
+    "question": "Worst-case complexity is mostly used in algorithm designs instead of remaining complexity cases. Because",
+    "options": [
+      "Worst-case complexity measure is simple and easy.",
+      "Worst-case complexity has better understanding parameters.",
+      "Best-case for almost any algorithm is trivial and determination of Average case complexity requires more parameters.",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "Worst-case gives a **guaranteed upper bound**; average-case needs probability distributions and is harder to compute."
+  },
+  {
+    "question": "Which of the following is an undecidable problem?",
+    "options": [
+      "Euler’s circuit problem",
+      "Halting problem",
+      "Traveling sales man problem",
+      "Knapsack problem"
+    ],
+    "answer": 1,
+    "explanation": "The **Halting problem** is the canonical undecidable problem—no algorithm can decide for every program-input pair whether it halts."
+  },
+  {
+    "question": "Which of the following way is best to represent the algorithms",
+    "options": [
+      "English literature step by step",
+      "Flowchart",
+      "Pseudocode",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "**Pseudocode** balances clarity and precision, making it the preferred notation for algorithm description."
+  },
+  {
+    "question": "Which of the following statement is the correct reason for analyzing algorithms?",
+    "options": [
+      "To choose the best algorithm for a particular task",
+      "To study and improve the algorithm performance from existing algorithms",
+      "Both",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "We analyze algorithms **both** to select the best one and to optimize further."
+  },
+  {
+    "question": "Which of the following statement is correct for Recursion",
+    "options": [
+      "Structure or code representation is complex.",
+      "Used First in First out principle.",
+      "Required more memory space to hold intermediate results on the system stacks.",
+      "Took less time than iterative method."
+    ],
+    "answer": 2,
+    "explanation": "Each recursive call creates a new **stack frame**, consuming extra memory."
+  },
+  {
+    "question": "Which of the following is not NP-Hard problem",
+    "options": [
+      "Hamiltonian Cycle Problem",
+      "Travelling Salesman Problem",
+      "Euler’s circuit problem",
+      "All the above"
+    ],
+    "answer": 2,
+    "explanation": "**Euler’s circuit** has a linear-time algorithm, so it is **not** NP-hard."
+  },
+  {
+    "question": "Which of the following is not criteria for algorithms",
+    "options": ["Alertness", "Definiteness", "Finiteness", "Effectiveness"],
+    "answer": 0,
+    "explanation": "**Alertness** is irrelevant; essential criteria are Definiteness, Finiteness, Effectiveness, Input, Output."
+  },
+  {
+    "question": "Which of the following is compulsory criteria for algorithms",
+    "options": ["Easiness", "Simple", "Activeness", "Finiteness"],
+    "answer": 3,
+    "explanation": "An algorithm **must terminate** after finite steps → **Finiteness**."
+  },
+  {
+    "question": "What is the primary usage of asymptotic analysis?",
+    "options": [
+      "Measure the efficiency of algorithms that don’t depend on machine-specific constants.",
+      "Used to judge an algorithm whether is it suitable to a particular system or not",
+      "Used to find the minimum specification of hardware to execute the algorithm",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "Asymptotic notation (**O, Θ, Ω**) abstracts away hardware constants and focuses on growth rates."
+  },
+  {
+    "question": "Use of Omega notation (Ω) notation?",
+    "options": [
+      "To specify the least or minimum amount of resources that needed over all inputs of size",
+      "To specify Best case complexity",
+      "To Specify Worst case complexity",
+      "Both A and B"
+    ],
+    "answer": 3,
+    "explanation": "Ω gives a **lower bound**; when used for best-case it describes minimum resource usage."
+  },
+  {
+    "question": "Undecidable problems mean:",
+    "options": [
+      "Problems that polynomial algorithms can solve",
+      "Problems that deterministic polynomial algorithms can solve",
+      "Problems that non-deterministic polynomial algorithms can solve",
+      "Problems that any algorithm cannot solve"
+    ],
+    "answer": 3,
+    "explanation": "**Undecidable** = no algorithm exists that can always produce the correct yes/no answer."
+  },
+  {
+    "question": "The algorithms whose time complexity is O(n²) belong to",
+    "options": ["NP-Hard", "NP-Complete", "P", "None"],
+    "answer": 2,
+    "explanation": "Polynomial-time algorithms (O(n²)) reside in class **P**."
+  },
+  {
+    "question": "Space complexity is measured using the word. Which of the following statement is correct for term word.",
+    "options": [
+      "Word is a collection of bits stored in computer memory. Its size is 4 to 64 bits",
+      "Word is a collection variable used in an algorithm, which is a sum of each variable type memory occupied memory.",
+      "Word is a count of statements used in the algorithm",
+      "Word is the total algorithm size."
+    ],
+    "answer": 0,
+    "explanation": "A **word** is the natural unit of data (4–64 bits) used as a basic space unit in analysis."
+  },
+  {
+    "question": "SAT or B-SAT is an example for",
+    "options": ["NP-Hard", "NP-Complete", "P", "None"],
+    "answer": 1,
+    "explanation": "Boolean satisfiability (**SAT**) is the first problem proven to be **NP-Complete**."
+  },
+  {
+    "question": "P class problem means:",
+    "options": [
+      "Problems that can be solvable in polynomial time",
+      "Tractable problems.",
+      "whose time complexity is O(N^c) where N is input size and C is constant",
+      "All"
+    ],
+    "answer": 3,
+    "explanation": "**P** = problems solvable in **polynomial time**, also called tractable."
+  },
+  {
+    "question": "One problem which is known to be NP-Complete and from that problem give Transformation to some other problem in NP, then that NP problem becomes:",
+    "options": ["NP-Hard", "NP-Complete", "P", "None"],
+    "answer": 1,
+    "explanation": "If an **NP-Complete** problem reduces to it, it is also **NP-Complete**."
+  },
+  {
+    "question": "NP-complete problems mean:",
+    "options": [
+      "Problems in NP",
+      "Problems in P",
+      "Problems in NP and NP-Hard",
+      "Problems in P and NP"
+    ],
+    "answer": 2,
+    "explanation": "**NP-Complete** = intersection of **NP** and **NP-Hard**."
+  },
+  {
+    "question": "NP class of decision problem can be:",
+    "options": [
+      "Solved by non-deterministic polynomial algorithms",
+      "Solved by deterministic polynomial algorithms",
+      "Solved by polynomial algorithms",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "**NP** is defined as decisions verifiable in polynomial time by a *non-deterministic* machine."
+  },
+  {
+    "question": "In recursion, which data structure were used",
+    "options": ["Hash table", "Stack", "Queue", "Dictionary"],
+    "answer": 1,
+    "explanation": "Recursive calls use the **call stack** to store return addresses and local variables."
+  },
+  {
+    "question": "In Algorithm time complexity analysis which of the following is correct?",
+    "options": [
+      "Only compile time is considered.",
+      "Only Execution Time is considered.",
+      "Both Compile execution time is considered.",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Complexity analysis counts **runtime steps**, ignoring compile-time overhead."
+  },
+  {
+    "question": "In algorithm analysis, Constant time means?",
+    "options": [
+      "Algorithm terminates after a specified time.",
+      "Algorithm automatically produces output in a specified constant time.",
+      "Algorithm checks whether it can be completed in a given time or not.",
+      "Algorithm requires the same fixed number of steps (regardless of) independent of the input size."
+    ],
+    "answer": 3,
+    "explanation": "**O(1)** means the step count is bounded by a constant, independent of input size."
+  },
+  {
+    "question": "If every problem in NP can be polynomial-time reducible to a problem 'A,' and 'A' is not in NP, then 'A' is called:",
+    "options": ["NP-Hard", "NP-Complete", "P", "None"],
+    "answer": 0,
+    "explanation": "Such an **A** is at least as hard as all NP problems → **NP-Hard**."
+  },
+  {
+    "question": "If every problem in NP can be polynomial-time reducible to a problem 'A,' and 'A' is also in NP, then 'A' is called:",
+    "options": ["NP-Hard", "NP-Complete", "P", "None"],
+    "answer": 1,
+    "explanation": "Being **NP-Hard** and in **NP** simultaneously makes **A** **NP-Complete**."
+  },
+  {
+    "question": "Consider two Algorithms A and B, with time-complexities 100 n + 1 and n² + n + 1, respectively. Which of the following statements is correct?",
+    "options": [
+      "Algorithm-A takes almost ten times longer than Algorithm-B.",
+      "Algorithm-A is better than Algorithm-B.",
+      "For smaller input, Algorithm-B is best, and for bigger input, Algorithm-A is best",
+      "For smaller input, Algorithm-A is best, and for bigger input, Algorithm-B is best"
+    ],
+    "answer": 2,
+    "explanation": "Linear **O(n)** beats quadratic **O(n²)** for *large* n; reverse holds for very small n."
+  },
+  {
+    "question": "Class NP problems are:",
+    "options": [
+      "verifiable in polynomial time",
+      "Solvable in polynomial time",
+      "Not Solvable in Non polynomial time",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "**NP** = solutions can be **verified** in polynomial time."
+  },
+  {
+    "question": "Analysis of an Algorithms means",
+    "options": [
+      "Determine the amount of space to store on the hard disk",
+      "Determine the amount of duration to execute or RUN",
+      "Determining the amount of electrical power to complete the algorithm task.",
+      "Determining the required number of instructions and storage memory required for an algorithm."
+    ],
+    "answer": 3,
+    "explanation": "Algorithm analysis counts **computational steps** and **memory words** needed."
+  },
+  {
+    "question": "In a full binary tree if there are L leaves, then total number of nodes N are?",
+    "options": ["N = 2*L", "N = L + 1", "N = L – 1", "N = 2*L – 1"],
+    "answer": 3,
+    "explanation": "Full binary tree: **N = 2L – 1** (every internal node has two children)."
+  },
+  {
+    "question": "Which of the following Recursive Algorithms analysis method is not suitable for all cases.",
+    "options": [
+      "Substitution Method",
+      "Recurrence Tree Method",
+      "Master Method",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "**Master Method** applies only to divide-and-conquer recurrences of specific form."
+  }
+]
