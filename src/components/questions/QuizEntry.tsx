@@ -67,6 +67,7 @@ export const QuizEntry: React.FC = () => {
       <QuizSetSelector
         sets={quizSets.map((s) => s.label)}
         onSelectSet={handleSelectSet}
+        loading={loading}
       />
     );
   }
