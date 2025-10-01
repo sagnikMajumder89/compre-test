@@ -21,7 +21,7 @@
     "options": [
       "Basic COCOMO",
       "Intermediate COCOMO",
-      "A and B",
+      "Basic and Intermediate COCOMO",
       "None of the above"
     ],
     "answer": 2,
@@ -53,8 +53,8 @@
       "Networking Module",
       "None of the above"
     ],
-    "answer": 3,
-    "explanation": "Semi-detached is a **COCOMO mode** (mixed experience team), not a module type."
+    "answer": 1,
+    "explanation": "Because in software engineering, the term `semi-detached software` usually refers to situations where the software relies partly on external modules (like a database) while the rest is developed independently."
   },
   {
     "question": "The Scalar principle of organisation implies",
@@ -239,20 +239,20 @@
   {
     "question": "The number of states in DFA is ______ than the number of states in NFA for the same language.",
     "options": ["greater equal", "less", "greater", "equal"],
-    "answer": 2,
-    "explanation": "In the worst case a DFA can require **exponentially more** states than an NFA."
+    "answer": 0,
+    "explanation": "When converting an NFA to a DFA, we use the subset construction (powerset construction) method. This can lead to an exponential increase in the number of states."
   },
   {
     "question": "The number of states in a machine M recognising L₁ ∪ L₂ will be __________________ where n is the number of states in M₁ and m is the number of states in M₂.",
     "options": ["m+n", "m-n", "m+n+1", "n-m"],
-    "answer": 0,
-    "explanation": "Product construction for union needs **m × n** states (upper bound m+n shown in options; closest is m+n)."
+    "answer": 2,
+    "explanation": "To construct a new machine M that recognizes L₁ ∪ L₂, you can follow these steps: Create a new start state for M. Add an ε-transition (an empty or lambda transition) from this new start state to the original start states of both M₁ and M₂. The states of the new machine M will consist of all the states from M₁ (n states), all the states from M₂ (m states), plus the one new start state."
   },
   {
     "question": "The number of comparisons required in the Linear search algorithm, if the search element is not present in the array, is",
     "options": ["n+1", "n", "(n+1)/2", "n-1"],
-    "answer": 0,
-    "explanation": "**n+1** comparisons are needed to confirm absence (n elements + final sentinel check)."
+    "answer": 1,
+    "explanation": "n comparisons"
   },
   {
     "question": "The number of auxiliary memory required for a Push Down Machine (PDM) to behave like a Finite State Machine (FSM) is",

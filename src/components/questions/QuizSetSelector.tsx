@@ -1,13 +1,16 @@
+import { Loader2 } from "lucide-react";
 import React, { useState, useMemo } from "react";
 
 interface QuizSetSelectorProps {
   sets: string[];
   onSelectSet: (set: string) => void;
+  loading: boolean;
 }
 
 export const QuizSetSelector: React.FC<QuizSetSelectorProps> = ({
   sets,
   onSelectSet,
+  loading,
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
@@ -58,23 +61,32 @@ export const QuizSetSelector: React.FC<QuizSetSelectorProps> = ({
       </div>
 
       {/* Grid Layout for Buttons */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
-        {paginatedSets.map((set, idx) => {
-          const globalIndex = sets.indexOf(set);
-          return (
-            <button
-              key={idx}
-              className="px-4 py-3 bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-lg hover:from-purple-600 hover:to-indigo-700 transition-all duration-200 transform hover:scale-105 shadow-md hover:shadow-lg font-medium text-sm"
-              onClick={() => onSelectSet(set)}
-            >
-              <div className="font-semibold">Set {globalIndex + 1}</div>
-              {/* <div className="text-xs opacity-90 truncate" title={set}>
+      {loading ? (
+        <div className="flex items-center justify-center h-screen">
+          <Loader2 />
+          <p>Loading...</p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
+          {paginatedSets.map((set, idx) => {
+            const globalIndex = sets.indexOf(set);
+            return (
+              <button
+                key={idx}
+                className="px-4 py-3 bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-lg hover:from-purple-600 hover:to-indigo-700 transition-all duration-200 transform hover:scale-105 shadow-md hover:shadow-lg font-medium text-sm"
+                onClick={() => onSelectSet(set)}
+                disabled={loading}
+              >
+                <div className="font-semibold">Set {globalIndex + 1}</div>
+
+                {/* <div className="text-xs opacity-90 truncate" title={set}>
                 {set}
               </div> */}
-            </button>
-          );
-        })}
-      </div>
+              </button>
+            );
+          })}
+        </div>
+      )}
 
       {/* Pagination Controls */}
       {totalPages > 1 && (

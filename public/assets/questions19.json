@@ -1,0 +1,331 @@
+[
+  {
+    "question": "Amount of data utilized by the stack, which of the content holds",
+    "options": [
+      "not a fixed size",
+      "the amount of the data fluctuates",
+      "depends on stack's lifetime",
+      "all of these"
+    ],
+    "answer": 3,
+    "explanation": "Stack size **varies** with **push/pop** during **lifetime** → **all statements true**."
+  },
+  {
+    "question": "Among the Mintzberg’s management roles, figurehead comes under",
+    "options": [
+      "Interpersonal roles",
+      "Informational roles",
+      "Decision roles",
+      "Leader roles"
+    ],
+    "answer": 0,
+    "explanation": "**Figurehead** is an **interpersonal** (symbolic/ ceremonial) role."
+  },
+  {
+    "question": "All of the following are elements of planning EXCEPT:",
+    "options": [
+      "Developing Plans",
+      "Monitoring Performance",
+      "Establishing Strategies",
+      "Coordinate Activities"
+    ],
+    "answer": 1,
+    "explanation": "**Monitoring performance** is part of **controlling**, **not planning**."
+  },
+  {
+    "question": "After a study of the work processes on a project, a quality audit team reports to the project manager that irrelevant quality standards were being used by the project, which might lead to rework. What was the objective of the project manager in initiating this study?",
+    "options": [
+      "Quality control",
+      "Quality planning",
+      "Checking adherence to processes",
+      "None in the list"
+    ],
+    "answer": 1,
+    "explanation": "Detecting **wrong standards** is **quality planning** (setting correct ones)."
+  },
+  {
+    "question": "Administrative Management is related to",
+    "options": ["Elton Mayo", "Henry Fayol", "F W Taylor", "Max Weber"],
+    "answer": 1,
+    "explanation": "**Fayol** is the father of **Administrative Management** (14 principles)."
+  },
+  {
+    "question": "Aditi has a reputation of being fair, helpful, and understanding. She even helped her subordinate overcome a personal crisis. Which one of the following dimensions of leadership is Aditi displaying here?",
+    "options": [
+      "consideration",
+      "initiating structure",
+      "employee orientation",
+      "task orientation"
+    ],
+    "answer": 0,
+    "explanation": "**Consideration** = **people-focused**, supportive, trust-building behaviour."
+  },
+  {
+    "question": "Activity Bar charts show schedule against ______________",
+    "options": [
+      "task dependencies",
+      "calendar time",
+      "critical bar chart",
+      "defining milestones"
+    ],
+    "answer": 1,
+    "explanation": "Gantt (bar) charts plot **tasks against calendar dates**."
+  },
+  {
+    "question": "According to this principle of general management, “an organization should safeguard against abuse of managerial power, but at the same time, a manager should have the necessary authority to carry out his responsibility.” Name the principle of management described in the given statement.",
+    "options": [
+      "Discipline",
+      "Authority and responsibility",
+      "Unity of command",
+      "Unity of direction"
+    ],
+    "answer": 1,
+    "explanation": "**Authority & responsibility** must be **balanced** (Fayol)."
+  },
+  {
+    "question": "According to the University of Iowa behavioural studies, group members' satisfaction levels were generally ________.",
+    "options": [
+      "higher under a supportive leader in the long run.",
+      "improved when the leader was production oriented",
+      "maintained when the leader was directive in the short run",
+      "higher under a democratic leader than under an autocratic one"
+    ],
+    "answer": 0,
+    "explanation": "**Supportive (employee-centred)** leaders produced **higher long-term satisfaction**."
+  },
+  {
+    "question": "According to the Ohio State studies, the ________ dimension of leader behaviour is defined as the extent to which a leader has job relationships characterized by mutual trust and respect for group members' ideas and feelings.",
+    "options": [
+      "relationship management",
+      "consideration",
+      "people orientation",
+      "integrity"
+    ],
+    "answer": 1,
+    "explanation": "**Consideration** = **mutual trust, respect, warmth**."
+  },
+  {
+    "question": "According to the Ohio State studies, ________ refers to the extent to which a leader is likely to define and shape his or her role and the roles of group members in the search for goal attainment.",
+    "options": [
+      "people orientation",
+      "production orientation",
+      "initiating structure",
+      "consideration"
+    ],
+    "answer": 2,
+    "explanation": "**Initiating structure** = **task-focused**, role-clarifying, goal-setting behaviour."
+  },
+  {
+    "question": "According to Henri Fayol, if this principle of general management is violated, “authority is undermined, discipline is in jeopardy, order disturbed, and stability threatened.” Identify the principle.",
+    "options": [
+      "Authority and responsibility",
+      "Discipline",
+      "Unity of command",
+      "Equity"
+    ],
+    "answer": 2,
+    "explanation": "**Unity of command** = **one boss per employee**; violation causes chaos."
+  },
+  {
+    "question": "According to Burns and Stalker, which of the following is a feature of organic organisations?",
+    "options": [
+      "Emphasis on vertical communication channels",
+      "Prestige drawn from personal contribution",
+      "Stress on obedience to superiors and loyalty to the organisation",
+      "Knowledge requirement based on job"
+    ],
+    "answer": 1,
+    "explanation": "Organic structures reward **personal expertise and contribution**, not rank."
+  },
+  {
+    "question": "According to research, what characteristic is most frequently shared by firms that receive high rankings for corporate social responsibility?",
+    "options": [
+      "encouraging employees to participate in civic activities",
+      "requiring managers to understand ethics laws",
+      "promoting integrity through ethics training",
+      "linking compensation to ethical behaviours"
+    ],
+    "answer": 3,
+    "explanation": "**Linking pay to ethics** **drives** ethical behaviour → **strong CSR culture**."
+  },
+  {
+    "question": "Access is determined by rules in Rule-Based Access Control (RuBAC). What type of access control would such restrictions fall under?",
+    "options": [
+      "Discretionary Access Control (DAC)",
+      "Mandatory Access control (MAC)",
+      "Non-Discretionary Access Control (NDAC)",
+      "Lattice-based Access control"
+    ],
+    "answer": 2,
+    "explanation": "Rule-based = **Non-Discretionary** (admin-defined rules, not owner discretion)."
+  },
+  {
+    "question": "Ability of an individual to analyze complex situations and to rationally process and interpret available information is called",
+    "options": [
+      "Technical skills",
+      "Human skills",
+      "Conceptual skills",
+      "Employee skills"
+    ],
+    "answer": 2,
+    "explanation": "**Conceptual skills** = **big-picture thinking** and **problem-solving**."
+  },
+  {
+    "question": "ABC Airways uses software to manage reservation of its passengers. After a year of its use, the database administrator decided to add few attributes with the passenger table. If he is able to change the structure of passenger table without adjusting its front-end, how do we call such independence?",
+    "options": [
+      "Physical data independence",
+      "Logical data independence",
+      "External data independence",
+      "View data independence"
+    ],
+    "answer": 1,
+    "explanation": "**Logical data independence** = **schema changes** do **not affect application programs**."
+  },
+  {
+    "question": "A mistake in software code or configuration that provides an attacker with indirect access to a system or network is called as...",
+    "options": ["Vulnerability", "Virus", "Trojan Horse", "Exposures"],
+    "answer": 0,
+    "explanation": "**Vulnerability** = **weakness** that can be **exploited**."
+  },
+  {
+    "question": "A visual drawing of the reporting relationships within an organization is called a(n):",
+    "options": [
+      "work specialization chart.",
+      "unity of command chart.",
+      "organization chart.",
+      "division of labour chart."
+    ],
+    "answer": 2,
+    "explanation": "**Organization chart** displays **reporting relationships**."
+  },
+  {
+    "question": "A view of database that appears to an application program is known as _______",
+    "options": ["Virtual table", "Schema", "Subschema", "None of the above"],
+    "answer": 2,
+    "explanation": "**Subschema** = **external view** (application-specific subset)."
+  },
+  {
+    "question": "A variable that derive Ɛ is called .",
+    "options": ["Ɛ", "@", "*", "Nullable"],
+    "answer": 3,
+    "explanation": "Such a variable is **nullable** (can produce empty string)."
+  },
+  {
+    "question": "A stable set of characteristics and tendencies that determine commonalities and differences in people’s behavior is called",
+    "options": ["Attitude", "Stereotype", "Attribution", "Personality"],
+    "answer": 3,
+    "explanation": "**Personality** = **enduring traits** shaping behaviour."
+  },
+  {
+    "question": "A software process is a set of related activities that gives outcome to the ____________ of the software",
+    "options": ["Production", "Engineering", "Sales", "None of the above"],
+    "answer": 0,
+    "explanation": "Process activities **produce** the software product."
+  },
+  {
+    "question": "A rule of thumb is if you can find another company which can do a non-core activity better and faster, ________________.",
+    "options": [
+      "you should keep producing.",
+      "you should compete with the company.",
+      "you should outsource.",
+      "you should increase your efficiency."
+    ],
+    "answer": 2,
+    "explanation": "**Outsource non-core** activities to **specialists** → **focus on core competencies**."
+  },
+  {
+    "question": "A reporting relationship in which an employee receives orders from, and reports to, only one supervisor is known as:",
+    "options": [
+      "Line of authority",
+      "Unity of direction",
+      "Unity of command",
+      "Responsibility"
+    ],
+    "answer": 2,
+    "explanation": "**Unity of command** = **one boss per employee**."
+  },
+  {
+    "question": "A relationship between the instances of a single entity type is called",
+    "options": [
+      "Recursive relationship",
+      "Ternary relationship",
+      "Binary relationship",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "**Recursive relationship** relates **instances of the same entity** (e.g. Employee manages Employee)."
+  },
+  {
+    "question": "A pure virtual function implicitly means",
+    "options": [
+      "do-everything function",
+      "do-nothing function",
+      "do-something function",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "Pure virtual = **no implementation** → **do-nothing** (abstract)."
+  },
+  {
+    "question": "A process of verifying the validity of a claimed identity of a person is called?",
+    "options": [
+      "Identification",
+      "Authentication",
+      "Authorization",
+      "Accountability"
+    ],
+    "answer": 1,
+    "explanation": "**Authentication** = **verifying identity** (who you are)."
+  },
+  {
+    "question": "A process is thrashing if",
+    "options": [
+      "it is spending more time paging than executing",
+      "it is spending less time paging than executing",
+      "page fault occurs",
+      "swapping cannot take place"
+    ],
+    "answer": 0,
+    "explanation": "**Thrashing** = **CPU bound by paging** (>50 % time on page faults)."
+  },
+  {
+    "question": "A problem is said to be decidable if it is a",
+    "options": [
+      "recursively enumerable",
+      "recursive",
+      "context-sensitive",
+      "None of the choices."
+    ],
+    "answer": 1,
+    "explanation": "**Recursive (Turing-decidable)** languages have **algorithms that always halt**."
+  },
+  {
+    "question": "A period of \"testing-out\" the leaders in group development stages",
+    "options": ["Storming", "Norming", "Performing", "Adjourning"],
+    "answer": 0,
+    "explanation": "**Storming** = **power struggles & testing leadership**."
+  },
+  {
+    "question": "A mistake in the software code that provides an attacker with direct access to a system or network is called as....",
+    "options": ["Vulnerability", "Virus", "Trojan Horse", "Backdoor Attack"],
+    "answer": 3,
+    "explanation": "**Backdoor** = **intentional/exploitable code** giving **direct access**."
+  },
+  {
+    "question": "A memory buffer used to accommodate a speed differential is called ____________",
+    "options": ["stack pointer", "cache", "accumulator", "disk buffer"],
+    "answer": 1,
+    "explanation": "**Cache** bridges **CPU-memory speed gap**."
+  },
+  {
+    "question": "a logical disk component that manages a disk's internal operations as it relates to a computer and is abstract to a human user.....",
+    "options": [
+      "disk management",
+      "scheduler",
+      "memory management",
+      "file management system"
+    ],
+    "answer": 0,
+    "explanation": "**Disk management** layer abstracts **hardware details** from user/OS."
+  }
+]
