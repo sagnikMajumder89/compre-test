@@ -222,7 +222,7 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
               <CardContent className="flex flex-col gap-3">
                 {/* Display image if present */}
                 {shuffledQuestions[currentQuestionIndex].image && (
-                  <div className="mb-4">
+                  <div className="mb-4 w-2/3 mx-auto">
                     <img
                       src={shuffledQuestions[currentQuestionIndex].image}
                       alt="Question illustration"

@@ -168,8 +168,8 @@
   {
     "question": "The five items: A, B, C, D and E are pushed in the stack, one after the other starting from A. The stack is popped four items and each element is inserted in a queue. Then two elements are deleted from the queue and pushed back on the stack. Now one item is popped from the stack. The popped item is.",
     "options": ["A", "B", "C", "D"],
-    "answer": 2,
-    "explanation": "Final stack top after sequence is **C**."
+    "answer": 3,
+    "explanation": "Final stack top after sequence is **D**."
   },
   {
     "question": "The file-position pointer is ___ value that specifies the location in the file as a number of bytes from the file's starting location",
