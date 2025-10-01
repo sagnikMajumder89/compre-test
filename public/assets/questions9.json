@@ -8,8 +8,8 @@
   {
     "question": "The maximum distance between two nodes present in the queue is 1 in the implementation of BFS. (length/edge = 1)",
     "options": ["True", "False"],
-    "answer": 1,
-    "explanation": "BFS queue contains **at most two adjacent layers** → distance **can be 2 edges**."
+    "answer": 0,
+    "explanation": "Source: Trust me Bro"
   },
   {
     "question": "The matrix structure is the correct structure when three conditions are met. Which of the following is one of these three conditions?",
