@@ -142,8 +142,8 @@
       "the compiler easily finds syntax error in a program",
       "the time complexity is linear"
     ],
-    "answer": 1,
-    "explanation": "Pure virtual functions **eliminate v-table entry** for abstract classes → **minor memory save**."
+    "answer": 2,
+    "explanation": "While not strictly a `syntax` error, a pure virtual function allows the compiler to catch a specific and crucial type of programming error at compile-time, which is a significant advantage."
   },
   {
     "question": "The address of a page table in memory is stored in",
