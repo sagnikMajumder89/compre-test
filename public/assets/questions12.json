@@ -30,29 +30,33 @@
       "limited stack size",
       "none of these"
     ],
-    "answer": 1,
-    "explanation": "**Top reaching max index** is the **true** overflow condition; question asks for **false**."
+    "answer": 3,
+    "explanation": ""
   },
   {
-    "question": "Output will be: #include<stdio.h> int myFunction(int parameter){ return parameter; } int main(){ int value=100; printf(\"%d %d\", myFunction(value), myFunction(value+100)); }",
+    "question": "Output will be:",
+    "code": "#include<stdio.h>\nint myFunction(int parameter){\n    return parameter;\n}\nint main(){\n    int value=100;\n    printf(\"%d %d\", myFunction(value), myFunction(value+100));\n}",
     "options": ["100 100", "100 200", "Error", "Warning during compilation"],
     "answer": 1,
     "explanation": "Two separate calls print **100** and **200** → **100 200**."
   },
   {
-    "question": "Output will be: #include<stdio.h> #include<string.h> int main(){ char Be[16]=\"Positive \"; char Positive[16]=\"Positive \"; printf(\"%d\",strcmp(Be,Positive)); }",
+    "question": "Output will be:",
+    "code": "#include<stdio.h>\n#include<string.h>\nint main(){\n    char Be[16]=\"Positive \";\n    char Positive[16]=\"Positive \";\n    printf(\"%d\",strcmp(Be,Positive));\n}",
     "options": ["1", "-1", "0", "Error"],
     "answer": 2,
     "explanation": "Strings are **identical** → strcmp returns **0**."
   },
   {
-    "question": "Output of the given code will be: #include<stdio.h> #include<string.h> int main(){ char Be[16]=\"Positive \"; char Positive[16]=\"positive \"; printf(\"%d\",strcmp(Be,Positive)); }",
+    "question": "Output of the given code will be:",
+    "code": "#include<stdio.h>\n#include<string.h>\nint main(){\n    char Be[16]=\"Positive \";\n    char Positive[16]=\"positive \";\n    printf(\"%d\",strcmp(Be,Positive));\n}",
     "options": ["1", "-1", "0", "Error"],
-    "answer": 0,
-    "explanation": "Upper-case **‘P’** > lower-case **‘p’** → **positive value 1**."
+    "answer": 1,
+    "explanation": "Upper-case **'P'** > lower-case **'p'** → **positive value -1**."
   },
   {
-    "question": "Output of the following code will be: #include<stdio.h> int myFunction(){ return 1; } int myFunction(int a){ return 2; } int main(){ printf(\"%d %d\", myFunction(), myFunction(1)); }",
+    "question": "Output of the following code will be:",
+    "code": "#include<stdio.h>\nint myFunction(){\n    return 1;\n}\nint myFunction(int a){\n    return 2;\n}\nint main(){\n    printf(\"%d %d\", myFunction(), myFunction(1));\n}",
     "options": ["1 1", "1 2", "2 2", "Error"],
     "answer": 1,
     "explanation": "Overloading resolves: **no-arg → 1**, **int-arg → 2** → prints **1 2**."
@@ -105,7 +109,7 @@
   {
     "question": "Non-type parameters are mainly used for specifying _____ values or any other constant value for a particular instance of a template.",
     "options": ["max and min", "max or min", "min", "max"],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Often used to supply **max-size** or **min-value** constants."
   },
   {
@@ -150,13 +154,13 @@
   {
     "question": "N Ach, N Aff and N Pow are related",
     "options": [
-      "McClelland’s Learned Needs",
+      "McClelland's Learned Needs",
       "ERG theory",
       "Justice Theory",
       "Equity theory"
     ],
     "answer": 0,
-    "explanation": "**McClelland**’s trio: **Need for Achievement, Affiliation, Power**."
+    "explanation": "**McClelland**'s trio: **Need for Achievement, Affiliation, Power**."
   },
   {
     "question": "Multivalued attribute Example",
@@ -193,7 +197,7 @@
     "explanation": "Addresses are **non-negative integers** → **unsigned** representation."
   },
   {
-    "question": "McKinsey’s 7S framework doesn’t include:",
+    "question": "McKinsey's 7S framework doesn't include:",
     "options": ["System", "Shared value", "Share holders", "Staff"],
     "answer": 2,
     "explanation": "**Shareholders** are **external**; 7S covers **internal** elements only."
@@ -213,7 +217,7 @@
       "Human relations"
     ],
     "answer": 2,
-    "explanation": "Weber’s **bureaucratic** model is a distinct school of thought."
+    "explanation": "Weber's **bureaucratic** model is a distinct school of thought."
   },
   {
     "question": "Match the following: i. Breadth-first search – a. Heap ii. Depth-first search – b. Stack iii. Sorting – c. Queue",
@@ -235,7 +239,7 @@
       "1-B, 2-A, 3-E, 4-C, 5-D"
     ],
     "answer": 0,
-    "explanation": "Mintzberg’s mapping: apex→centralised, techno-structure→professional, etc."
+    "explanation": "Mintzberg's mapping: apex→centralised, techno-structure→professional, etc."
   },
   {
     "question": "Management as a process refers to __________",
