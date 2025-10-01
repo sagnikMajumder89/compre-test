@@ -212,8 +212,8 @@
   {
     "question": "Relations produced by ER model will always be in",
     "options": ["1 NF", "2 NF", "3 NF", "4 NF"],
-    "answer": 2,
-    "explanation": "Proper ER-to-relational mapping yields **3 NF** relations (no transitive dependencies)."
+    "answer": 0,
+    "explanation": "Proper ER-to-relational mapping yields **1 NF** relations (no transitive dependencies)."
   },
   {
     "question": "Relation between two different functions with two constants are applicable in",
@@ -318,7 +318,7 @@
       "Attacking victim device",
       "Attacking victim social network"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "**Pharming** redirects victim to **fake website** (device-level attack)."
   },
   {

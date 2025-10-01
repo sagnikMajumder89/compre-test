@@ -1,0 +1,321 @@
+[
+  {
+    "question": "The term that is used to set standards to enable intercommunication among equipment from a variety of manufacturers is called",
+    "options": ["Project 802", "Project 8802", "Project 208", "Project 2088"],
+    "answer": 0,
+    "explanation": "IEEE Project 802 defines LAN/MAN standards ensuring multi-vendor interoperability."
+  },
+  {
+    "question": "IEEE 802 standard was adopted by",
+    "options": ["ISO", "ANSI", "OSI", "IEEE"],
+    "answer": 0,
+    "explanation": "ISO later adopted the IEEE 802 series as international standards (ISO 8802)."
+  },
+  {
+    "question": "Which of the following symmetric block cipher supports multiple key sizes?",
+    "options": ["DES", "AES", "Double DES", "Triple DES"],
+    "answer": 1,
+    "explanation": "AES supports 128-, 192-, 256-bit keys; DES/3DES have fixed 56/168-bit."
+  },
+  {
+    "question": "Which of the following ensures that data received was sent by the specified sender?",
+    "options": [
+      "Confidentiality",
+      "Authenticity",
+      "Non-repudiation",
+      "None of the choices"
+    ],
+    "answer": 1,
+    "explanation": "Authenticity verifies the identity of the sender."
+  },
+  {
+    "question": "Which of the following encryption has the capability for computing over encrypted data without access to the secret key?",
+    "options": [
+      "Homomorphic Encryption",
+      "RSA",
+      "Elliptic Curve cryptography",
+      "None of the choices"
+    ],
+    "answer": 0,
+    "explanation": "Homomorphic encryption allows arithmetic on ciphertexts."
+  },
+  {
+    "question": "To construct cipher text, __________________ technique reorders plaintext characters.",
+    "options": [
+      "Substitution",
+      "Transposition",
+      "neither (a) nor (b)",
+      "both (a) and (b)"
+    ],
+    "answer": 1,
+    "explanation": "Transposition ciphers permute character positions."
+  },
+  {
+    "question": "The science and art of converting messages to make them secure and resistant to attacks is known as _________________.",
+    "options": [
+      "Cryptography",
+      "Cryptanalysis",
+      "Cryptology",
+      "None of the choices"
+    ],
+    "answer": 0,
+    "explanation": "Cryptography = designing secure ciphers."
+  },
+  {
+    "question": "DES will fall under the category of ___________",
+    "options": [
+      "Electronic Cipher Book",
+      "Electronic Code Book",
+      "Complex block cipher",
+      "None of the choices"
+    ],
+    "answer": 1,
+    "explanation": "DES can operate in Electronic Codebook (ECB) mode among others."
+  },
+  {
+    "question": "A ________ is used to verify the integrity of a message.",
+    "options": [
+      "Message digest",
+      "Decryption algorithm",
+      "Digital envelope",
+      "None of the above"
+    ],
+    "answer": 0,
+    "explanation": "A cryptographic hash (message digest) detects alteration."
+  },
+  {
+    "question": "In IDEA, the key size is ____________",
+    "options": ["128 bytes", "128 bits", "256 bytes", "256 bits"],
+    "answer": 1,
+    "explanation": "IDEA uses a 128-bit key."
+  },
+  {
+    "question": "Which of these is a disadvantage of a Bus network?",
+    "options": [
+      "Expensive",
+      "Needs extra hardware",
+      "Slow",
+      "To connect devices to each other"
+    ],
+    "answer": 2,
+    "explanation": "A single shared bus becomes a bottleneck → slower performance."
+  },
+  {
+    "question": "_____ is a communications protocol standard for transmitting small amounts of digital information using conventional FM Sound Broadcast techniques.",
+    "options": [
+      "Radio System",
+      "Radio Data System",
+      "Radio Broadcast Data System",
+      "Broadcast Data System"
+    ],
+    "answer": 1,
+    "explanation": "RDS (Radio Data System) piggybacks data on FM broadcasts."
+  },
+  {
+    "question": "Which of the following statement/statements is/are TRUE, with respect to vectored interrupts?",
+    "options": [
+      "In vectored interrupt, device identifies itself to the processor by sending the starting address of the service routine.",
+      "Code sent by the vectored interrupt are up to 32 bits.",
+      "In vectored interrupt starting address sent by the device to identify itself is referred to as 'service location'.",
+      "All the mentioned options."
+    ],
+    "answer": 3,
+    "explanation": "All listed facts about vectored interrupts are correct."
+  },
+  {
+    "question": "Which of the following statement/statements is/are FALSE with respect to Centralized BUS arbitration?",
+    "options": [
+      "In centralized BUS arbitration, the processor takes into account the various parameters and assigns the BUS to that device.",
+      "Centralized Bus arbitration involves both Processor and DMA controller for its processing.",
+      "Centralized Bus arbitration is similar to Priority interrupt circuit.",
+      "None of the mentioned options."
+    ],
+    "answer": 3,
+    "explanation": "All statements are actually TRUE; therefore “None … is false” is the correct choice."
+  },
+  {
+    "question": "Which of the following statement is CORRECT, when the process request for DMA operation?",
+    "options": [
+      "The process, which has requested for DMA is temporarily suspended.",
+      "The process, which has requested for DMA continues execution.",
+      "Another process gets executed.",
+      "The process, which has requested for DMA is temporarily suspended and another process start executing."
+    ],
+    "answer": 0,
+    "explanation": "CPU suspends current process, hands control to DMA controller."
+  },
+  {
+    "question": "Which of the following RAID levels gives the striping at the Block level and double distributed parity to address both speed and fault tolerance issue?",
+    "options": ["RAID 10", "RAID 2", "RAID 6", "RAID 5"],
+    "answer": 2,
+    "explanation": "RAID 6 uses block-level striping with two independent parity blocks."
+  },
+  {
+    "question": "Which of the following is TRUE, with respect to RAID 5?",
+    "options": [
+      "Distributed Parity",
+      "Minimum number of Disks required is 3",
+      "High hardware cost for implementation",
+      "All the mentioned options"
+    ],
+    "answer": 3,
+    "explanation": "RAID 5 needs ≥3 disks, uses distributed parity, and requires more hardware."
+  },
+  {
+    "question": "Which of the following is TRUE, w. r. t, “difference between DMA and Interrupt mode of I/O data transfer”?",
+    "options": [
+      "DMA involves the processor for the I/O transfer",
+      "The rate of data transfer is moderate in DMA",
+      "The amount of data transfer is less in DMA",
+      "None of the mentioned options"
+    ],
+    "answer": 3,
+    "explanation": "DMA is fast, block-oriented, and bypasses CPU for bulk transfers."
+  },
+  {
+    "question": "Which of the following is not under the category of Flynn’s classification?",
+    "options": ["SISD", "MIMD", "SIMD", "None of the mentioned options"],
+    "answer": 3,
+    "explanation": "Flynn covers SISD, SIMD, MISD, MIMD; hence “None…” is correct."
+  },
+  {
+    "question": "Which of the following has the highest data rate?",
+    "options": ["RAID 1", "RAID 3", "RAID 4", "RAID 5"],
+    "answer": 3,
+    "explanation": "RAID 5 offers better parallelism than RAID 3/4 and RAID 1 mirroring."
+  },
+  {
+    "question": "The significance of I/O mapped I/O with memory mapped I/O is",
+    "options": [
+      "I/O mapped I/O is faster than memory mapped I/O in terms of data transfer.",
+      "I/O mapped I/O devices have large buffer space.",
+      "I/O mapped I/O devices need to deal with only fewer address lines at the time of communication.",
+      "All the mentioned options."
+    ],
+    "answer": 2,
+    "explanation": "Isolated I/O uses a separate address space, hence fewer address lines."
+  },
+  {
+    "question": "The mechanism in which I/O device is accessed by continuous monitoring its status using status flag is referred as ___________________________",
+    "options": [
+      "Program – controlled I/O",
+      "Memory mapped I/O",
+      "I/O mapped I/O",
+      "Interrupt driven I/O"
+    ],
+    "answer": 0,
+    "explanation": "Polling / program-controlled I/O keeps checking the status flag."
+  },
+  {
+    "question": "The _________________ is used to overcome the contention over the BUS possession and usage.",
+    "options": [
+      "Multiple BUS structure",
+      "Single BUS Structure",
+      "BUS Optimizers",
+      "BUS arbitrator"
+    ],
+    "answer": 3,
+    "explanation": "A bus arbitrator decides which device becomes bus master."
+  },
+  {
+    "question": "State the number of registers present in DMA controller",
+    "options": ["1", "2", "3", "No registers"],
+    "answer": 2,
+    "explanation": "Typical DMA controller has address, count, and status/control registers (≥3)."
+  },
+  {
+    "question": "Overall speed of transfer in RAID level 4 is",
+    "options": ["Low", "Very low", "High", "None of the mentioned options"],
+    "answer": 0,
+    "explanation": "Single dedicated parity disk becomes a bottleneck → low write speed."
+  },
+  {
+    "question": "Once DMA transfer is completed, it is notified to the CPU through ____________ signal",
+    "options": [
+      "Acknowledgement signal",
+      "Interrupt Signal",
+      "Program status word",
+      "None of the mentioned options"
+    ],
+    "answer": 1,
+    "explanation": "DMA controller raises an interrupt to signal completion."
+  },
+  {
+    "question": "In bus arbitration, the controller which initiates data communication on the BUS at any time is called",
+    "options": ["Bus Arbitrator", "Bus Master", "Processor", "Controller"],
+    "answer": 1,
+    "explanation": "Bus master drives address & control signals; others are slaves."
+  },
+  {
+    "question": "How interrupt latency can be reduced?",
+    "options": [
+      "Amount of information saved automatically by the processor when an interrupt request should be kept to a minimum.",
+      "By means of shadow registers",
+      "Processor with small number of registers, hardware unit is used to save the information automatically, once the processor accepts the interrupt request.",
+      "All the mentioned options."
+    ],
+    "answer": 3,
+    "explanation": "All listed techniques shorten the time before ISR starts."
+  },
+  {
+    "question": "During DMA transfer, the signals and addresses are issued by the _______________ unit",
+    "options": [
+      "DMA controllers",
+      "Device drivers",
+      "CPU",
+      "The program itself"
+    ],
+    "answer": 0,
+    "explanation": "DMA controller takes over the bus and generates addresses & control."
+  },
+  {
+    "question": "DMA transfer is initiated by ________________ of the following",
+    "options": [
+      "Processor",
+      "The process being executed",
+      "I/O devices",
+      "Operating System"
+    ],
+    "answer": 2,
+    "explanation": "I/O device asserts DMA request; processor then grants bus."
+  },
+  {
+    "question": "Decomposing the instruction execution into sub-tasks, each sub-task is executed in exclusive unit, all such units operate concurrently, and the defined technique is referred as _____________",
+    "options": ["UMA", "DMA", "Pipelining", "Vector Processing"],
+    "answer": 2,
+    "explanation": "Pipelining overlaps instruction sub-tasks in dedicated stages."
+  },
+  {
+    "question": "_____________ is the efficient method to implement multiple interrupt handling.",
+    "options": [
+      "Polling Method",
+      "Vectored interrupts",
+      "Interrupt nesting",
+      "None of the mentioned options"
+    ],
+    "answer": 1,
+    "explanation": "Vectored interrupts directly jump to the correct ISR, avoiding polling."
+  },
+  {
+    "question": "Which of the following statement is TRUE, with respect to “difference between subroutines and interrupt-service routines”?",
+    "options": [
+      "During subroutine execution, the changes in status information and content registers are anticipated.",
+      "During subroutine execution, the changes in status information and content registers are unanticipated.",
+      "During interrupt service enabling, the changes in status information and content registers are anticipated.",
+      "None of the mentioned options"
+    ],
+    "answer": 0,
+    "explanation": "Subroutine calls are planned, so register saves are anticipated; interrupts are asynchronous."
+  },
+  {
+    "question": "Which of following statement/statements is /are TRUE, w. r. t DMA Controller?",
+    "options": [
+      "The DMA controller can perform operations on two different disks simultaneously, if the appropriate details are known.",
+      "The DMA controller is directly connected to the system bus to provide faster access.",
+      "When the R/W bit of the status register of the DMA controller is set to 1, then Read operation is performed.",
+      "All the mentioned options."
+    ],
+    "answer": 3,
+    "explanation": "All three statements accurately describe DMA-controller capabilities."
+  }
+]
