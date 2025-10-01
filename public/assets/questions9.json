@@ -149,7 +149,8 @@
   },
   {
     "question": "The following graph, which is NOT a topological ordering of the given graph?",
-    "options": ["123456", "132456", "324165", "324156"],
+    "image": "/images/1.png",
+    "options": ["123456", "132456", "324165", "132456"],
     "answer": 2,
     "explanation": "324165 violates edge 1→6 (1 appears after 6) → **invalid topo sort**."
   },

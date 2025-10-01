@@ -21,6 +21,7 @@ import { CheckCircle2, XCircle } from "lucide-react";
 export interface Question {
   question: string;
   code?: string;
+  image?: string;
   options: string[];
   answer: number;
   explanation: string;
@@ -167,6 +168,16 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
                           </div>
                         </AccordionTrigger>
                         <AccordionContent>
+                          {/* Display image in results if present */}
+                          {question.image && (
+                            <div className="mb-4">
+                              <img
+                                src={question.image}
+                                alt="Question illustration"
+                                className="max-w-full h-auto rounded-md border"
+                              />
+                            </div>
+                          )}
                           <p>Your answer: {question.options[userAnswer]}</p>
                           {!isCorrect && (
                             <p className="text-green-500">
@@ -209,6 +220,17 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
                 </CardDescription>
               </CardHeader>
               <CardContent className="flex flex-col gap-3">
+                {/* Display image if present */}
+                {shuffledQuestions[currentQuestionIndex].image && (
+                  <div className="mb-4">
+                    <img
+                      src={shuffledQuestions[currentQuestionIndex].image}
+                      alt="Question illustration"
+                      className="max-w-full h-auto rounded-md border"
+                    />
+                  </div>
+                )}
+
                 {shuffledQuestions[currentQuestionIndex].code && (
                   <pre className="bg-muted p-4 rounded-md text-sm overflow-x-auto">
                     <code>{shuffledQuestions[currentQuestionIndex].code}</code>
