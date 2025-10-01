@@ -1,0 +1,372 @@
+[
+  {
+    "question": "A leader uses _____________ when giving the individual or group the authority and responsibility to decide.",
+    "options": [
+      "consultation",
+      "laissez-faire",
+      "joint decision",
+      "delegation"
+    ],
+    "answer": 3,
+    "explanation": "**Delegation** = **transferring authority & responsibility** to decide."
+  },
+  {
+    "question": "A language that can generate the new data types is known as ___",
+    "options": [
+      "Overloaded languages as they can handle the new data types",
+      "Encapsulated",
+      "Reprehensible",
+      "Extensible"
+    ],
+    "answer": 3,
+    "explanation": "**Extensible languages** allow **user-defined data types** (e.g. C++ templates)."
+  },
+  {
+    "question": "A group of experts are taking decision in this through consensus",
+    "options": [
+      "Interacting groups",
+      "Delphi Methods",
+      "Nominal groups",
+      "Participative decision making"
+    ],
+    "answer": 1,
+    "explanation": "**Delphi** uses **anonymous iterative polling** to reach **expert consensus**."
+  },
+  {
+    "question": "A function template can have __template argument.",
+    "options": ["1", "2", "More than one", "0"],
+    "answer": 2,
+    "explanation": "Templates can have **multiple type/non-type parameters** → **>1**."
+  },
+  {
+    "question": "A file system with data stored on a server. The data is accessed and processed as if it was stored on the local client machine.",
+    "options": [
+      "distributed file system",
+      "stand-alone machine",
+      "Internet file system",
+      "EXT2 FS"
+    ],
+    "answer": 0,
+    "explanation": "**Distributed file system** (e.g. NFS) provides **transparent remote access**."
+  },
+  {
+    "question": "A dollar value is not used to measure all costs and benefits",
+    "options": ["True", "False"],
+    "answer": 0,
+    "explanation": "**Intangible benefits** (brand, morale) **cannot** always be monetised → **True**."
+  },
+  {
+    "question": "A department can be created by",
+    "options": [
+      "function",
+      "product",
+      "process",
+      "All the other answers are correct"
+    ],
+    "answer": 3,
+    "explanation": "Departments can be **functional, product-based, process-based**, etc."
+  },
+  {
+    "question": "A DBMS query language is designed to",
+    "options": [
+      "Specify the structure of a database",
+      "Support end users who use english-like commands",
+      "Support in the development of complex applications software",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "SQL serves **schema definition, ad-hoc queries, and application development**."
+  },
+  {
+    "question": "A dataStore in DFD represents",
+    "options": [
+      "Sequential File",
+      "Disk Store",
+      "Repository of Data",
+      "a Random Access Memory"
+    ],
+    "answer": 2,
+    "explanation": "DataStore = **repository** (file, database, buffer) **holding data at rest**."
+  },
+  {
+    "question": "A data dictionary is a special file that contains",
+    "options": [
+      "The Data type of all fields in all files",
+      "The name of all fields in all files",
+      "The data type of all fields in all files",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Data dictionary holds **metadata: names, types, lengths, constraints**."
+  },
+  {
+    "question": "A cost benefit analysis involves measurable metrics such as",
+    "options": [
+      "Revenue earned or costs",
+      "Quality or costs",
+      "Benefits or costs",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "CBA compares **quantifiable benefits vs. costs** (ROI, pay-back, etc.)."
+  },
+  {
+    "question": "A contingency model of leadership is the path-goal theory. This suggests that subordinates will see leadership behaviour as a motivating influence if:",
+    "options": [
+      "path-goal relationships are clarified.",
+      "their effective performance will satisfy their needs.",
+      "the necessary direction, guidance, training, and support is provided.",
+      "all the other options are correct."
+    ],
+    "answer": 3,
+    "explanation": "Path-goal theory **combines** all listed conditions to **enhance motivation**."
+  },
+  {
+    "question": "A complete graph can have",
+    "options": [
+      "n^2 spanning trees",
+      "n^(n-2) spanning trees",
+      "n^(n+2) spanning trees",
+      "n^(n+2) spanning trees"
+    ],
+    "answer": 1,
+    "explanation": "Cayley’s formula: **Kₙ has n^(n−2) spanning trees**."
+  },
+  {
+    "question": "A company is running with a peer-to-peer network of 30 computers. The policy is such that all system users are responsible for their own security and they can set file and folder privileges on their own. Which of the following access control model best suits the configuration at this company?",
+    "options": ["Discretionary", "Mandatory", "Role-based", "Nondiscretionary"],
+    "answer": 0,
+    "explanation": "Users **own & control** their objects → **Discretionary Access Control (DAC)**."
+  },
+  {
+    "question": "A clustered system ____.",
+    "options": [
+      "Gathers together multiple CPUs to accomplish computational work",
+      "Is an operating system that provides file sharing across a network",
+      "Is used when rigid time requirements are present",
+      "Can only operate one application at a time"
+    ],
+    "answer": 0,
+    "explanation": "Clustering **aggregates CPUs** for **high-performance or high-availability**."
+  },
+  {
+    "question": "A bus is one possible local area network topology. One advantage of a bus network is",
+    "options": [
+      "the failure of one node does not affect the rest of the network",
+      "the performance of the network is unaffected by the number of users",
+      "failure of the main bus cable will only affect a few users",
+      "it has the fastest performance of any network topology"
+    ],
+    "answer": 0,
+    "explanation": "Bus is **passive**; **node failure** **does not** disrupt **other nodes**."
+  },
+  {
+    "question": "A Block can be placed in a restricted set of places in the cache",
+    "options": [
+      "Direct mapping",
+      "set associative",
+      "fully associative",
+      "Indirect associative"
+    ],
+    "answer": 0,
+    "explanation": "**Direct mapped** cache allows **only one possible location** per block."
+  },
+  {
+    "question": "A better measurement of performance of memory-hierarchy is the",
+    "options": [
+      "Average memory access time",
+      "Average memory hit rate",
+      "Average memory miss rate",
+      "Write stall"
+    ],
+    "answer": 0,
+    "explanation": "**AMAT** combines **hit, miss & penalty** → **single metric** for hierarchy performance."
+  },
+  {
+    "question": "A ____________ of an issue consists of weighing and balancing all of the competing demands on a firm by each of those who have a claim on it.",
+    "options": [
+      "stakeholder analysis",
+      "board of directors’ analysis",
+      "corporation analysis",
+      "management analysis"
+    ],
+    "answer": 0,
+    "explanation": "**Stakeholder analysis** evaluates **all claimants’ interests** (shareholders, customers, etc.)."
+  },
+  {
+    "question": "A ____________ leader avoids power and leaves the group entirely to itself.",
+    "options": ["socialistic", "democratic", "autocratic", "laissez-faire"],
+    "answer": 3,
+    "explanation": "**Laissez-faire** = **hands-off**, **minimal power** exercised."
+  },
+  {
+    "question": "A _______ is a data communication system within a building, plant, or campus, or between nearby buildings.",
+    "options": ["MAN", "LAN", "WAN", "None of the above"],
+    "answer": 1,
+    "explanation": "**LAN** covers **local campus/building** area."
+  },
+  {
+    "question": "A high-level document which defines the management plan in detail for how security should be practiced throughout the organization is called?",
+    "options": ["Guidelines", "Policies", "Procedures", "Standards"],
+    "answer": 1,
+    "explanation": "**Security policy** sets **high-level rules & management plan**."
+  },
+  {
+    "question": "______is concerned with the safety of a person's personal information while accessing the Internet on any computer or mobile device.",
+    "options": [
+      "Digital agony",
+      "Digital privacy",
+      "Digital secrecy",
+      "Digital protection"
+    ],
+    "answer": 1,
+    "explanation": "**Digital privacy** = **protection of personal data online**."
+  },
+  {
+    "question": "________is not a proper metric of a program's size",
+    "options": ["LOC", "KLOC", "KDSI", "None of the above"],
+    "answer": 3,
+    "explanation": "LOC, KLOC, KDSI are **all valid size metrics** → **None is invalid**."
+  },
+  {
+    "question": "___________model provide ideas about historical projects",
+    "options": ["Waterfall", "Spiral", "COCOMO", "Incremental"],
+    "answer": 2,
+    "explanation": "**COCOMO** uses **historical project data** for **effort estimation**."
+  },
+  {
+    "question": "_____________used node as activity and links as precedence",
+    "options": [
+      "on-arrow approach",
+      "precedence networks",
+      "Timeline chart",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "**Precedence networks** (PDM) use **nodes = activities, arrows = precedence**."
+  },
+  {
+    "question": "_________________ provides a framework for effective delivery of technology, forms the basis for management, and also provides the context for work products, milestones, quality measures, and change management",
+    "options": [
+      "Prototyping Model",
+      "Linear Sequential Model",
+      "Process",
+      "Cost estimation"
+    ],
+    "answer": 2,
+    "explanation": "**Process** = **framework** covering **work, quality, change, milestones**."
+  },
+  {
+    "question": "_______________ ensure there is always an up-to-date system that can be demonstrated to the client.",
+    "options": [
+      "Domain Object Modelling",
+      "Individual Class (Code) Ownership",
+      "Visibility of progress and results",
+      "Regular Builds"
+    ],
+    "answer": 3,
+    "explanation": "**Regular builds** produce **running demos** → **early & frequent client feedback**."
+  },
+  {
+    "question": "_____________ is triggered by modifications, migration or retirement of existing software.",
+    "options": [
+      "Regression Testing",
+      "Unit Testing",
+      "Maintenance testing",
+      "Integration Testing"
+    ],
+    "answer": 2,
+    "explanation": "**Maintenance testing** = **validation after changes/retirement**."
+  },
+  {
+    "question": "_____________ is the system call that the parent has to invoke in order to avoid creating zombie processes?",
+    "options": ["wait()", "Sleep()", "exec()", "execvp()"],
+    "answer": 0,
+    "explanation": "Parent must **wait()** to **reap child’s exit status** → **no zombie**."
+  },
+  {
+    "question": "_____________ is a lack of access control policy.",
+    "options": ["Bug", "Threat", "Vulnerability", "Attack"],
+    "answer": 2,
+    "explanation": "**Missing policy** = **vulnerability** that can be **exploited**."
+  },
+  {
+    "question": "____________ consists of exploring and explaining the domain of the problem to be solved.",
+    "options": [
+      "Feature Teams",
+      "Inspections",
+      "Domain Object Modelling",
+      "Configuration Management"
+    ],
+    "answer": 2,
+    "explanation": "**Domain Object Modelling** = **understanding & documenting problem space**."
+  },
+  {
+    "question": "____________ is the technique by which a partially loaded program can be executed.",
+    "options": [
+      "Cache memory",
+      "Virtual memory",
+      "Associative memory",
+      "Shared memory"
+    ],
+    "answer": 1,
+    "explanation": "**Virtual memory** allows **demand-paged execution** → **partial loading**."
+  },
+  {
+    "question": "___________ is very useful in situations when data have to be stored and then retrieved in reverse order.",
+    "options": ["Stack", "Queue", "List", "Linked List"],
+    "answer": 0,
+    "explanation": "**Stack (LIFO)** reverses order naturally → **reverse retrieval**."
+  },
+  {
+    "question": "___________ is the system call that has to be invoked by the child to replace the memory image of the child?",
+    "options": ["wait()", "sleep()", "exec()", "exit()"],
+    "answer": 2,
+    "explanation": "**exec()** overlays **new program image** → **replaces child’s memory**."
+  },
+  {
+    "question": "___________ is a model that illustrates how testing activities integrate with software development phases.",
+    "options": [
+      "Waterfall Model",
+      "V-Model",
+      "Spiral Model",
+      "Iterative Model"
+    ],
+    "answer": 1,
+    "explanation": "**V-Model** maps **testing phases** to **each development stage**."
+  },
+  {
+    "question": "___________ communication modes support two-way traffic but in only one direction at a time?",
+    "options": [
+      "simplex",
+      "half duplex",
+      "three-quarters duplex",
+      "all of the above"
+    ],
+    "answer": 1,
+    "explanation": "**Half-duplex** = **two-way**, **one-at-a-time** (e.g. walkie-talkie)."
+  },
+  {
+    "question": "__________ is the responsible for carrying out the instructions and procedures necessary for performing software configuration management tasks are documented in the software configuration management plan.",
+    "options": [
+      "Project manager",
+      "Project leader",
+      "Programmer",
+      "None from the list"
+    ],
+    "answer": 0,
+    "explanation": "**Project manager** **owns** the **SCM plan** and **ensures its execution**."
+  },
+  {
+    "question": "__________ is the process of using a function for more than one purpose. It allows the use of different internal structures of the object by keeping the same external interface.",
+    "options": ["Inheritance", "Polymorphism", "Abstraction", "Encapsulation"],
+    "answer": 1,
+    "explanation": "**Polymorphism** = **same interface, multiple internal behaviours**."
+  },
+  {
+    "question": "__________ is the minimum number of steps that can execute for the given parameters",
+    "options": ["Average case", "Worst case", "Time complexity", "Best case"],
+    "answer": 3,
+    "explanation": "**Best case** = **minimum steps/operations** for **favourable input**."
+  }
+]
