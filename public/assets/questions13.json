@@ -6,16 +6,10 @@
     "explanation": "In pumping lemma, **m, n, o** are **substrings** of w (i.e., **string** parts)."
   },
   {
-    "question": "Let the initial value of count be 5. What will be the final value of count if the instructions are executed in the following order: S1;T1;S2;T2;S3;T3?",
+    "question": "Let the initial value of count be 5. What will be the final value of count if the instructions are executed in the following order: S1;T1;S2;T2;S3;T3? \n Process P0:\n{\nS1: register1=count;\nS2: register1=register1 - 5\nS3: count=register1\n}\nProcess P1:\n{\nT1: register2=count;\nT2: register2=register2 X 5\nT3: count=register2\n}",
     "options": ["50", "25", "10", "0"],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Interleaved execution yields **count = 25** (race-condition scenario)."
-  },
-  {
-    "question": "Let the initial value of count be 10. What will be the final value of count if the instructions are executed in the following order: S1;T1;S2;T2;S3;T3?",
-    "options": ["50", "20", "10", "1"],
-    "answer": 1,
-    "explanation": "Same race pattern → final **count = 20**."
   },
   {
     "question": "Let int arr[4]={0,1,2,3}. Which of the following are valid operations? I. arr++ II. ++arr III. arr+4 IV. arr*4",
@@ -162,7 +156,7 @@
   {
     "question": "Ttype is a placeholder name which will be determined when the class is instantiated.",
     "options": ["Ttype", "type", "Type", "None"],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Conventional placeholder is **typename T** or **class T**."
   },
   {
