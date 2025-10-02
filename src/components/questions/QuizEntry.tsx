@@ -29,6 +29,7 @@ const quizSets = [
   { label: "Set 22", file: "/assets/questions22.json" },
   { label: "Set 23", file: "/assets/questions23.json" },
   { label: "Set 24", file: "/assets/questions24.json" },
+  { label: "Set 25", file: "/assets/questions25.json" },
 ];
 
 export const QuizEntry: React.FC = () => {

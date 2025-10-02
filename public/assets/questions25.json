@@ -1,0 +1,197 @@
+[
+  {
+    "question": "What is the average case time complexity for finding the height of the binary tree?",
+    "options": ["$h=O(loglogn)$", "$h=O(nlogn)$", "$h=O(n)$", "$h=O(log~n)$"],
+    "answer": 2,
+    "explanation": "To find the height of a binary tree, you must traverse all the nodes to determine the longest path from the root to any leaf. This traversal takes time proportional to the number of nodes, $n$. Therefore, the time complexity is $O(n)$ in all cases (average, best, and worst)."
+  },
+  {
+    "question": "What is a full binary tree?",
+    "options": [
+      "Each node has exactly zero or two children",
+      "Each node has exactly two children",
+      "All the leaves are at the same level",
+      "Each node has exactly one or two children"
+    ],
+    "answer": 0,
+    "explanation": "A full binary tree is a tree in which every node has either 0 (for a leaf node) or 2 children. [cite: 3]"
+  },
+  {
+    "question": "What is a complete binary tree?",
+    "options": [
+      "Each node has exactly zero or two children",
+      "A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from right to left",
+      "A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from left to right",
+      "A tree In which all nodes have degree 2"
+    ],
+    "answer": 2,
+    "explanation": "A complete binary tree is a binary tree in which all levels are completely filled, except possibly for the last level, which must be filled from left to right. [cite: 12]"
+  },
+  {
+    "question": "The number of edges from the node to the deepest leaf is called ____ of the tree.",
+    "options": ["Height", "Depth", "Length", "Width"],
+    "answer": 0,
+    "explanation": "The height of a tree is the length (number of edges) of the longest path from the root node to the deepest leaf node. [cite: 12]"
+  },
+  {
+    "question": "The sql query to establish not null constraint on the vendorid column in the vendor table is",
+    "options": [
+      "alter table vendor add constraint vendorid not null;",
+      "alter table vendor modify constraint vendorid not null;",
+      "alter table vendor modify vendorid varchar2(10) not null;",
+      "alter table vendor add constraint vendor nn not null;"
+    ],
+    "answer": 2,
+    "explanation": "In Oracle SQL, the `ALTER TABLE ... MODIFY` command is used to add or remove constraints like `NOT NULL` on an existing column. The data type often needs to be re-specified in the statement. [cite: 14]",
+    "code": "ALTER TABLE vendor\nMODIFY vendorid varchar2(10) NOT NULL;"
+  },
+  {
+    "question": "Some addresses in the address space of the processor are assigned to I/O locations, which are implemented as bit storage circuits organized in the form of registers, and this type of arrangement is called",
+    "options": [
+      "I/O registers",
+      "I/O address space",
+      "Memory mapped I/O",
+      "I/O mapped I/O"
+    ],
+    "answer": 2,
+    "explanation": "This describes Memory-Mapped I/O, where I/O devices are mapped to the same address space as memory, allowing the CPU to access them using the same instructions as it uses for memory access. [cite: 14]"
+  },
+  {
+    "question": "Telnet transfer data in",
+    "options": [
+      "Encrypted format",
+      "Secure channel",
+      "Simple plain text",
+      "Privileged mode"
+    ],
+    "answer": 2,
+    "explanation": "Telnet is an insecure protocol that transmits all data, including credentials, in unencrypted plain text, making it vulnerable to eavesdropping. [cite: 14]"
+  },
+  {
+    "question": "Present-day electronic mail systems are based on",
+    "options": [
+      "Store and forward model",
+      "Save and retrieve model",
+      "Forward and retrieve model",
+      "Save and pop model"
+    ],
+    "answer": 0,
+    "explanation": "Email systems use a store-and-forward model, where messages are passed from one mail server to another and stored until they can be forwarded to the final destination. [cite: 16]"
+  },
+  {
+    "question": "FTP links to which protocol layer?",
+    "options": [
+      "Network layer",
+      "TCP/IP layer",
+      "Presentation layer",
+      "Application layer"
+    ],
+    "answer": 3,
+    "explanation": "FTP (File Transfer Protocol) is a network protocol that operates at the Application Layer of both the OSI and TCP/IP models. [cite: 16]"
+  },
+  {
+    "question": "Which is false about FTP?",
+    "options": [
+      "Transfer files and folders back and forth",
+      "Builds and maintains a website",
+      "Securely transferring files",
+      "uploads or downloads files"
+    ],
+    "answer": 2,
+    "explanation": "Standard FTP (File Transfer Protocol) is inherently insecure as it transmits credentials and data in plaintext. Secure alternatives are FTPS and SFTP. Therefore, the statement that it securely transfers files is false. [cite: 18]"
+  },
+  {
+    "question": "Which of the following is an idempotent method in a stateless protocol like HTTP?",
+    "options": ["PUT", "CONNECT", "POST", "EXIT"],
+    "answer": 0,
+    "explanation": "In HTTP, an idempotent method is one where making multiple identical requests has the same effect as making a single request. `PUT` is idempotent because resending a `PUT` request will not change the outcome. `POST` is not idempotent. [cite: 18]"
+  },
+  {
+    "question": "The PATCH request method is used for",
+    "options": [
+      "Check server function",
+      "Web browser function",
+      "Partial modification",
+      "Create a tunnel to a server"
+    ],
+    "answer": 2,
+    "explanation": "The HTTP `PATCH` method is used to apply partial modifications to an existing resource. This differs from `PUT`, which typically replaces the entire resource. [cite: 18]"
+  },
+  {
+    "question": "An alert sent from an application agent on a remote host to a management station via a management protocol is known as a",
+    "options": ["Inform", "Get", "Trap", "Set"],
+    "answer": 2,
+    "explanation": "In network management protocols like SNMP, a `Trap` is an unsolicited, asynchronous message sent from an agent to a manager to notify it of a significant event. [cite: 22]"
+  },
+  {
+    "question": "Integrates business firewall capabilities with an intrusion prevention system (IPS) and application control using a multi-layered approach known as",
+    "options": [
+      "Packet-filtering firewall",
+      "Stateful Inspection firewall",
+      "Application-level firewall",
+      "Next-Generation firewall"
+    ],
+    "answer": 3,
+    "explanation": "A Next-Generation Firewall (NGFW) combines traditional firewall features with more advanced functions like application awareness and control, and integrated intrusion prevention systems (IPS). [cite: 23, 24, 30]"
+  },
+  {
+    "question": "In his book, Capitalism and Freedom, Milton Friedman argues that",
+    "options": [
+      "doing well while doing good is an essential corporate mantra",
+      "socially responsible behaviour adds to the corporation's bottom line",
+      "corporations are responsible for the environment, society, and profits",
+      "the only social responsibility of business is to increase profits"
+    ],
+    "answer": 3,
+    "explanation": "Milton Friedman's shareholder theory famously argues that the sole social responsibility of a business is to use its resources to increase its profits, so long as it stays within the legal and ethical rules of the game. [cite: 32, 34]"
+  },
+  {
+    "question": "$y^2=x^3-5x+1$ defined over E17. If $P=(3,9)$ what is - P?",
+    "options": ["(3,9)", "(3, 4)", "(3,8)", "none of the above"],
+    "answer": 2,
+    "explanation": "In elliptic curve cryptography over a finite field $F_p$, the inverse of a point $P=(x, y)$ is $-P=(x, -y \\pmod{p})$. Here, $p=17$, so $-P = (3, -9 \\pmod{17}) = (3, 8)$. [cite: 34]"
+  },
+  {
+    "question": "Which variant of DES is also called Encrypt-Decrypt-Encrypt mode?",
+    "options": [
+      "Double DES",
+      "Triple DES with two keys",
+      "Triple DES with three keys",
+      "None of the given choices"
+    ],
+    "answer": 1,
+    "explanation": "Triple DES with two keys (and also with three keys) uses an Encrypt-Decrypt-Encrypt (EDE) sequence. For two keys, the operation is $E_{K1}(D_{K2}(E_{K1}(P)))$. This EDE structure was chosen to provide backward compatibility with single DES. [cite: 34]"
+  },
+  {
+    "question": "The Diffie-Hellman key exchange is vulnerable to which of the following attacks?",
+    "options": [
+      "Meet-in-the-middle attack",
+      "Man-in-the-middle attack",
+      "Phishing attack",
+      "Snooping"
+    ],
+    "answer": 1,
+    "explanation": "The standard Diffie-Hellman protocol does not authenticate the communicating parties. This makes it vulnerable to a man-in-the-middle attack, where an attacker can establish separate secure sessions with each party and relay messages between them, while reading or altering them. [cite: 45, 49]"
+  },
+  {
+    "question": "The term ____ means the redesign of a vertical organization along its horizontal workflows and processes.",
+    "options": [
+      "vertical linkage",
+      "vertical network grouping",
+      "innovation",
+      "reengineering"
+    ],
+    "answer": 3,
+    "explanation": "Business Process Reengineering (BPR) involves fundamentally rethinking and redesigning business processes to achieve dramatic improvements. This often means shifting from a traditional, vertical (functional) structure to a horizontal, process-oriented one. [cite: 54, 55, 66]"
+  },
+  {
+    "question": "Terminology that defines the extent to which activities within an organisation are to be subdivided",
+    "options": [
+      "Departmentalisation",
+      "Divisional structure",
+      "Work specialisation"
+    ],
+    "answer": 2,
+    "explanation": "Work specialization, also known as division of labor, is the degree to which organizational tasks are subdivided into separate jobs. [cite: 59, 73]"
+  }
+]
