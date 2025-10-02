@@ -355,8 +355,8 @@
     "question": "Consider the following DFA. How many states does the DFA have after minimization?",
     "image": "/images/3.png",
     "options": ["5", "4", "3", "2"],
-    "answer": 2,
-    "explanation": "Partitioning reduces to **3 equivalent states**."
+    "answer": 1,
+    "explanation": "Partitioning reduces to 4 equivalent states."
   },
   {
     "question": "Consider that a page is 1KB in size and a process is 9485 bytes in length. What would be the number of valid entries in the corresponding page table?",

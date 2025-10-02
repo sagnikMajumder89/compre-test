@@ -1,0 +1,104 @@
+[
+  {
+    "question": "Which return type cannot return any value to the calling function?",
+    "options": ["int", "float", "void", "double"],
+    "answer": 2,
+    "explanation": "In C and C++, the `void` return type explicitly indicates that a function does not return any value to its caller."
+  },
+  {
+    "question": "Which operator cannot be used with floating point numbers?",
+    "options": ["+", "-", "%", "*"],
+    "answer": 2,
+    "explanation": "The modulo operator (`%`) is defined only for integer types. It computes the remainder of an integer division, an operation that is not applicable to floating-point numbers."
+  },
+  {
+    "question": "Which of the following is the conversion character associated with a short integer?",
+    "options": ["%c", "%h", "%e", "%f"],
+    "answer": 1,
+    "explanation": "In format specifiers for functions like `printf` and `scanf`, the length modifier `h` is used to indicate that the corresponding argument is a short integer (e.g., `%hd` or `%hu`)."
+  },
+  {
+    "question": "Which of the following is a valid variable name?",
+    "options": ["Initial.Name", "A+B", "Sam1", "Floats"],
+    "answer": 2,
+    "explanation": "A valid variable name in C can consist of letters, numbers, and underscores, but it cannot contain special characters like '.' or '+' or start with a number. 'Sam1' adheres to these rules."
+  },
+  {
+    "question": "What will be the output for printf(\"%c\", 65);",
+    "options": ["65", "A", "10", "a"],
+    "answer": 1,
+    "code": "printf(\"%c\", 65);",
+    "explanation": "The format specifier `%c` instructs `printf` to interpret the integer 65 as an ASCII value and print its corresponding character, which is 'A'."
+  },
+  {
+    "question": "To find a raised to the power of b in C, the function we would use is:",
+    "options": ["a^b", "a**b", "pow(b,a)", "pow(a,b)"],
+    "answer": 3,
+    "explanation": "The `pow()` function from the `<math.h>` library is used for exponentiation. Its syntax is `pow(base, exponent)`."
+  },
+  {
+    "question": "To check the equality of two variables a and b, in C language, the correct syntax is:",
+    "options": ["if (a=b)", "if (a equalto(b))", "if (a == b)", "if((a,b)==0)"],
+    "answer": 2,
+    "explanation": "In C, the `==` operator is used to test for equality, while the single `=` is the assignment operator."
+  },
+  {
+    "question": "For using the clrscr() function, which standard library file must be included?",
+    "options": ["conio.h", "stdio.h", "math.h", "stdstream.h"],
+    "answer": 0,
+    "explanation": "The `clrscr()` function is a non-standard function for clearing the console screen, primarily found in older DOS-based compilers like Turbo C/C++, and it requires the `conio.h` header."
+  },
+  {
+    "question": "Which operator is used to dereference a pointer?",
+    "options": ["&", "*", "->", "~"],
+    "answer": 1,
+    "explanation": "The dereference or indirection operator (`*`) is used to access the value stored at the memory location that a pointer points to."
+  },
+  {
+    "question": "Which operator has the lowest precedence?",
+    "options": ["sizeof", "Unary", "Assignment", "Comma"],
+    "answer": 3,
+    "explanation": "The comma operator (`,`) has the lowest precedence among all operators in C and C++. It evaluates its left operand, discards the result, then evaluates the right operand."
+  },
+  {
+    "question": "Which of the following is not a character constant?",
+    "options": ["'A'", "\"A\"", "','", "'*'"],
+    "answer": 1,
+    "explanation": "In C, a character constant is a single character enclosed in single quotes (e.g., 'A'). A value in double quotes (e.g., \"A\") is a string literal, which is an array of characters."
+  },
+  {
+    "question": "When two strings are equal, what does strcmp(stg1, stg2) return?",
+    "options": ["-1", "0", "1", "true"],
+    "answer": 1,
+    "explanation": "The `strcmp()` function returns 0 if the two strings are identical. It returns a negative value if the first differing character in string1 is less than in string2, and a positive value otherwise."
+  },
+  {
+    "question": "The operator which compares two values is",
+    "options": ["Assignment", "Relational", "Unary", "Equality"],
+    "answer": 3,
+    "explanation": "The equality operator (`==`) is specifically used to compare two values to see if they are equal. Relational operators (`<`, `>`, `<=`, `>=`) also compare values but check for inequality."
+  },
+  {
+    "question": "Memory is allocated for a function when the function is",
+    "options": ["declared", "defined", "called", "returned"],
+    "answer": 2,
+    "explanation": "Memory for a function's local variables and parameters (its stack frame) is typically allocated on the stack when the function is called and is deallocated when the function returns."
+  },
+  {
+    "question": "*(&num) is equivalent to writing",
+    "options": ["&num", "*num", "num", "0"],
+    "answer": 2,
+    "explanation": "The address-of operator (`&`) and the dereference operator (`*`) are inverse operations. `&num` gets the address of `num`, and `*` applied to that address retrieves the value of `num` itself."
+  },
+  {
+    "question": "In the template <class T> declaration, what does T stand for?",
+    "options": [
+      "a generic data type",
+      "an arbitrary class",
+      "a class defined earlier",
+      "none of the above"
+    ],
+    "answer": 0,
+    "explanation": "In a C++ template, `T` is a template parameter that acts as a placeholder for a generic data type. A specific type (like `int` or `string`) is provided when the template is instantiated."
+  }
+]
