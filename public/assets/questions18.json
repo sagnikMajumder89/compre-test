@@ -70,7 +70,10 @@
   {
     "question": "Choose the software quality activities from the below",
     "options": [
-      "1.Prepares an SQA plan for a project 2.Records any noncompliance and reports to senior management 3.Participates in the development of the project's software process description 4.All the options"
+      "1.Prepares an SQA plan for a project",
+      "2.Records any noncompliance and reports to senior management",
+      "3.Participates in the development of the project's software process description",
+      "4.All the options"
     ],
     "answer": 3,
     "explanation": "**All listed activities** are part of **SQA**."
