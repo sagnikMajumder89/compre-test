@@ -1,0 +1,186 @@
+[
+  {
+    "question": "Find the incorrect statement(s) from the following: (i) A virtual function is allowed to be a static member. (ii) The virtual keyword decides the dynamic binding.",
+    "options": [
+      "(i) only",
+      "(ii) only",
+      "All are incorrect",
+      "All are correct"
+    ],
+    "answer": 0,
+    "explanation": "Statement (i) is incorrect because static functions belong to a class, not an object, and cannot be overridden; virtual functions require an object to enable runtime polymorphism. Statement (ii) is correct, as the `virtual` keyword is the mechanism for enabling dynamic binding in C++."
+  },
+  {
+    "question": "Find the correct statement(s) below:",
+    "options": [
+      "There should be one catch block for one try block.",
+      "There may be multiple catch blocks for a single try block.",
+      "There may be a catch block without even a single try block.",
+      "All are correct"
+    ],
+    "answer": 1,
+    "explanation": "A single `try` block can be followed by multiple `catch` blocks to handle various types of exceptions. A `catch` block, however, cannot exist without a preceding `try` block."
+  },
+  {
+    "question": "Find the correct order in Exception Handling:",
+    "options": [
+      "Hit - Throw - Catch - Handle",
+      "Hit - Catch - Throw - Handle",
+      "Handle - Throw - Catch - Hit",
+      "Hit - Catch - Handle - Throw"
+    ],
+    "answer": 0,
+    "explanation": "The sequence is as follows: an error is encountered (Hit), the program creates and signals an exception (Throw), the runtime system finds a suitable block to manage the error (Catch), and the code within that block is executed (Handle)."
+  },
+  {
+    "question": "Exception handling means ......",
+    "options": [
+      "clearing runtime errors",
+      "managing runtime errors",
+      "clearing logic errors",
+      "managing logic errors"
+    ],
+    "answer": 1,
+    "explanation": "Exception handling is a mechanism for responding to and managing runtime errors in a structured way, allowing a program to recover from errors or terminate gracefully instead of crashing."
+  },
+  {
+    "question": "Documents that outline how goals are to be accomplished are called",
+    "options": ["Plans", "Goals", "Strategies", "Ideas"],
+    "answer": 0,
+    "explanation": "Plans are detailed proposals or documents that specify how an organization's goals will be achieved."
+  },
+  {
+    "question": "By comparing ________ with standards, the manager can know whether the goals are achieved or not.",
+    "options": ["Risk", "Ideas", "Actual performance", "Costs"],
+    "answer": 2,
+    "explanation": "In the controlling phase of management, managers measure actual performance and compare it against preset standards and goals to evaluate progress and take corrective action."
+  },
+  {
+    "question": "Attributions that emphasize the environment's effect on behavior is called",
+    "options": [
+      "Dispositional Attributions",
+      "Situational Attributions",
+      "Event Attributions",
+      "Skill Attributions"
+    ],
+    "answer": 1,
+    "explanation": "Situational attribution is the act of assigning the cause of behavior to external factors, such as the environment or circumstances, rather than to internal characteristics."
+  },
+  {
+    "question": "An example for intangible premises in planning is",
+    "options": [
+      "capital investment",
+      "Unit of production",
+      "Cost per unit",
+      "Goodwill"
+    ],
+    "answer": 3,
+    "explanation": "Intangible premises are non-quantifiable assumptions made during planning. Goodwill, representing a company's reputation and brand value, is a prime example."
+  },
+  {
+    "question": "A person's knowledge and ability to make effective use of any process or technique constitutes",
+    "options": [
+      "Technical skills",
+      "Human skills",
+      "Conceptual skills",
+      "Employee skills"
+    ],
+    "answer": 0,
+    "explanation": "Technical skills are the specialized knowledge and abilities required to perform specific tasks related to a particular job or field."
+  },
+  {
+    "question": "A base class that contains a pure virtual function is said to be",
+    "options": [
+      "a virtual child class",
+      "an abstract base class",
+      "a super base class",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "In object-oriented programming, a class containing at least one pure virtual function is known as an abstract base class and cannot be instantiated directly."
+  },
+  {
+    "question": "A PDA (Pushdown Automaton) can recognise",
+    "options": [
+      "any grammar",
+      "only Context-Free Grammar (CFG)",
+      "only regular grammar",
+      "any unambiguous grammar"
+    ],
+    "answer": 1,
+    "explanation": "In formal language theory, Pushdown Automata are the class of machines that recognize Context-Free Languages, which are generated by Context-Free Grammars."
+  },
+  {
+    "question": "Network congestion occurs........",
+    "options": [
+      "in case of traffic overloading",
+      "when a system terminates",
+      "when connection between two nodes terminates",
+      "when connection between three nodes terminates"
+    ],
+    "answer": 0,
+    "explanation": "Network congestion happens when a network link or node receives more traffic than it can handle, leading to packet loss and increased latency."
+  },
+  {
+    "question": "........is the protocol suite for the current Internet.",
+    "options": ["TCP/IP", "NCP", "UNIX", "ACM"],
+    "answer": 0,
+    "explanation": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the fundamental set of communication protocols that powers the Internet."
+  },
+  {
+    "question": "Which organization has authority over interstate and international commerce in the communications field?",
+    "options": ["ITU-T", "IEEE", "FCC", "ISOC"],
+    "answer": 2,
+    "explanation": "The Federal Communications Commission (FCC) is the U.S. government agency responsible for regulating interstate and international communications."
+  },
+  {
+    "question": "Tractable problems mean",
+    "options": [
+      "Problems that cannot be solved in polynomial time",
+      "Problems that can be solved in polynomial time",
+      "Problems that can be solved in constant time",
+      "Problems that can be solved in non-polynomial time"
+    ],
+    "answer": 1,
+    "explanation": "In computational complexity theory, a problem is considered tractable if there is a polynomial-time algorithm that solves it."
+  },
+  {
+    "question": "Intractable problems means",
+    "options": [
+      "Problems that cannot be solved in polynomial time",
+      "Problems that can be solved in polynomial time",
+      "Problems that can be solved in constant time",
+      "Problems that can be solved in non-polynomial time"
+    ],
+    "answer": 0,
+    "explanation": "An intractable problem is one for which no efficient (i.e., polynomial-time) algorithm exists for solving it."
+  },
+  {
+    "question": "Which of the following would lead you to believe that a given system is an SMP-type system?",
+    "options": [
+      "Each processor is assigned a specific task",
+      "There is a boss-worker relationship between the processors",
+      "Each processor performs all tasks within the operating system",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "A key feature of Symmetric Multiprocessing (SMP) is that all processors are peers and can execute any task, including OS kernel tasks. This is different from asymmetric multiprocessing where tasks are divided between processors."
+  },
+  {
+    "question": "Which of the following statements concerning open-source operating systems is true?",
+    "options": [
+      "Solaris is open source",
+      "Source code is freely available",
+      "They are always more secure than commercial, closed systems",
+      "All open-source operating systems share the same set of goals"
+    ],
+    "answer": 1,
+    "explanation": "The defining characteristic of open-source software is that its source code is made freely available for anyone to view, modify, and distribute."
+  },
+  {
+    "question": "Which of the following operating systems is not open source?",
+    "options": ["Windows", "BSD UNIX", "Linux", "PCLinuxOS"],
+    "answer": 0,
+    "explanation": "Microsoft Windows is a proprietary, closed-source operating system. BSD UNIX, Linux, and Linux distributions like PCLinuxOS are all examples of open-source operating systems."
+  }
+]

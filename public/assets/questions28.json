@@ -1,0 +1,143 @@
+[
+  {
+    "question": "Which of the following is a property of peer-to-peer systems?",
+    "options": [
+      "Clients and servers are not distinguished from one another",
+      "Separate machines act as either the client or the server but not both.",
+      "They do not offer any advantages over traditional client-server systems",
+      "They suffer from the server acting as the bottleneck in performance"
+    ],
+    "answer": 0,
+    "explanation": "In a peer-to-peer (P2P) network, each node, or peer, can function as both a client and a server, sharing and requesting resources directly from other peers. [cite: 1]"
+  },
+  {
+    "question": "Which of the following file systems is supported by the Windows OS?",
+    "options": ["NTFS", "FAT32", "exFAT", "All of the these"],
+    "answer": 3,
+    "explanation": "The Windows operating system supports multiple file systems, including NTFS (its primary modern file system), FAT32 (for older compatibility), and exFAT (for flash drives). [cite: 1]"
+  },
+  {
+    "question": "What statement concerning privileged instructions is considered false?",
+    "options": [
+      "They may cause harm to the system",
+      "They can only be executed in kernel mode.",
+      "They cannot be attempted from user mode.",
+      "They are used to manage interrupts"
+    ],
+    "answer": 2,
+    "explanation": "A program in user mode can attempt to execute a privileged instruction. [cite: 1] This attempt will cause a trap to the operating system, which will then handle the error, likely by terminating the program. Therefore, the statement that they 'cannot be attempted' is false."
+  },
+  {
+    "question": "What is Scheduling?",
+    "options": [
+      "Allowing a job to use the processor",
+      "Making proper use of Processor",
+      "None of the mentioned",
+      "All of the mentioned"
+    ],
+    "answer": 3,
+    "explanation": "Scheduling involves deciding which process gets to use the processor, which is a key part of making proper use of the processor. [cite: 1] The options provided are all aspects of scheduling."
+  },
+  {
+    "question": "What are some other terms for kernel-mode?",
+    "options": [
+      "Supervisor mode",
+      "System mode",
+      "Privileged mode",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Kernel mode is the privileged execution mode for the operating system and is also known as supervisor mode, system mode, and privileged mode. [cite: 3]"
+  },
+  {
+    "question": "The two separate modes of operating in a system are",
+    "options": [
+      "Supervisor mode and system mode",
+      "Kernel mode and privileged mode",
+      "Physical mode and logical mode",
+      "User mode and kernel mode"
+    ],
+    "answer": 3,
+    "explanation": "To protect the operating system from user applications, systems use a dual-mode operation consisting of user mode and kernel mode. [cite: 3]"
+  },
+  {
+    "question": "The portion of the process scheduler in an operating system that dispatches processes is concerned with",
+    "options": [
+      "Assigning ready processes to CPU",
+      "Assigning ready processes to the waiting queue",
+      "Assigning running processes to blocked queue",
+      "All of the mentioned"
+    ],
+    "answer": 0,
+    "explanation": "The dispatcher is the component that takes a process selected by the scheduler and assigns it to the CPU to run. [cite: 3]"
+  },
+  {
+    "question": "The most common secondary storage device is",
+    "options": [
+      "Random-access memory",
+      "Solid-state disks",
+      "Tape drives",
+      "Magnetic disk"
+    ],
+    "answer": 3,
+    "explanation": "Magnetic disks (Hard Disk Drives) are the most common form of secondary storage, used for non-volatile, high-capacity data storage. [cite: 5]"
+  },
+  {
+    "question": "A(n) ________ is the unit of work in a system.",
+    "options": ["Process", "Operating System", "Timer", "Mode bit"],
+    "answer": 0,
+    "explanation": "A process is a program in execution and is considered the basic unit of work managed by the operating system. [cite: 8, 10]"
+  },
+  {
+    "question": "A ________ can be used to prevent a user program from never returning control to the operating system",
+    "options": ["Portal", "Program Counter", "Firewall 2", "Timer"],
+    "answer": 3,
+    "explanation": "An operating system uses a hardware timer to regain control from a user program. If the timer interrupt goes off, the OS takes back control, preventing a single program from monopolizing the system. [cite: 38, 46]"
+  },
+  {
+    "question": "Mention True or false. In role-based access control, every user takes one or more roles, and based on the roles, each user is allowed to access the system resources.",
+    "options": ["True", "False"],
+    "answer": 0,
+    "explanation": "This statement accurately defines Role-Based Access Control (RBAC), where permissions are associated with roles, and users are assigned to roles. [cite: 129, 130, 131]"
+  },
+  {
+    "question": "Mention True or false. Authorization deals with deciding who the user is, and the authentication deals with restricting what operations or data the user can access.",
+    "options": ["True", "False"],
+    "answer": 1,
+    "explanation": "The statement is false because it has the definitions reversed. Authentication verifies who a user is, while authorization determines what a user is allowed to access. [cite: 134, 136, 137]"
+  },
+  {
+    "question": "Initially what step has to be carried out to define access control?",
+    "options": [
+      "Accountability logging",
+      "ACL verification",
+      "Subject authorization",
+      "Subject identification"
+    ],
+    "answer": 3,
+    "explanation": "The initial step for access control is subject identification, where a user or process claims an identity (e.g., provides a username). [cite: 142, 157, 158] This must happen before the system can authenticate and authorize the subject."
+  },
+  {
+    "question": "An authentication factor which is a physiological or behavioural characteristic unique to a subject is called?",
+    "options": ["Account ID", "Biometric factor", "Token", "IQ"],
+    "answer": 1,
+    "explanation": "This is the definition of a biometric factor, which uses unique physiological or behavioral traits for authentication. [cite: 160, 164, 165]"
+  },
+  {
+    "question": "Which one of the following access controls is defined based on the use of labels?",
+    "options": ["Discretionary", "Mandatory", "Role-based", "Nondiscretionary"],
+    "answer": 1,
+    "explanation": "Mandatory Access Control (MAC) is a security model that uses security labels on subjects and objects to enforce access policies. [cite: 174, 186]"
+  },
+  {
+    "question": "In order to authenticate the users requesting to access the resources, which of the following technologies can be used for fingerprint scanning, iris scanning and retina scanning?",
+    "options": [
+      "Micrometrics",
+      "Macrometrics",
+      "Biometrics",
+      "MicroBiometrics"
+    ],
+    "answer": 2,
+    "explanation": "Biometrics is the technology that uses unique physiological characteristics like fingerprints, iris patterns, and retina scans to authenticate users. [cite: 175, 197]"
+  }
+]
