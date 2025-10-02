@@ -1,0 +1,197 @@
+[
+  {
+    "question": "In work specialisation, efficiency is generated through",
+    "options": [
+      "a variety of tasks.",
+      "repetitive tasks.",
+      "training.",
+      "guidance of managers."
+    ],
+    "answer": 1,
+    "explanation": "Work specialization, or division of labor, enhances efficiency by having employees focus on specific, simple, and repetitive tasks, allowing them to become highly proficient. [cite: 3, 8, 9]"
+  },
+  {
+    "question": "In an organic structure, formalisation is",
+    "options": ["high", "low", "moderate", "absent"],
+    "answer": 1,
+    "explanation": "Organic organizational structures are characterized by their flexibility and adaptability, which necessitates a low degree of formalization (i.e., fewer rigid rules and procedures). [cite: 15, 18]"
+  },
+  {
+    "question": "A(n) ________ is a group that is made up of organizationally or geographically dispersed members who are linked primarily through advanced information and communications technologies.",
+    "options": [
+      "vertical linkage",
+      "functional department",
+      "organisational committee",
+      "virtual team"
+    ],
+    "answer": 3,
+    "explanation": "This is the definition of a virtual team, where technology connects members who are not physically in the same location. [cite: 23, 34]"
+  },
+  {
+    "question": "A small span of control decreases employee autonomy through",
+    "options": [
+      "tight supervision.",
+      "loose supervision.",
+      "biased supervision.",
+      "lack of supervision."
+    ],
+    "answer": 0,
+    "explanation": "A small span of control means a manager oversees fewer employees, allowing for closer and tighter supervision, which in turn reduces the autonomy of each employee. [cite: 35, 37, 38]"
+  },
+  {
+    "question": "________ means people are organized according to what the organization produces.",
+    "options": [
+      "Functional grouping",
+      "Divisional grouping",
+      "Multi-focused grouping",
+      "Horizontal grouping"
+    ],
+    "answer": 1,
+    "explanation": "Divisional grouping is an organizational structure where employees are grouped based on the product, service, or customer segment they work on. [cite: 44]"
+  },
+  {
+    "question": "'The entire organization should be moving towards a common objective in a common direction' this principle is termed as",
+    "options": [
+      "Unity of command",
+      "Unity of direction",
+      "Unity of group",
+      "Unity of management"
+    ],
+    "answer": 1,
+    "explanation": "This describes Henri Fayol's 'Unity of Direction' principle, which states that all activities aimed at the same objective should have one plan and one person in charge. [cite: 44]"
+  },
+  {
+    "question": "'Keyboard Interrupt' is an example for",
+    "options": [
+      "Synchronous exception",
+      "Asynchronous exception",
+      "Both (a) and (b)",
+      "Neither (a) nor (b)"
+    ],
+    "answer": 1,
+    "explanation": "A keyboard interrupt is an asynchronous exception because it is triggered by an external event (a key press) that is not synchronized with the processor's instruction cycle. [cite: 44]"
+  },
+  {
+    "question": "'Array Index out of range' is an example for",
+    "options": [
+      "Synchronous exception",
+      "Asynchronous exception",
+      "Both (a) and (b)",
+      "Neither (a) nor (b)"
+    ],
+    "answer": 0,
+    "explanation": "An 'Array Index out of range' error is a synchronous exception because it occurs as a direct result of the execution of a specific instruction that attempts an illegal memory access. [cite: 47, 48, 49, 50]"
+  },
+  {
+    "question": "Which one of the following is not a step in planning?",
+    "options": [
+      "Establishing objectives",
+      "Developing premises",
+      "Determining alternative courses",
+      "Identifying needs of employees"
+    ],
+    "answer": 3,
+    "explanation": "The primary steps of planning include establishing objectives, developing premises, and determining alternatives. [cite: 61, 62, 63, 64, 65, 66] Identifying employee needs is more closely related to the managerial functions of staffing and leading. [cite: 68]"
+  },
+  {
+    "question": "Which of the following is a fundamental assumption about human behaviour?",
+    "options": [
+      "Caused behaviour",
+      "Goal oriented behaviour",
+      "Motivated behaviour",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "The study of organizational behavior assumes that human behavior is not random; it is caused, it is goal-oriented, and it is driven by motivation. [cite: 69, 71, 73, 75, 77]"
+  },
+  {
+    "question": "Which of the following is an objective of time study?",
+    "options": [
+      "To determine the number of workers to be employed",
+      "To formulate suitable incentive schemes",
+      "To calculate the labor costs",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "A time study determines the standard time required to perform a task, which is then used for workforce planning (number of workers), creating incentive schemes, and calculating labor costs. [cite: 79]"
+  },
+  {
+    "question": "The theorist who advocated a standard methodology for doing a task and suggested that workers were motivated by pay according to output (piecework) is",
+    "options": ["Fayol", "Taylor", "Mintzberg", "Mayo"],
+    "answer": 1,
+    "explanation": "Frederick W. Taylor, the founder of Scientific Management, focused on finding the 'one best way' to perform a task and advocated for financial incentives like the piece-rate system to motivate workers. [cite: 81]"
+  },
+  {
+    "question": "The technique of differential piece rate system was developed by Taylor to",
+    "options": [
+      "Discriminate between efficient and inefficient workers",
+      "Reward the efficient worker",
+      "Motivate the inefficient workers to perform better",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Taylor's differential piece-rate system was designed to separate efficient from inefficient workers, financially reward the high-performing workers, and motivate the less efficient workers to improve their performance. [cite: 83]"
+  },
+  {
+    "question": "Planning function of management is performed by",
+    "options": [
+      "Top Management",
+      "Middle Management",
+      "Lower Management",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "All levels of management perform the planning function. [cite: 87] Top management handles strategic planning [cite: 89], middle management focuses on tactical planning [cite: 91], and lower management deals with operational planning[cite: 93]."
+  },
+  {
+    "question": "MBO is",
+    "options": [
+      "Management By Options",
+      "Management By Operations",
+      "Management By Objectives",
+      "Management By Orders"
+    ],
+    "answer": 2,
+    "explanation": "MBO stands for Management By Objectives. [cite: 96, 102]"
+  },
+  {
+    "question": "In expectancy theory, the value of rewards is termed as",
+    "options": ["Expectancy", "Instrumentality", "Valence", "Values"],
+    "answer": 2,
+    "explanation": "In Vroom's Expectancy Theory, 'Valence' refers to the importance or value an individual places on the potential reward or outcome. [cite: 122]"
+  },
+  {
+    "question": "In expectancy theory, the belief that performance leads to rewards is termed as",
+    "options": ["Expectancy", "Instrumentality", "Valence", "Values"],
+    "answer": 1,
+    "explanation": "In Vroom's Expectancy Theory, 'Instrumentality' is the belief that a certain level of performance will lead to achieving a desired outcome or reward. [cite: 122]"
+  },
+  {
+    "question": "In Big Five Personality dimensions, the ability a person displays in handling stress by remaining calm, focused, and self-confident, as opposed to insecure, anxious, and depressed is known as",
+    "options": [
+      "Conscientiousness",
+      "Extraversion-Introversion",
+      "Agreeableness",
+      "Emotional Stability"
+    ],
+    "answer": 3,
+    "explanation": "This describes the Emotional Stability dimension, which assesses a person's ability to cope with stress. High emotional stability is marked by calmness and confidence. [cite: 124]"
+  },
+  {
+    "question": "The highest level of Maslow's Hierarchy is",
+    "options": ["Security", "Physiological", "Esteem", "Self-Actualization"],
+    "answer": 3,
+    "explanation": "Self-Actualization, which is the drive to become the best one can be, is the highest level in Abraham Maslow's hierarchy of needs. [cite: 124]"
+  },
+  {
+    "question": "The stages of group development in the correct order are",
+    "options": [
+      "Forming, Performing, Storming, Norming, Adjourning",
+      "Forming, Storming, Norming, Performing, Adjourning",
+      "Forming, Norming, Storming, Performing, Adjourning",
+      "Forming, Norming, Performing, Storming, Adjourning"
+    ],
+    "answer": 1,
+    "explanation": "The standard model for group development, proposed by Bruce Tuckman, follows the order: Forming, Storming, Norming, Performing, and Adjourning. Note: The options provided in the source document [cite: 124] are all incorrect; this answer reflects the correct, standard sequence."
+  }
+]
