@@ -1,0 +1,130 @@
+[
+  {
+    "question": "The ________ implements Multi-Lateral security by adding compartments.",
+    "options": [
+      "Biba's model",
+      "Integrity Policies",
+      "Bell-LaPadula model",
+      "Low Water Mark"
+    ],
+    "answer": 2,
+    "explanation": "The Bell-LaPadula model is a confidentiality model that implements multi-lateral security by using security levels and compartments (categories) to control access. [cite: 477, 483]"
+  },
+  {
+    "question": "The Bell-LaPadula model requires that a subject S can read an object O only if S dominates O and any DAC permits it. This is known as the:",
+    "options": [
+      "Simple Security Condition",
+      "Complex security condition",
+      "*-Property",
+      "Multi lateral security"
+    ],
+    "answer": 0,
+    "explanation": "This rule is the Simple Security Condition of the Bell-LaPadula model, which prevents subjects from reading objects at a higher security level ('no read up'). [cite: 497, 506]"
+  },
+  {
+    "question": "Lipner's model combines which two models?",
+    "options": [
+      "Biba model and Bell-LaPadula model",
+      "Low Water Mark model and Biba Model",
+      "Low Water Mark model and Ring Policy model",
+      "Ring Policy model and Bell-LaPadula model"
+    ],
+    "answer": 0,
+    "explanation": "Lipner's model is a well-known hybrid security model that integrates the Biba model for integrity with the Bell-LaPadula model for confidentiality. [cite: 512]"
+  },
+  {
+    "question": "In the Clark-Wilson model, a(n) ________ log must be properly maintained.",
+    "options": ["Active", "Data", "Audit", "Internal"],
+    "answer": 2,
+    "explanation": "The Clark-Wilson integrity model mandates that an audit log be maintained to record all operations performed by Transformation Procedures on Constrained Data Items. [cite: 512]"
+  },
+  {
+    "question": "In the Biba Model, a subject can only read an object o if:",
+    "options": ["Is > Io", "LO > LS", "Is <= Io", "LO > LS"],
+    "answer": 2,
+    "explanation": "This refers to the Simple Integrity Axiom of the Biba model, also known as the 'no read down' rule, which states a subject's integrity level (Is) must be less than or equal to the object's integrity level (Io) to read it. [cite: 514]"
+  },
+  {
+    "question": "________ means ensuring timely and reliable access to and the use of information.",
+    "options": [
+      "Integrity",
+      "Availability",
+      "Confidentiality",
+      "Threat intelligence"
+    ],
+    "answer": 1,
+    "explanation": "This is the definition of Availability, a core component of the CIA (Confidentiality, Integrity, Availability) triad in information security. [cite: 518]"
+  },
+  {
+    "question": "Which operator is used to insert data into a file stream in C++?",
+    "options": [">>", "<<", "<", "none"],
+    "answer": 1,
+    "explanation": "In C++ I/O streams, the insertion operator (`<<`) is used to write data to an output stream, such as a file."
+  },
+  {
+    "question": "What is the use of Big O notation?",
+    "options": [
+      "To Specify Worst-case complexity",
+      "To specify Best-case complexity",
+      "To specify average-case complexity",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "Big O notation is primarily used to describe the upper bound of an algorithm's complexity, which corresponds to its worst-case performance scenario. [cite: 529, 531, 532]"
+  },
+  {
+    "question": "The following is not a principle of organisation.",
+    "options": [
+      "Principle of exception",
+      "Principle of balance",
+      "Principle of complexity",
+      "Principle of co-ordination"
+    ],
+    "answer": 2,
+    "explanation": "While exception, balance, and co-ordination are recognized principles of organization, complexity is a characteristic that organizations must manage, not a guiding principle itself. [cite: 565, 571]"
+  },
+  {
+    "question": "Responsibility always flows from:",
+    "options": [
+      "Superior to subordinate",
+      "Subordinate to superior",
+      "Both from the superior to the subordinate, and from the subordinate to the superior",
+      "None of the answers is correct"
+    ],
+    "answer": 1,
+    "explanation": "In classical organizational principles, authority is delegated downwards from a superior to a subordinate, while responsibility for performing the delegated task flows upwards from the subordinate to the superior. [cite: 574, 578]"
+  },
+  {
+    "question": "Leadership which enlists the help of subordinates as a group to solve problems is:",
+    "options": [
+      "Situational",
+      "Laissez-faire",
+      "participative",
+      "employee-oriented"
+    ],
+    "answer": 2,
+    "explanation": "Participative leadership, also known as democratic leadership, involves including team members in decision-making and problem-solving processes. [cite: 585, 592]"
+  },
+  {
+    "question": "In a line organisation, the business activities are divided into which three types?",
+    "options": [
+      "Accounts, Production, Sales",
+      "Production, Quality, Sales",
+      "Production, Quality, Maintenance",
+      "Production, Maintenance, Sales"
+    ],
+    "answer": 0,
+    "explanation": "In a traditional line organization, the core functions that directly contribute to the business's primary objectives are often identified as production, sales, and the financial management of those activities (accounts). [cite: 591, 595]"
+  },
+  {
+    "question": "________ builds trust among individuals and in business relationships, which validates and promotes confidence in business relationships.",
+    "options": [
+      "Ethical conduct",
+      "Social responsibility",
+      "Ethical responsibility",
+      "Business ethics"
+    ],
+    "answer": 0,
+    "explanation": "Ethical conduct is the foundation of trust in any relationship, including business. Consistent and transparent ethical behavior promotes confidence between parties. [cite: 603, 605]"
+  }
+]

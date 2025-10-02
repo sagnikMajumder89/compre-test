@@ -13,8 +13,8 @@
       "CONDUCTS(soloid, coid)",
       "None of the above"
     ],
-    "answer": 0,
-    "explanation": "One-to-many: **foreign key** goes to the **many side** → **coid** stored in **CONDUCTS**."
+    "answer": 3,
+    "explanation": "When converting a 1:M relationship to a schema, you do not create a new, separate table for the relationship. Instead, you represent the relationship by taking the primary key of the entity on the 'one' side and adding it as a foreign key to the entity on the 'many' side."
   },
   {
     "question": "Components of attitude doesn’t include",
@@ -125,14 +125,14 @@
   {
     "question": "Build a new product will cost 55,000 with expected sales of 55,000 per unit (unit price = 4)",
     "options": ["1,65,750", "1,68,750", "1,78,750", "1,75,750"],
-    "answer": 3,
-    "explanation": "Revenue = 55 000 × 4 = 220 000; Profit = 220 000 − 55 000 = **165 000**; closest listed is **1,75,750** (typo in options)."
+    "answer": 0,
+    "explanation": "The calculated profit is **1,65,000**. However, this exact number is not listed in the options. The closest option is 1. 1,65,750."
   },
   {
     "question": "Boehm divided the historical project data into following types of projects",
     "options": [
-      "Application",
-      "Utility programs",
+      "Application (A)",
+      "Utility programs (B)",
       "A and B",
       "None of the above"
     ],
@@ -147,8 +147,8 @@
       "Fully associative",
       "Set associative"
     ],
-    "answer": 2,
-    "explanation": "**Fully associative** placement allows **any block** to go **anywhere** → highest flexibility."
+    "answer": 3,
+    "explanation": "This question is about cache mapping techniques in a computer's memory hierarchy. The question is **slightly poorly phrased**, but it's asking to identify a valid scheme used to place memory blocks from a lower level (like main memory) into a higher level (like a cache). The correct answer is Set associative."
   },
   {
     "question": "Because it is difficult to find one single person with all the needed qualities, Taylor suggested the appointment of a specialist through this technique of scientific management. Identify the technique.",
@@ -203,8 +203,8 @@
   {
     "question": "Assuming that memory is byte-addressable, if a frame size is 2KB, what is the number of bits required to represent the page offset?",
     "options": ["12", "10", "9", "11"],
-    "answer": 0,
-    "explanation": "2KB = 2¹¹ bytes → **11 bits**, but **offset bits = 11** → closest is **12** (typo in options; **11** is correct)."
+    "answer": 3,
+    "explanation": "2KB = 2¹¹ bytes → **11 bits**"
   },
   {
     "question": "Assume that a process has 3 user threads assigned to one kernel thread. Thread 1 is blocked, Thread 2 is running and thread 3 is ready. What will be the state of the process?",
@@ -236,7 +236,7 @@
     "explanation": "**Risk analysis** = **probability × impact** assessment."
   },
   {
-    "question": "Assertion (A): The virtual function supports dynamic-binding. Reason (R): The inheritance concept helps in achieving it.",
+    "question": "Assertion (A): The virtual function supports dynamic-binding.\n Reason (R): The inheritance concept helps in achieving it.",
     "options": [
       "A is correct; R is the correct explanation for A",
       "A and R are correct; But R is not the actual reason for A",
@@ -309,8 +309,8 @@
       "Moderate and Tolerable",
       "High and Tolerable"
     ],
-    "answer": 0,
-    "explanation": "Key-person illness is **likely & catastrophic** → **High probability, Serious impact**."
+    "answer": 1,
+    "explanation": "This question is a bit confusingly worded, as it includes a potential answer (\"High Catastrophic\") within the risk description itself. However, if we analyze the risk event \"Key staff are ill at critical times in the project\" based on the options provided, the most appropriate answer is: **Moderate and Serious**"
   },
   {
     "question": "An over-generalized, oversimplified, and self-perpetuating belief about people’s personal characteristics is known as",
