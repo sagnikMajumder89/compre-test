@@ -81,7 +81,10 @@
   {
     "question": "Choose the purpose of reviews from the below",
     "options": [
-      "1.Serve as a filter for the software process 2.Uncover errors that can then be removed 3.Catch large classes of errors that escape the originator more than other practitioners 4.All the options"
+      "1.Serve as a filter for the software process",
+      "2.Uncover errors that can then be removed",
+      "3.Catch large classes of errors that escape the originator more than other practitioners",
+      "4.All the options"
     ],
     "answer": 3,
     "explanation": "Reviews **filter, detect, and catch** errors → **all purposes apply**."
