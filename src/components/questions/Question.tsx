@@ -33,6 +33,20 @@ interface QuestionComponentProps {
   onRestart: () => void;
 }
 
+const parseAndRenderBold = (text: string) => {
+  if (!text) {
+    return null;
+  }
+  const parts = text.split("**");
+  return (
+    <>
+      {parts.map((part, index) =>
+        index % 2 === 1 ? <strong key={index}>{part}</strong> : part
+      )}
+    </>
+  );
+};
+
 export const QuestionComponent: React.FC<QuestionComponentProps> = ({
   questions,
   mode,
@@ -295,7 +309,9 @@ export const QuestionComponent: React.FC<QuestionComponentProps> = ({
                     })()}
                     <p className="text-sm text-muted-foreground">
                       <strong>Explanation:</strong>{" "}
-                      {shuffledQuestions[currentQuestionIndex].explanation}
+                      {parseAndRenderBold(
+                        shuffledQuestions[currentQuestionIndex].explanation
+                      )}
                     </p>
                     <Button
                       className="mt-2"
