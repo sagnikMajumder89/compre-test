@@ -25,16 +25,16 @@ const quizSets = [
   { label: "Set 18", file: "/assets/questions18.json" },
   { label: "Set 19", file: "/assets/questions19.json" },
   { label: "Set 20", file: "/assets/questions20.json" },
-  { label: "Set 21", file: "/assets/questions21.json" },
-  { label: "Set 22", file: "/assets/questions22.json" },
-  { label: "Set 23", file: "/assets/questions23.json" },
-  { label: "Set 24", file: "/assets/questions24.json" },
-  { label: "Set 25", file: "/assets/questions25.json" },
-  { label: "Set 26", file: "/assets/questions26.json" },
-  { label: "Set 27", file: "/assets/questions27.json" },
-  { label: "Set 28", file: "/assets/questions28.json" },
-  { label: "Set 29", file: "/assets/questions29.json" },
-  { label: "Set 30", file: "/assets/questions30.json" },
+  // { label: "Set 21", file: "/assets/questions21.json" },
+  // { label: "Set 22", file: "/assets/questions22.json" },
+  // { label: "Set 23", file: "/assets/questions23.json" },
+  // { label: "Set 24", file: "/assets/questions24.json" },
+  // { label: "Set 25", file: "/assets/questions25.json" },
+  // { label: "Set 26", file: "/assets/questions26.json" },
+  // { label: "Set 27", file: "/assets/questions27.json" },
+  // { label: "Set 28", file: "/assets/questions28.json" },
+  // { label: "Set 29", file: "/assets/questions29.json" },
+  // { label: "Set 30", file: "/assets/questions30.json" },
 ];
 
 export const QuizEntry: React.FC = () => {
@@ -69,7 +69,9 @@ export const QuizEntry: React.FC = () => {
       // Fetch all sets 1-20 in parallel
       const files = quizSets.slice(0, 20).map((s) => s.file);
       const responses = await Promise.all(files.map((file) => fetch(file)));
-      const allQuestionsArrays = await Promise.all(responses.map((res) => res.json()));
+      const allQuestionsArrays = await Promise.all(
+        responses.map((res) => res.json())
+      );
       // Flatten all questions into one array
       const combinedQuestions = allQuestionsArrays.flat();
       setQuestions(combinedQuestions);
