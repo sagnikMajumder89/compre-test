@@ -2,8 +2,8 @@
   {
     "question": "If the characters 'D''C''B''A' are placed in a queue (in that order), and then removed one at a time, in what order will they be removed?",
     "options": ["DCAB", "ABCD", "ABDC", "DCBA"],
-    "answer": 1,
-    "explanation": "Queue is **FIFO** → removal order is **ABCD**."
+    "answer": 3,
+    "explanation": ""
   },
   {
     "question": "R is a regular language and M is a finite language. Then L ∪ M must be a regular language.",
@@ -19,8 +19,8 @@
   {
     "question": "If M1 machine recognizes L with n states, then M2 recognizing L* constructed using Thompson construction will have ______ states.",
     "options": ["n-1", "n+2", "n+1", "n"],
-    "answer": 2,
-    "explanation": "Thompson’s star construction adds **one new start/accept pair** → **n+1** states."
+    "answer": 1,
+    "explanation": ""
   },
   {
     "question": "If L1 and L2 are languages such that L1L2, L1L2, and L2L1 are all regular, then L1 must be regular.",
@@ -53,7 +53,7 @@
   {
     "question": "If a selection sort algorithm in the worst case is taking 20 sec for processing an array of size 32, which of the following is close to the maximum input size that can be solved in 5 minutes?",
     "options": ["256", "512", "1024", "128"],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Selection sort is **O(n²)**; 20 s → 32², 300 s → n² ≈ 1024² → **n ≈ 1024**."
   },
   {
@@ -75,7 +75,7 @@
       "Providing Data Leakage Prevention",
       "Providing Data Leakage in cloud"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "IdAM **controls identities & access** → core to **preventing data leakage**."
   },
   {
@@ -126,14 +126,14 @@
   {
     "question": "How many \"SCOPE\"s are printed by **only child processes**? int main(){ if(fork() || fork()) fork(); printf(\"SCOPE\"); }",
     "options": ["5,2", "5,3", "5,4", "5,1"],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Logic trace gives **3 SCOPEs from child processes only**."
   },
   {
     "question": "How many “hello” messages will be printed if the following program is executed? int main(){ pid_t p; fork(); if (p > 0){ fork(); fork(); } if (p==0){ fork(); fork(); exit(0); } printf(“hello”); }",
     "options": ["2", "3", "1", "4"],
-    "answer": 1,
-    "explanation": "Process tree yields **3 hello prints** (one parent, two children)."
+    "answer": 3,
+    "explanation": ""
   },
   {
     "question": "How many “hello” messages will be printed if the following program is executed? int main(){ pid_t p; fork(); if (p > 0){ fork(); fork(); exit(0); } if (p==0){ fork(); fork(); exit(0); } printf(“hello”); }",
@@ -226,7 +226,7 @@
   {
     "question": "Hardware unavailability risk is the _________ type of risk",
     "options": ["Project", "Product", "Business", "None in the list"],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Unavailability affects **business operations/strategy** → **Business risk**."
   },
   {
@@ -248,7 +248,7 @@
       "progress and bounded waiting",
       "mutual exclusion and bounded waiting"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Swap-based solution yields **mutual exclusion** and **bounded waiting**."
   },
   {
