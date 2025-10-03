@@ -63,6 +63,23 @@ export const QuizEntry: React.FC = () => {
     setLoading(false);
   };
 
+  const handleLargeQuiz = async () => {
+    setLoading(true);
+    try {
+      // Fetch all sets 1-20 in parallel
+      const files = quizSets.slice(0, 20).map((s) => s.file);
+      const responses = await Promise.all(files.map((file) => fetch(file)));
+      const allQuestionsArrays = await Promise.all(responses.map((res) => res.json()));
+      // Flatten all questions into one array
+      const combinedQuestions = allQuestionsArrays.flat();
+      setQuestions(combinedQuestions);
+      setSelectedSet("Large Quiz (Sets 1-20)");
+    } catch {
+      setQuestions([]);
+    }
+    setLoading(false);
+  };
+
   const handleRestart = () => {
     setMode(null);
     setSelectedSet(null);
@@ -70,16 +87,31 @@ export const QuizEntry: React.FC = () => {
   };
 
   if (!mode) {
-    return <QuizModeSelector onSelectMode={handleSelectMode} />;
+    return (
+      <div>
+        <QuizModeSelector onSelectMode={handleSelectMode} />
+      </div>
+    );
   }
 
   if (!selectedSet) {
     return (
-      <QuizSetSelector
-        sets={quizSets.map((s) => s.label)}
-        onSelectSet={handleSelectSet}
-        loading={loading}
-      />
+      <div>
+        <QuizSetSelector
+          sets={quizSets.map((s) => s.label)}
+          onSelectSet={handleSelectSet}
+          loading={loading}
+        />
+        <div className="mt-6 flex justify-center">
+          <button
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            onClick={handleLargeQuiz}
+            disabled={loading}
+          >
+            {loading ? "Loading Large Quiz..." : "Take Large Quiz (Sets 1-20)"}
+          </button>
+        </div>
+      </div>
     );
   }
 
